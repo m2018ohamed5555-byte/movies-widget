@@ -1,0 +1,27 @@
+name: update-movies
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch
+        env:
+          TMDB_KEY: ${{ secrets.TMDB_KEY }}
+        run: |
+          for p in 1 2; do
+            curl -s "https://api.themoviedb.org/3/movie/upcoming?api_key=$TMDB_KEY&language=en-US&region=US&page=$p" -o page$p.json
+          done
+          jq -s '{movies: ([.[].results[]] | map(select(.poster_path != null)) | unique_by(.id) | sort_by(.release_date) | .[0:10] | map({title: .title, date: .release_date, rating: .vote_average, overview: .overview, poster: ("https://image.tmdb.org/t/p/w500" + .poster_path)}))}' page1.json page2.json > movies.json
+          [ "$(jq '.movies|length' movies.json)" -gt 0 ] || exit 1
+      - name: Commit
+        run: |
+          git config user.name "bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add movies.json
+          git diff --cached --quiet || (git commit -m "update" && git push)

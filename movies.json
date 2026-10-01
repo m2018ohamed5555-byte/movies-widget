@@ -5,70 +5,130 @@
       "date": "1971-07-16",
       "rating": 7.5,
       "overview": "In 1634 France, charismatic Father Urbain Grandier becomes the target of a sexually obsessed nun’s witchcraft accusations, which corrupt church and state officials are all too happy to exploit.​​​​​​​​​​​​​​​​",
-      "poster": "https://image.tmdb.org/t/p/w500/y1k7eiOFc6fzm8XeTa1kNGx6JIs.jpg"
+      "tagline": "Hell will hold no surprises for them...",
+      "runtime": 112,
+      "runtime_text": "1h 52m",
+      "genres": "Drama • History • Horror",
+      "poster": "https://image.tmdb.org/t/p/w500/y1k7eiOFc6fzm8XeTa1kNGx6JIs.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/1BSsugMxJGCRWD8qxqBPWhH71H3.png",
+      "trailer": "https://www.youtube.com/watch?v=ImeXlanF3iY"
     },
     {
       "title": "Pan's Labyrinth",
-      "date": "2006-12-29",
+      "date": "2006-10-11",
       "rating": 7.769,
       "overview": "In post–civil war Spain, 10-year-old Ofelia moves with her pregnant mother to live under the control of her cruel stepfather. Drawn into a mysterious labyrinth, she meets a faun who reveals that she may be a lost princess from an underground kingdom. To return to her true father, she must complete a series of surreal and perilous tasks that blur the line between reality and fantasy.",
-      "poster": "https://image.tmdb.org/t/p/w500/7wb2Ldp0oAx1lcZvffq9RfWoI2h.jpg"
+      "tagline": "Innocence has a power evil cannot imagine.",
+      "runtime": 118,
+      "runtime_text": "1h 58m",
+      "genres": "Fantasy • Drama • War",
+      "poster": "https://image.tmdb.org/t/p/w500/7wb2Ldp0oAx1lcZvffq9RfWoI2h.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/uWwaa2Dm9RHYyKNCdDgcblxzzHF.png",
+      "trailer": "https://www.youtube.com/watch?v=OBGKGm3RYos"
     },
     {
       "title": "Your Mother Your Mother Your Mother",
       "date": "2026-09-25",
       "rating": 7.167,
       "overview": "Latif, a devoutly religious hitman, struggles to balance work, faith and fatherhood. When his wife dies, he embarks on a desperate journey across Houston to protect his children, confronting the forces closing in around him – and the beliefs threatening to unravel within.",
-      "poster": "https://image.tmdb.org/t/p/w500/4KaPZSKnInnArErTTgy9Oy14leR.jpg"
+      "tagline": null,
+      "runtime": 112,
+      "runtime_text": "1h 52m",
+      "genres": "Action • Crime • Drama",
+      "poster": "https://image.tmdb.org/t/p/w500/4KaPZSKnInnArErTTgy9Oy14leR.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/vTWwAyfrTYFLHDD4vF94JzBBBpB.png",
+      "trailer": "https://www.youtube.com/watch?v=uEcoV-ngH38"
     },
     {
       "title": "NAZA",
-      "date": "2026-09-30",
-      "rating": 7.909,
+      "date": "2026-09-25",
+      "rating": 7.9,
       "overview": "In secret conversations on the rooftops of Tel Aviv at night, the systems behind Israel's calculated mass killing of Palestinian civilians in Gaza are revealed by the people who designed and operated them.",
-      "poster": "https://image.tmdb.org/t/p/w500/b4Gyj8VRoJAeU13jfKPuOTMr5GL.jpg"
+      "tagline": "A window into systems of mass killing",
+      "runtime": 80,
+      "runtime_text": "1h 20m",
+      "genres": "Documentary",
+      "poster": "https://image.tmdb.org/t/p/w500/b4Gyj8VRoJAeU13jfKPuOTMr5GL.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/zHX6bjRHLksTdNlEODj1pyISJQD.png",
+      "trailer": "https://www.youtube.com/watch?v=40KW6knYMo4"
     },
     {
       "title": "Love of Your Life",
       "date": "2026-10-07",
       "rating": 0.0,
       "overview": "After a chance encounter sparks a sweeping romance, Maya's future is suddenly upended, sending her on an unexpected journey to love and live again.",
-      "poster": "https://image.tmdb.org/t/p/w500/o7ZCmjeW59yujCcAJjjYSJRoZLe.jpg"
+      "tagline": null,
+      "runtime": 106,
+      "runtime_text": "1h 46m",
+      "genres": "Drama • Romance",
+      "poster": "https://image.tmdb.org/t/p/w500/o7ZCmjeW59yujCcAJjjYSJRoZLe.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/VusI7asRQhKtARWQMD3eZVUXwj.png",
+      "trailer": "https://www.youtube.com/watch?v=HzGx48E64Xg"
     },
     {
       "title": "Vampire Carnival",
       "date": "2026-10-07",
       "rating": 0.0,
       "overview": "When a grief-stricken young woman visits a mysterious, traveling carnival in her small town, she becomes seduced into a dangerous world of pleasure and deception.",
-      "poster": "https://image.tmdb.org/t/p/w500/ihxByv2GHUxz7g82mhVlYp9pCj3.jpg"
+      "tagline": null,
+      "runtime": 0,
+      "runtime_text": null,
+      "genres": "Horror • Romance",
+      "poster": "https://image.tmdb.org/t/p/w500/ihxByv2GHUxz7g82mhVlYp9pCj3.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/1ocRZ6i0hqQ4oVSjnkFBgLxnT24.png",
+      "trailer": "https://www.youtube.com/watch?v=ZiseQc567b4"
     },
     {
       "title": "Animals",
       "date": "2026-10-09",
       "rating": 0.0,
       "overview": "When the son of an L.A. mayoral candidate is kidnapped, he and his wife have a few hours to come up with the ransom payment. With most of their money spent on his political campaign, they have to get their hands dirty and expose a side of their lives they never intended to see the light of day.",
-      "poster": "https://image.tmdb.org/t/p/w500/cr73Ci6CM2kSfSbj6qwaTpcEq1e.jpg"
+      "tagline": "Power can't protect you.",
+      "runtime": 106,
+      "runtime_text": "1h 46m",
+      "genres": "Crime • Thriller",
+      "poster": "https://image.tmdb.org/t/p/w500/cr73Ci6CM2kSfSbj6qwaTpcEq1e.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/dl6aDoFDDjTgNMI4Cui2GmKZUpR.png",
+      "trailer": "https://www.youtube.com/watch?v=mlBfQJ8oxB0"
     },
     {
       "title": "The Social Reckoning",
-      "date": "2026-10-09",
+      "date": "2026-10-07",
       "rating": 0.0,
       "overview": "Frances Haugen, a young Facebook engineer, enlists the help of Jeff Horwitz, a Wall Street Journal reporter, to go on a dangerous journey that ends up blowing the whistle on the social network's most guarded secrets.",
-      "poster": "https://image.tmdb.org/t/p/w500/2RmNbvlv9jDrLGDDkdYZDifKGCm.jpg"
+      "tagline": "We're way past making friends.",
+      "runtime": 112,
+      "runtime_text": "1h 52m",
+      "genres": "Drama • Thriller",
+      "poster": "https://image.tmdb.org/t/p/w500/2RmNbvlv9jDrLGDDkdYZDifKGCm.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/cYJulf2GTqqzsnPE1Zy6TmirzOO.png",
+      "trailer": "https://www.youtube.com/watch?v=R8ANzYpaZaY"
     },
     {
       "title": "Tenzing",
       "date": "2026-10-09",
       "rating": 0.0,
       "overview": "A determined man embarks on a high-stakes quest—and defies seemingly impossible odds—to fulfill his dream of being the first to reach the summit of Mount Everest.",
-      "poster": "https://image.tmdb.org/t/p/w500/eI0QW02PYqhnmIvLRdn9vrfVVP7.jpg"
+      "tagline": "The ascent that made history.",
+      "runtime": 126,
+      "runtime_text": "2h 6m",
+      "genres": "Drama • History",
+      "poster": "https://image.tmdb.org/t/p/w500/eI0QW02PYqhnmIvLRdn9vrfVVP7.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/oGcjxm8gwgOgRvZ5TAsrCiwdLoS.png",
+      "trailer": "https://www.youtube.com/watch?v=KkYCY5YR12U"
     },
     {
       "title": "Udta Teer",
       "date": "2026-10-09",
       "rating": 0.0,
       "overview": "An amnesiac Pakistani spy wakes up believing he is a patriotic Indian counter-terrorism officer.",
-      "poster": "https://image.tmdb.org/t/p/w500/tvICKypVlW7Iio4KVs7NousbSKi.jpg"
+      "tagline": "Deshbhakti yaad hai, par desh nahi",
+      "runtime": 144,
+      "runtime_text": "2h 24m",
+      "genres": "Comedy",
+      "poster": "https://image.tmdb.org/t/p/w500/tvICKypVlW7Iio4KVs7NousbSKi.jpg",
+      "logo": null,
+      "trailer": null
     }
   ]
 }

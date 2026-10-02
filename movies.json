@@ -1,6 +1,19 @@
 {
   "movies": [
     {
+      "title": "North by Northwest",
+      "date": "1959-08-06",
+      "rating": 8.0,
+      "overview": "Advertising man Roger Thornhill is mistaken for a spy, triggering a deadly cross-country chase.",
+      "tagline": "It's a deadly game of \"tag\" and Cary Grant is \"it\"!",
+      "runtime": 137,
+      "runtime_text": "2h 17m",
+      "genres": "Thriller • Adventure",
+      "poster": "https://image.tmdb.org/t/p/w500/kNOFPQrel9YFCVzI0DF8FnCEpCw.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/Aelz4DzRr4dfgZGcp33ae9NFYQc.png",
+      "trailer": "https://www.youtube.com/watch?v=cPNiwc3ogIo"
+    },
+    {
       "title": "The Devils",
       "date": "1971-07-16",
       "rating": 7.5,
@@ -12,6 +25,58 @@
       "poster": "https://image.tmdb.org/t/p/w500/y1k7eiOFc6fzm8XeTa1kNGx6JIs.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/1BSsugMxJGCRWD8qxqBPWhH71H3.png",
       "trailer": "https://www.youtube.com/watch?v=ImeXlanF3iY"
+    },
+    {
+      "title": "Friday the 13th",
+      "date": "1980-05-09",
+      "rating": 6.402,
+      "overview": "Camp counselors are stalked and murdered by an unknown assailant while trying to reopen a summer camp that was the site of a child's drowning.",
+      "tagline": "They were warned...They are doomed...And on Friday the 13th, nothing will save them.",
+      "runtime": 95,
+      "runtime_text": "1h 35m",
+      "genres": "Horror",
+      "poster": "https://image.tmdb.org/t/p/w500/uGGpnWHOmWTARVN9wbC1nPxNgps.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/qpNcaeHxpvTJ8bQpjdQcvfEf6Ff.png",
+      "trailer": "https://www.youtube.com/watch?v=8nYuu5jpWVs"
+    },
+    {
+      "title": "Pet Sematary",
+      "date": "1989-04-21",
+      "rating": 6.655,
+      "overview": "After the Creed family's cat is accidentally killed, a friendly neighbor advises its burial in a mysterious nearby cemetery.",
+      "tagline": "Sometimes dead is better.",
+      "runtime": 103,
+      "runtime_text": "1h 43m",
+      "genres": "Horror",
+      "poster": "https://image.tmdb.org/t/p/w500/8ZtH1V4rhrtP53ezlEWrCaMALXF.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/vsYxIcDgdrmg98FBQuFcK1F3oMq.png",
+      "trailer": "https://www.youtube.com/watch?v=JMao8sg4DPA"
+    },
+    {
+      "title": "American Psycho",
+      "date": "2000-04-13",
+      "rating": 7.4,
+      "overview": "A wealthy New York investment banking executive hides his alternate psychopathic ego from his co-workers and friends as he escalates deeper into his illogical, gratuitous fantasies.",
+      "tagline": "Killer looks.",
+      "runtime": 102,
+      "runtime_text": "1h 42m",
+      "genres": "Thriller • Drama • Crime",
+      "poster": "https://image.tmdb.org/t/p/w500/9uGHEgsiUXjCNq8wdq4r49YL8A1.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/jvQAjlprJFhza9u3Vn4kgkU2PjH.png",
+      "trailer": "https://www.youtube.com/watch?v=81mibtQWWBg"
+    },
+    {
+      "title": "Training Day",
+      "date": "2001-10-05",
+      "rating": 7.532,
+      "overview": "On his first day on the job as a narcotics officer, a rookie cop works with a rogue detective who isn't what he appears.",
+      "tagline": "The only thing more dangerous than the line being crossed, is the cop who will cross it.",
+      "runtime": 122,
+      "runtime_text": "2h 2m",
+      "genres": "Action • Crime • Drama",
+      "poster": "https://image.tmdb.org/t/p/w500/bUeiwBQdupBLQthMCHKV7zv56uv.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/ywKMaRxVAJmijMXF2ViyRsGYzfR.png",
+      "trailer": "https://www.youtube.com/watch?v=VQ-SCoyUwfg"
     },
     {
       "title": "Pan's Labyrinth",
@@ -42,9 +107,9 @@
     {
       "title": "NAZA",
       "date": "2026-09-25",
-      "rating": 8.021,
+      "rating": 8.0,
       "overview": "In secret conversations on the rooftops of Tel Aviv at night, the systems behind Israel's calculated mass killing of Palestinian civilians in Gaza are revealed by the people who designed and operated them.",
-      "tagline": "A window into systems of mass killing",
+      "tagline": "A window into systems of mass killing.",
       "runtime": 80,
       "runtime_text": "1h 20m",
       "genres": "Documentary",
@@ -62,73 +127,8 @@
       "runtime_text": "1h 46m",
       "genres": "Drama • Romance",
       "poster": "https://image.tmdb.org/t/p/w500/o7ZCmjeW59yujCcAJjjYSJRoZLe.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/VusI7asRQhKtARWQMD3eZVUXwj.png",
+      "logo": "https://image.tmdb.org/t/p/w500/otOEfDwZ5iSSaZRSsxX1wueYfSb.png",
       "trailer": "https://www.youtube.com/watch?v=HzGx48E64Xg"
-    },
-    {
-      "title": "Vampire Carnival",
-      "date": "2026-10-07",
-      "rating": 0.0,
-      "overview": "When a grief-stricken young woman visits a mysterious, traveling carnival in her small town, she becomes seduced into a dangerous world of pleasure and deception.",
-      "tagline": null,
-      "runtime": 0,
-      "runtime_text": null,
-      "genres": "Horror • Romance",
-      "poster": "https://image.tmdb.org/t/p/w500/ihxByv2GHUxz7g82mhVlYp9pCj3.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/1ocRZ6i0hqQ4oVSjnkFBgLxnT24.png",
-      "trailer": "https://www.youtube.com/watch?v=ZiseQc567b4"
-    },
-    {
-      "title": "Animals",
-      "date": "2026-10-09",
-      "rating": 0.0,
-      "overview": "When the son of an L.A. mayoral candidate is kidnapped, he and his wife have a few hours to come up with the ransom payment. With most of their money spent on his political campaign, they have to get their hands dirty and expose a side of their lives they never intended to see the light of day.",
-      "tagline": "Power can't protect you.",
-      "runtime": 106,
-      "runtime_text": "1h 46m",
-      "genres": "Crime • Thriller",
-      "poster": "https://image.tmdb.org/t/p/w500/cr73Ci6CM2kSfSbj6qwaTpcEq1e.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/dl6aDoFDDjTgNMI4Cui2GmKZUpR.png",
-      "trailer": "https://www.youtube.com/watch?v=mlBfQJ8oxB0"
-    },
-    {
-      "title": "The Social Reckoning",
-      "date": "2026-10-07",
-      "rating": 0.0,
-      "overview": "Frances Haugen, a young Facebook engineer, enlists the help of Jeff Horwitz, a Wall Street Journal reporter, to go on a dangerous journey that ends up blowing the whistle on the social network's most guarded secrets.",
-      "tagline": "We're way past making friends.",
-      "runtime": 112,
-      "runtime_text": "1h 52m",
-      "genres": "Drama • Thriller",
-      "poster": "https://image.tmdb.org/t/p/w500/2RmNbvlv9jDrLGDDkdYZDifKGCm.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/cYJulf2GTqqzsnPE1Zy6TmirzOO.png",
-      "trailer": "https://www.youtube.com/watch?v=R8ANzYpaZaY"
-    },
-    {
-      "title": "Tenzing",
-      "date": "2026-10-09",
-      "rating": 0.0,
-      "overview": "A determined man embarks on a high-stakes quest—and defies seemingly impossible odds—to fulfill his dream of being the first to reach the summit of Mount Everest.",
-      "tagline": "The ascent that made history.",
-      "runtime": 126,
-      "runtime_text": "2h 6m",
-      "genres": "Drama • History",
-      "poster": "https://image.tmdb.org/t/p/w500/eI0QW02PYqhnmIvLRdn9vrfVVP7.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/oGcjxm8gwgOgRvZ5TAsrCiwdLoS.png",
-      "trailer": "https://www.youtube.com/watch?v=KkYCY5YR12U"
-    },
-    {
-      "title": "Udta Teer",
-      "date": "2026-10-09",
-      "rating": 0.0,
-      "overview": "An amnesiac Pakistani spy wakes up believing he is a patriotic Indian counter-terrorism officer.",
-      "tagline": "Deshbhakti yaad hai, par desh nahi",
-      "runtime": 144,
-      "runtime_text": "2h 24m",
-      "genres": "Comedy",
-      "poster": "https://image.tmdb.org/t/p/w500/tvICKypVlW7Iio4KVs7NousbSKi.jpg",
-      "logo": null,
-      "trailer": null
     }
   ]
 }

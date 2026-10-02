@@ -3,13 +3,14 @@
     {
       "title": "North by Northwest",
       "date": "1959-08-06",
-      "rating": 8.0,
+      "rating": 7.961,
       "overview": "Advertising man Roger Thornhill is mistaken for a spy, triggering a deadly cross-country chase.",
       "tagline": "It's a deadly game of \"tag\" and Cary Grant is \"it\"!",
       "runtime": 137,
       "runtime_text": "2h 17m",
       "genres": "Thriller • Adventure",
       "poster": "https://image.tmdb.org/t/p/w500/kNOFPQrel9YFCVzI0DF8FnCEpCw.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/OR8oloCZ3klJtB7Y0i8pSqWw5a.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/Aelz4DzRr4dfgZGcp33ae9NFYQc.png",
       "trailer": "https://www.youtube.com/watch?v=cPNiwc3ogIo"
     },
@@ -23,6 +24,7 @@
       "runtime_text": "1h 52m",
       "genres": "Drama • History • Horror",
       "poster": "https://image.tmdb.org/t/p/w500/y1k7eiOFc6fzm8XeTa1kNGx6JIs.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/8ApwSMdd9QehKjvW3fOmKVrnZXv.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/1BSsugMxJGCRWD8qxqBPWhH71H3.png",
       "trailer": "https://www.youtube.com/watch?v=ImeXlanF3iY"
     },
@@ -36,6 +38,7 @@
       "runtime_text": "1h 35m",
       "genres": "Horror",
       "poster": "https://image.tmdb.org/t/p/w500/uGGpnWHOmWTARVN9wbC1nPxNgps.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/16zzKM5vDxnYiqG6Tg6wOkOLSmj.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/qpNcaeHxpvTJ8bQpjdQcvfEf6Ff.png",
       "trailer": "https://www.youtube.com/watch?v=8nYuu5jpWVs"
     },
@@ -49,6 +52,7 @@
       "runtime_text": "1h 43m",
       "genres": "Horror",
       "poster": "https://image.tmdb.org/t/p/w500/8ZtH1V4rhrtP53ezlEWrCaMALXF.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/xWq3T9P4NU2pTdZ3hXFygsNnAq4.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/vsYxIcDgdrmg98FBQuFcK1F3oMq.png",
       "trailer": "https://www.youtube.com/watch?v=JMao8sg4DPA"
     },
@@ -62,6 +66,7 @@
       "runtime_text": "1h 42m",
       "genres": "Thriller • Drama • Crime",
       "poster": "https://image.tmdb.org/t/p/w500/9uGHEgsiUXjCNq8wdq4r49YL8A1.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/5oaMV2q0qzxkIW2ukU3lldLu5q2.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/jvQAjlprJFhza9u3Vn4kgkU2PjH.png",
       "trailer": "https://www.youtube.com/watch?v=81mibtQWWBg"
     },
@@ -75,6 +80,7 @@
       "runtime_text": "2h 2m",
       "genres": "Action • Crime • Drama",
       "poster": "https://image.tmdb.org/t/p/w500/bUeiwBQdupBLQthMCHKV7zv56uv.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/nuO8o9ltxhI7AZQxePavEZ4TyHa.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/ywKMaRxVAJmijMXF2ViyRsGYzfR.png",
       "trailer": "https://www.youtube.com/watch?v=VQ-SCoyUwfg"
     },
@@ -88,6 +94,7 @@
       "runtime_text": "1h 58m",
       "genres": "Fantasy • Drama • War",
       "poster": "https://image.tmdb.org/t/p/w500/7wb2Ldp0oAx1lcZvffq9RfWoI2h.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/6G6nqSW9S7EHA9HrYl0Z8uo2H7f.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/uWwaa2Dm9RHYyKNCdDgcblxzzHF.png",
       "trailer": "https://www.youtube.com/watch?v=OBGKGm3RYos"
     },
@@ -101,6 +108,7 @@
       "runtime_text": "1h 52m",
       "genres": "Action • Crime • Drama",
       "poster": "https://image.tmdb.org/t/p/w500/4KaPZSKnInnArErTTgy9Oy14leR.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/jiFLiatBtBALlAzV5R72gzspBad.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/vTWwAyfrTYFLHDD4vF94JzBBBpB.png",
       "trailer": "https://www.youtube.com/watch?v=uEcoV-ngH38"
     },
@@ -114,6 +122,7 @@
       "runtime_text": "1h 20m",
       "genres": "Documentary",
       "poster": "https://image.tmdb.org/t/p/w500/b4Gyj8VRoJAeU13jfKPuOTMr5GL.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/7EzH0dlEN9OZWWBXBWwT5PbMNUz.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/zHX6bjRHLksTdNlEODj1pyISJQD.png",
       "trailer": "https://www.youtube.com/watch?v=40KW6knYMo4"
     },
@@ -127,6 +136,7 @@
       "runtime_text": null,
       "genres": "Horror • Romance",
       "poster": "https://image.tmdb.org/t/p/w500/ihxByv2GHUxz7g82mhVlYp9pCj3.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/qlI7haUeRut1fJFuB1YITNWkmCy.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/1ocRZ6i0hqQ4oVSjnkFBgLxnT24.png",
       "trailer": "https://www.youtube.com/watch?v=ZiseQc567b4"
     }

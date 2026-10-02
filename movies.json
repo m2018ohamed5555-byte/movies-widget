@@ -9,6 +9,10 @@
       "runtime": 137,
       "runtime_text": "2h 17m",
       "genres": "Thriller • Adventure",
+      "genres_list": [
+        "Thriller",
+        "Adventure"
+      ],
       "poster": "https://image.tmdb.org/t/p/w500/kNOFPQrel9YFCVzI0DF8FnCEpCw.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/OR8oloCZ3klJtB7Y0i8pSqWw5a.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/Aelz4DzRr4dfgZGcp33ae9NFYQc.png",
@@ -23,6 +27,11 @@
       "runtime": 112,
       "runtime_text": "1h 52m",
       "genres": "Drama • History • Horror",
+      "genres_list": [
+        "Drama",
+        "History",
+        "Horror"
+      ],
       "poster": "https://image.tmdb.org/t/p/w500/y1k7eiOFc6fzm8XeTa1kNGx6JIs.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/8ApwSMdd9QehKjvW3fOmKVrnZXv.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/1BSsugMxJGCRWD8qxqBPWhH71H3.png",
@@ -37,6 +46,9 @@
       "runtime": 95,
       "runtime_text": "1h 35m",
       "genres": "Horror",
+      "genres_list": [
+        "Horror"
+      ],
       "poster": "https://image.tmdb.org/t/p/w500/uGGpnWHOmWTARVN9wbC1nPxNgps.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/16zzKM5vDxnYiqG6Tg6wOkOLSmj.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/qpNcaeHxpvTJ8bQpjdQcvfEf6Ff.png",
@@ -51,6 +63,9 @@
       "runtime": 103,
       "runtime_text": "1h 43m",
       "genres": "Horror",
+      "genres_list": [
+        "Horror"
+      ],
       "poster": "https://image.tmdb.org/t/p/w500/8ZtH1V4rhrtP53ezlEWrCaMALXF.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/xWq3T9P4NU2pTdZ3hXFygsNnAq4.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/vsYxIcDgdrmg98FBQuFcK1F3oMq.png",
@@ -65,6 +80,11 @@
       "runtime": 102,
       "runtime_text": "1h 42m",
       "genres": "Thriller • Drama • Crime",
+      "genres_list": [
+        "Thriller",
+        "Drama",
+        "Crime"
+      ],
       "poster": "https://image.tmdb.org/t/p/w500/9uGHEgsiUXjCNq8wdq4r49YL8A1.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/5oaMV2q0qzxkIW2ukU3lldLu5q2.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/jvQAjlprJFhza9u3Vn4kgkU2PjH.png",
@@ -79,6 +99,11 @@
       "runtime": 122,
       "runtime_text": "2h 2m",
       "genres": "Action • Crime • Drama",
+      "genres_list": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
       "poster": "https://image.tmdb.org/t/p/w500/bUeiwBQdupBLQthMCHKV7zv56uv.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/nuO8o9ltxhI7AZQxePavEZ4TyHa.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/ywKMaRxVAJmijMXF2ViyRsGYzfR.png",
@@ -93,6 +118,11 @@
       "runtime": 118,
       "runtime_text": "1h 58m",
       "genres": "Fantasy • Drama • War",
+      "genres_list": [
+        "Fantasy",
+        "Drama",
+        "War"
+      ],
       "poster": "https://image.tmdb.org/t/p/w500/7wb2Ldp0oAx1lcZvffq9RfWoI2h.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/6G6nqSW9S7EHA9HrYl0Z8uo2H7f.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/uWwaa2Dm9RHYyKNCdDgcblxzzHF.png",
@@ -107,6 +137,11 @@
       "runtime": 112,
       "runtime_text": "1h 52m",
       "genres": "Action • Crime • Drama",
+      "genres_list": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
       "poster": "https://image.tmdb.org/t/p/w500/4KaPZSKnInnArErTTgy9Oy14leR.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/jiFLiatBtBALlAzV5R72gzspBad.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/vTWwAyfrTYFLHDD4vF94JzBBBpB.png",
@@ -121,6 +156,9 @@
       "runtime": 80,
       "runtime_text": "1h 20m",
       "genres": "Documentary",
+      "genres_list": [
+        "Documentary"
+      ],
       "poster": "https://image.tmdb.org/t/p/w500/b4Gyj8VRoJAeU13jfKPuOTMr5GL.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/7EzH0dlEN9OZWWBXBWwT5PbMNUz.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/zHX6bjRHLksTdNlEODj1pyISJQD.png",
@@ -135,6 +173,10 @@
       "runtime": 0,
       "runtime_text": null,
       "genres": "Horror • Romance",
+      "genres_list": [
+        "Horror",
+        "Romance"
+      ],
       "poster": "https://image.tmdb.org/t/p/w500/ihxByv2GHUxz7g82mhVlYp9pCj3.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/qlI7haUeRut1fJFuB1YITNWkmCy.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/1ocRZ6i0hqQ4oVSjnkFBgLxnT24.png",

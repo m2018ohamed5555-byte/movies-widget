@@ -55,7 +55,7 @@
     {
       "title": "American Psycho",
       "date": "2000-04-13",
-      "rating": 7.4,
+      "rating": 7.401,
       "overview": "A wealthy New York investment banking executive hides his alternate psychopathic ego from his co-workers and friends as he escalates deeper into his illogical, gratuitous fantasies.",
       "tagline": "Killer looks.",
       "runtime": 102,
@@ -118,17 +118,17 @@
       "trailer": "https://www.youtube.com/watch?v=40KW6knYMo4"
     },
     {
-      "title": "Love of Your Life",
+      "title": "Vampire Carnival",
       "date": "2026-10-07",
       "rating": 0.0,
-      "overview": "After a chance encounter sparks a sweeping romance, Maya's future is suddenly upended, sending her on an unexpected journey to love and live again.",
+      "overview": "When a grief-stricken young woman visits a mysterious, traveling carnival in her small town, she becomes seduced into a dangerous world of pleasure and deception.",
       "tagline": null,
-      "runtime": 106,
-      "runtime_text": "1h 46m",
-      "genres": "Drama • Romance",
-      "poster": "https://image.tmdb.org/t/p/w500/o7ZCmjeW59yujCcAJjjYSJRoZLe.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/otOEfDwZ5iSSaZRSsxX1wueYfSb.png",
-      "trailer": "https://www.youtube.com/watch?v=HzGx48E64Xg"
+      "runtime": 0,
+      "runtime_text": null,
+      "genres": "Horror • Romance",
+      "poster": "https://image.tmdb.org/t/p/w500/ihxByv2GHUxz7g82mhVlYp9pCj3.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/1ocRZ6i0hqQ4oVSjnkFBgLxnT24.png",
+      "trailer": "https://www.youtube.com/watch?v=ZiseQc567b4"
     }
   ]
 }

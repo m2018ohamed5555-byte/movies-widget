@@ -33,6 +33,7 @@ jobs:
               runtime: .runtime,
               runtime_text: (if (.runtime // 0) > 0 then "\(.runtime/60|floor)h \(.runtime%60)m" else null end),
               genres: ([.genres[]?.name] | join(" • ")),
+              genres_list: ([.genres[]?.name]),
               poster: ("https://image.tmdb.org/t/p/w500" + .poster_path),
               backdrop: (if .backdrop_path then "https://image.tmdb.org/t/p/w780" + .backdrop_path else null end),
               logo: ([.images.logos[]? | select((.iso_639_1=="en" or .iso_639_1==null) and (.file_path|endswith(".png")))] | sort_by(-.vote_average) | .[0].file_path | if . then "https://image.tmdb.org/t/p/w500" + . else null end),

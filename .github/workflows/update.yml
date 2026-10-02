@@ -34,6 +34,7 @@ jobs:
               runtime_text: (if (.runtime // 0) > 0 then "\(.runtime/60|floor)h \(.runtime%60)m" else null end),
               genres: ([.genres[]?.name] | join(" • ")),
               poster: ("https://image.tmdb.org/t/p/w500" + .poster_path),
+              backdrop: (if .backdrop_path then "https://image.tmdb.org/t/p/w780" + .backdrop_path else null end),
               logo: ([.images.logos[]? | select((.iso_639_1=="en" or .iso_639_1==null) and (.file_path|endswith(".png")))] | sort_by(-.vote_average) | .[0].file_path | if . then "https://image.tmdb.org/t/p/w500" + . else null end),
               trailer: ([.videos.results[]? | select(.site=="YouTube" and .type=="Trailer")] | .[0].key | if . then "https://www.youtube.com/watch?v=" + . else null end)
             }' detail.json >> items.ndjson
@@ -43,5 +44,4 @@ jobs:
         run: |
           git config user.name "bot"
           git config user.email "bot@users.noreply.github.com"
-          git add movies.json
-          git diff --cached --quiet || (git commit -m "update" && git push)
+          git add mo

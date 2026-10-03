@@ -72,6 +72,25 @@
       "trailer": "https://www.youtube.com/watch?v=5ckqV_uf8E0"
     },
     {
+      "title": "Winter of the Crow",
+      "date": "2026-10-09",
+      "rating": 6.7,
+      "overview": "Warsaw, December 13, 1981. Martial law shuts down the country. Overnight, a country turns into a prison. Taxis have been replaced by tanks. Citizens are treated like criminals. And visiting British Professor Joan Andrews finds herself trapped. After witnessing the murder of a young student by the secret police (the \"Crows\"), Joan herself becomes the target.",
+      "tagline": null,
+      "runtime": 112,
+      "runtime_text": "1h 52m",
+      "genres": "Drama • Thriller • History",
+      "genres_list": [
+        "Drama",
+        "Thriller",
+        "History"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/1Fxy0yTc4oJEMAtbNtuidhGFjBo.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/2V3EgEgyF3cq93Pw63pcUeb0PNT.jpg",
+      "logo": null,
+      "trailer": "https://www.youtube.com/watch?v=LBiv3VwAdwM"
+    },
+    {
       "title": "Animals",
       "date": "2026-10-09",
       "rating": 0.0,
@@ -88,24 +107,6 @@
       "backdrop": "https://image.tmdb.org/t/p/w780/tzoarEu7TsG959upiELyYPm5kO9.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/dl6aDoFDDjTgNMI4Cui2GmKZUpR.png",
       "trailer": "https://www.youtube.com/watch?v=mlBfQJ8oxB0"
-    },
-    {
-      "title": "A Prayer for the Dying",
-      "date": "2026-10-09",
-      "rating": 0.0,
-      "overview": "In 1870 Friendship, Wisconsin, a small town of Scandinavian settlers still suffering the repercussions of the recent Civil War. When faced with a new and even deadlier threat, one man is forced to make a harrowing choice: save his young family or defend the community that gave him a second chance at life and meaning.",
-      "tagline": "Redemption is coming.",
-      "runtime": 95,
-      "runtime_text": "1h 35m",
-      "genres": "Drama • Thriller",
-      "genres_list": [
-        "Drama",
-        "Thriller"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w500/kYIhGPwr5ztkvnRcD4GzZGfuNhv.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/yMqBFMvAGPw5aM4azNN07kSjNM0.jpg",
-      "logo": null,
-      "trailer": "https://www.youtube.com/watch?v=xbQjXVk9Sps"
     },
     {
       "title": "The Social Reckoning",

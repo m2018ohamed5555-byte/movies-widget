@@ -1,182 +1,26 @@
 {
   "movies": [
     {
-      "title": "North by Northwest",
-      "date": "1959-08-06",
-      "release_ts": -328406400,
-      "rating": 7.961,
-      "overview": "Advertising man Roger Thornhill is mistaken for a spy, triggering a deadly cross-country chase.",
-      "tagline": "It's a deadly game of \"tag\" and Cary Grant is \"it\"!",
-      "runtime": 137,
-      "runtime_text": "2h 17m",
-      "genres": "Thriller • Adventure",
-      "genres_list": [
-        "Thriller",
-        "Adventure"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w500/kNOFPQrel9YFCVzI0DF8FnCEpCw.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/OR8oloCZ3klJtB7Y0i8pSqWw5a.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/Aelz4DzRr4dfgZGcp33ae9NFYQc.png",
-      "trailer": "https://www.youtube.com/watch?v=cPNiwc3ogIo"
-    },
-    {
-      "title": "The Devils",
-      "date": "1971-07-16",
-      "release_ts": 48470400,
-      "rating": 7.5,
-      "overview": "In 1634 France, charismatic Father Urbain Grandier becomes the target of a sexually obsessed nun’s witchcraft accusations, which corrupt church and state officials are all too happy to exploit.​​​​​​​​​​​​​​​​",
-      "tagline": "Hell will hold no surprises for them...",
-      "runtime": 112,
-      "runtime_text": "1h 52m",
-      "genres": "Drama • History • Horror",
-      "genres_list": [
-        "Drama",
-        "History",
-        "Horror"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w500/y1k7eiOFc6fzm8XeTa1kNGx6JIs.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/8ApwSMdd9QehKjvW3fOmKVrnZXv.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/1BSsugMxJGCRWD8qxqBPWhH71H3.png",
-      "trailer": "https://www.youtube.com/watch?v=ImeXlanF3iY"
-    },
-    {
-      "title": "Friday the 13th",
-      "date": "1980-05-09",
-      "release_ts": 326678400,
-      "rating": 6.402,
-      "overview": "Camp counselors are stalked and murdered by an unknown assailant while trying to reopen a summer camp that was the site of a child's drowning.",
-      "tagline": "They were warned...They are doomed...And on Friday the 13th, nothing will save them.",
-      "runtime": 95,
-      "runtime_text": "1h 35m",
-      "genres": "Horror",
-      "genres_list": [
-        "Horror"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w500/uGGpnWHOmWTARVN9wbC1nPxNgps.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/16zzKM5vDxnYiqG6Tg6wOkOLSmj.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/qpNcaeHxpvTJ8bQpjdQcvfEf6Ff.png",
-      "trailer": "https://www.youtube.com/watch?v=8nYuu5jpWVs"
-    },
-    {
-      "title": "Pet Sematary",
-      "date": "1989-04-21",
-      "release_ts": 609120000,
-      "rating": 6.655,
-      "overview": "After the Creed family's cat is accidentally killed, a friendly neighbor advises its burial in a mysterious nearby cemetery.",
-      "tagline": "Sometimes dead is better.",
-      "runtime": 103,
-      "runtime_text": "1h 43m",
-      "genres": "Horror",
-      "genres_list": [
-        "Horror"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w500/8ZtH1V4rhrtP53ezlEWrCaMALXF.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/xWq3T9P4NU2pTdZ3hXFygsNnAq4.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/vsYxIcDgdrmg98FBQuFcK1F3oMq.png",
-      "trailer": "https://www.youtube.com/watch?v=JMao8sg4DPA"
-    },
-    {
-      "title": "American Psycho",
-      "date": "2000-04-13",
-      "release_ts": 955584000,
-      "rating": 7.401,
-      "overview": "A wealthy New York investment banking executive hides his alternate psychopathic ego from his co-workers and friends as he escalates deeper into his illogical, gratuitous fantasies.",
-      "tagline": "Killer looks.",
-      "runtime": 102,
-      "runtime_text": "1h 42m",
-      "genres": "Thriller • Drama • Crime",
-      "genres_list": [
-        "Thriller",
-        "Drama",
-        "Crime"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w500/9uGHEgsiUXjCNq8wdq4r49YL8A1.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/5oaMV2q0qzxkIW2ukU3lldLu5q2.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/jvQAjlprJFhza9u3Vn4kgkU2PjH.png",
-      "trailer": "https://www.youtube.com/watch?v=81mibtQWWBg"
-    },
-    {
-      "title": "Training Day",
-      "date": "2001-10-05",
-      "release_ts": 1002240000,
-      "rating": 7.533,
-      "overview": "On his first day on the job as a narcotics officer, a rookie cop works with a rogue detective who isn't what he appears.",
-      "tagline": "The only thing more dangerous than the line being crossed, is the cop who will cross it.",
-      "runtime": 122,
-      "runtime_text": "2h 2m",
-      "genres": "Action • Crime • Drama",
-      "genres_list": [
-        "Action",
-        "Crime",
-        "Drama"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w500/bUeiwBQdupBLQthMCHKV7zv56uv.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/nuO8o9ltxhI7AZQxePavEZ4TyHa.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/ywKMaRxVAJmijMXF2ViyRsGYzfR.png",
-      "trailer": "https://www.youtube.com/watch?v=VQ-SCoyUwfg"
-    },
-    {
-      "title": "Pan's Labyrinth",
-      "date": "2006-10-11",
-      "release_ts": 1160524800,
-      "rating": 7.769,
-      "overview": "In post–civil war Spain, 10-year-old Ofelia moves with her pregnant mother to live under the control of her cruel stepfather. Drawn into a mysterious labyrinth, she meets a faun who reveals that she may be a lost princess from an underground kingdom. To return to her true father, she must complete a series of surreal and perilous tasks that blur the line between reality and fantasy.",
-      "tagline": "Innocence has a power evil cannot imagine.",
-      "runtime": 118,
-      "runtime_text": "1h 58m",
-      "genres": "Fantasy • Drama • War",
-      "genres_list": [
-        "Fantasy",
-        "Drama",
-        "War"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w500/7wb2Ldp0oAx1lcZvffq9RfWoI2h.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/6G6nqSW9S7EHA9HrYl0Z8uo2H7f.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/uWwaa2Dm9RHYyKNCdDgcblxzzHF.png",
-      "trailer": "https://www.youtube.com/watch?v=OBGKGm3RYos"
-    },
-    {
-      "title": "Your Mother Your Mother Your Mother",
-      "date": "2026-09-25",
-      "release_ts": 1790294400,
-      "rating": 7.167,
-      "overview": "Latif, a devoutly religious hitman, struggles to balance work, faith and fatherhood. When his wife dies, he embarks on a desperate journey across Houston to protect his children, confronting the forces closing in around him – and the beliefs threatening to unravel within.",
+      "title": "Love of Your Life",
+      "date": "2026-10-07",
+      "rating": 4.0,
+      "overview": "After a chance encounter sparks a sweeping romance, Maya's future is suddenly upended, sending her on an unexpected journey to love and live again.",
       "tagline": null,
-      "runtime": 112,
-      "runtime_text": "1h 52m",
-      "genres": "Action • Crime • Drama",
+      "runtime": 106,
+      "runtime_text": "1h 46m",
+      "genres": "Drama • Romance",
       "genres_list": [
-        "Action",
-        "Crime",
-        "Drama"
+        "Drama",
+        "Romance"
       ],
-      "poster": "https://image.tmdb.org/t/p/w500/4KaPZSKnInnArErTTgy9Oy14leR.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/jiFLiatBtBALlAzV5R72gzspBad.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/vTWwAyfrTYFLHDD4vF94JzBBBpB.png",
-      "trailer": "https://www.youtube.com/watch?v=uEcoV-ngH38"
-    },
-    {
-      "title": "NAZA",
-      "date": "2026-09-25",
-      "release_ts": 1790294400,
-      "rating": 8.02,
-      "overview": "In secret conversations on the rooftops of Tel Aviv at night, the systems behind Israel's calculated mass killing of Palestinian civilians in Gaza are revealed by the people who designed and operated them.",
-      "tagline": "A window into systems of mass killing.",
-      "runtime": 80,
-      "runtime_text": "1h 20m",
-      "genres": "Documentary",
-      "genres_list": [
-        "Documentary"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w500/b4Gyj8VRoJAeU13jfKPuOTMr5GL.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/7EzH0dlEN9OZWWBXBWwT5PbMNUz.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/zHX6bjRHLksTdNlEODj1pyISJQD.png",
-      "trailer": "https://www.youtube.com/watch?v=40KW6knYMo4"
+      "poster": "https://image.tmdb.org/t/p/w500/o7ZCmjeW59yujCcAJjjYSJRoZLe.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/mTUWpyf15tLs4YLvy3nirbn6xA9.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/otOEfDwZ5iSSaZRSsxX1wueYfSb.png",
+      "trailer": "https://www.youtube.com/watch?v=HzGx48E64Xg"
     },
     {
       "title": "Vampire Carnival",
       "date": "2026-10-07",
-      "release_ts": 1791331200,
       "rating": 0.0,
       "overview": "When a grief-stricken young woman visits a mysterious, traveling carnival in her small town, she becomes seduced into a dangerous world of pleasure and deception.",
       "tagline": null,
@@ -191,6 +35,149 @@
       "backdrop": "https://image.tmdb.org/t/p/w780/qlI7haUeRut1fJFuB1YITNWkmCy.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/1ocRZ6i0hqQ4oVSjnkFBgLxnT24.png",
       "trailer": "https://www.youtube.com/watch?v=ZiseQc567b4"
+    },
+    {
+      "title": "Musk",
+      "date": "2026-10-09",
+      "rating": 0.0,
+      "overview": "An incisive look behind the legend of Elon Musk, the world’s most heralded \"inventor-entrepreneur\" who has enormous influence on the world in which we all live.",
+      "tagline": "An unflinching look at Earth's most unchecked man.",
+      "runtime": 235,
+      "runtime_text": "3h 55m",
+      "genres": "Documentary",
+      "genres_list": [
+        "Documentary"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/fAyZqyN78VYb0usFgsmYjxZIFcN.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/rbF8b5NqcN5SprJmWz9CwGquMGa.jpg",
+      "logo": null,
+      "trailer": "https://www.youtube.com/watch?v=eY_8SyndC10"
+    },
+    {
+      "title": "The Beast",
+      "date": "2026-10-08",
+      "rating": 0.0,
+      "overview": "When a militia of unidentified hostiles coordinates a coup against the United States, the president must fight back by utilizing the highly classified offensive capabilities of his armored limousine, nicknamed The Beast.",
+      "tagline": "You know Air Force One. Now meet...",
+      "runtime": 99,
+      "runtime_text": "1h 39m",
+      "genres": "Action • Thriller",
+      "genres_list": [
+        "Action",
+        "Thriller"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/rH6xnAWY1Asb0DlIczPXzVig5cI.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/v5Wb9NoE0s1mGmC5wVeQR1OK22V.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/kO6KowrneLsLdRvv4L2wuGNfT51.png",
+      "trailer": "https://www.youtube.com/watch?v=5ckqV_uf8E0"
+    },
+    {
+      "title": "Animals",
+      "date": "2026-10-09",
+      "rating": 0.0,
+      "overview": "When the son of an L.A. mayoral candidate is kidnapped, he and his wife have a few hours to come up with the ransom payment. With most of their money spent on his political campaign, they have to get their hands dirty and expose a side of their lives they never intended to see the light of day.",
+      "tagline": "Power can't protect you.",
+      "runtime": 106,
+      "runtime_text": "1h 46m",
+      "genres": "Crime • Thriller",
+      "genres_list": [
+        "Crime",
+        "Thriller"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/cyltXU1lAGhRFBuHQIMWBAPj8fI.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/tzoarEu7TsG959upiELyYPm5kO9.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/dl6aDoFDDjTgNMI4Cui2GmKZUpR.png",
+      "trailer": "https://www.youtube.com/watch?v=mlBfQJ8oxB0"
+    },
+    {
+      "title": "A Prayer for the Dying",
+      "date": "2026-10-09",
+      "rating": 0.0,
+      "overview": "In 1870 Friendship, Wisconsin, a small town of Scandinavian settlers still suffering the repercussions of the recent Civil War. When faced with a new and even deadlier threat, one man is forced to make a harrowing choice: save his young family or defend the community that gave him a second chance at life and meaning.",
+      "tagline": "Redemption is coming.",
+      "runtime": 95,
+      "runtime_text": "1h 35m",
+      "genres": "Drama • Thriller",
+      "genres_list": [
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/kYIhGPwr5ztkvnRcD4GzZGfuNhv.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/yMqBFMvAGPw5aM4azNN07kSjNM0.jpg",
+      "logo": null,
+      "trailer": "https://www.youtube.com/watch?v=xbQjXVk9Sps"
+    },
+    {
+      "title": "The Social Reckoning",
+      "date": "2026-10-07",
+      "rating": 0.0,
+      "overview": "Frances Haugen, a young Facebook engineer, enlists the help of Jeff Horwitz, a Wall Street Journal reporter, to go on a dangerous journey that ends up blowing the whistle on the social network's most guarded secrets.",
+      "tagline": "We're way past making friends.",
+      "runtime": 112,
+      "runtime_text": "1h 52m",
+      "genres": "Drama • Thriller",
+      "genres_list": [
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/2RmNbvlv9jDrLGDDkdYZDifKGCm.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/ycqTwRV7jUxjMospXxKTVS74nft.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/cYJulf2GTqqzsnPE1Zy6TmirzOO.png",
+      "trailer": "https://www.youtube.com/watch?v=R8ANzYpaZaY"
+    },
+    {
+      "title": "Tenzing",
+      "date": "2026-10-09",
+      "rating": 4.0,
+      "overview": "A determined man embarks on a high-stakes quest—and defies seemingly impossible odds—to fulfill his dream of being the first to reach the summit of Mount Everest.",
+      "tagline": "The ascent that made history.",
+      "runtime": 126,
+      "runtime_text": "2h 6m",
+      "genres": "Drama • History",
+      "genres_list": [
+        "Drama",
+        "History"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/eI0QW02PYqhnmIvLRdn9vrfVVP7.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/9MdxBPjI58xkzA7RtKX9xRKvlZp.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/oGcjxm8gwgOgRvZ5TAsrCiwdLoS.png",
+      "trailer": "https://www.youtube.com/watch?v=KkYCY5YR12U"
+    },
+    {
+      "title": "Misty Green",
+      "date": "2026-10-09",
+      "rating": 0.0,
+      "overview": "Years after her Hollywood breakthrough, a talented actress whose career has stalled fights for her second act.",
+      "tagline": null,
+      "runtime": 103,
+      "runtime_text": "1h 43m",
+      "genres": "Drama • Comedy",
+      "genres_list": [
+        "Drama",
+        "Comedy"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/dUFtfnSfUK5IUfC5XMlMEY36EAp.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/vb8ynrTs7xp7gaEIplf0zcjJZeh.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/z3TILXYRqSDRHiuxToiyBqos8I1.png",
+      "trailer": "https://www.youtube.com/watch?v=5SohUK9E_eo"
+    },
+    {
+      "title": "Once Upon a Time in the Middle East",
+      "date": "2026-08-08",
+      "rating": 9.023,
+      "overview": "Seeking a fresh start, chef Xu Fu travels to the Middle East to support his family and repay his debts. Alongside restaurant manager Ma Junsheng, he transforms the struggling Dragon Restaurant into a thriving business. But when war engulfs the city, their hard-won success is shattered and the restaurant becomes a refuge for those caught in the conflict. As danger closes in, Xu Fu must risk everything to protect his newfound community and preserve a small beacon of hope amid the devastation.",
+      "tagline": "Eat well, stay alive.",
+      "runtime": 141,
+      "runtime_text": "2h 21m",
+      "genres": "Drama • War",
+      "genres_list": [
+        "Drama",
+        "War"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/wAuGgXjA7GV8NrKfmUKl2AP8vqG.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/zr7om0GOLOcLo7SXMmNEG5rz6de.jpg",
+      "logo": null,
+      "trailer": "https://www.youtube.com/watch?v=iHDNxZF7LRw"
     }
   ]
 }

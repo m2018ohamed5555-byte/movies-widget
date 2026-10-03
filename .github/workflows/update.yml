@@ -14,10 +14,10 @@ jobs:
         env:
           TMDB_KEY: ${{ secrets.TMDB_KEY }}
         run: |
-          for p in 1 2; do
+          for p in 1 2 3; do
             curl -s "https://api.themoviedb.org/3/movie/upcoming?api_key=$TMDB_KEY&language=en-US&region=US&page=$p" -o page$p.json
           done
-          jq -s '[.[].results[]] | map(select(.poster_path != null)) | unique_by(.id) | sort_by(.release_date) | .[0:10]' page1.json page2.json > list.json
+          jq -s --arg today "$(date -u +%F)" '[.[].results[]] | map(select(.poster_path != null and (.release_date // "") >= $today)) | unique_by(.id) | sort_by(.release_date) | .[0:10]' page1.json page2.json page3.json > list.json
           n=$(jq length list.json)
           [ "$n" -gt 0 ] || exit 1
           : > items.ndjson
@@ -27,7 +27,6 @@ jobs:
             jq -c '{
               title,
               date: .release_date,
-              release_ts: (if (.release_date // "") == "" then null else (.release_date + "T00:00:00Z" | fromdateiso8601) end),
               rating: .vote_average,
               overview,
               tagline: (if (.tagline // "") == "" then null else .tagline end),

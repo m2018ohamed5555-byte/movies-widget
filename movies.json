@@ -3,6 +3,7 @@
     {
       "title": "North by Northwest",
       "date": "1959-08-06",
+      "release_ts": -328406400,
       "rating": 7.961,
       "overview": "Advertising man Roger Thornhill is mistaken for a spy, triggering a deadly cross-country chase.",
       "tagline": "It's a deadly game of \"tag\" and Cary Grant is \"it\"!",
@@ -21,6 +22,7 @@
     {
       "title": "The Devils",
       "date": "1971-07-16",
+      "release_ts": 48470400,
       "rating": 7.5,
       "overview": "In 1634 France, charismatic Father Urbain Grandier becomes the target of a sexually obsessed nun’s witchcraft accusations, which corrupt church and state officials are all too happy to exploit.​​​​​​​​​​​​​​​​",
       "tagline": "Hell will hold no surprises for them...",
@@ -40,6 +42,7 @@
     {
       "title": "Friday the 13th",
       "date": "1980-05-09",
+      "release_ts": 326678400,
       "rating": 6.402,
       "overview": "Camp counselors are stalked and murdered by an unknown assailant while trying to reopen a summer camp that was the site of a child's drowning.",
       "tagline": "They were warned...They are doomed...And on Friday the 13th, nothing will save them.",
@@ -57,6 +60,7 @@
     {
       "title": "Pet Sematary",
       "date": "1989-04-21",
+      "release_ts": 609120000,
       "rating": 6.655,
       "overview": "After the Creed family's cat is accidentally killed, a friendly neighbor advises its burial in a mysterious nearby cemetery.",
       "tagline": "Sometimes dead is better.",
@@ -74,6 +78,7 @@
     {
       "title": "American Psycho",
       "date": "2000-04-13",
+      "release_ts": 955584000,
       "rating": 7.401,
       "overview": "A wealthy New York investment banking executive hides his alternate psychopathic ego from his co-workers and friends as he escalates deeper into his illogical, gratuitous fantasies.",
       "tagline": "Killer looks.",
@@ -93,6 +98,7 @@
     {
       "title": "Training Day",
       "date": "2001-10-05",
+      "release_ts": 1002240000,
       "rating": 7.533,
       "overview": "On his first day on the job as a narcotics officer, a rookie cop works with a rogue detective who isn't what he appears.",
       "tagline": "The only thing more dangerous than the line being crossed, is the cop who will cross it.",
@@ -112,6 +118,7 @@
     {
       "title": "Pan's Labyrinth",
       "date": "2006-10-11",
+      "release_ts": 1160524800,
       "rating": 7.769,
       "overview": "In post–civil war Spain, 10-year-old Ofelia moves with her pregnant mother to live under the control of her cruel stepfather. Drawn into a mysterious labyrinth, she meets a faun who reveals that she may be a lost princess from an underground kingdom. To return to her true father, she must complete a series of surreal and perilous tasks that blur the line between reality and fantasy.",
       "tagline": "Innocence has a power evil cannot imagine.",
@@ -131,6 +138,7 @@
     {
       "title": "Your Mother Your Mother Your Mother",
       "date": "2026-09-25",
+      "release_ts": 1790294400,
       "rating": 7.167,
       "overview": "Latif, a devoutly religious hitman, struggles to balance work, faith and fatherhood. When his wife dies, he embarks on a desperate journey across Houston to protect his children, confronting the forces closing in around him – and the beliefs threatening to unravel within.",
       "tagline": null,
@@ -150,6 +158,7 @@
     {
       "title": "NAZA",
       "date": "2026-09-25",
+      "release_ts": 1790294400,
       "rating": 8.02,
       "overview": "In secret conversations on the rooftops of Tel Aviv at night, the systems behind Israel's calculated mass killing of Palestinian civilians in Gaza are revealed by the people who designed and operated them.",
       "tagline": "A window into systems of mass killing.",
@@ -167,6 +176,7 @@
     {
       "title": "Vampire Carnival",
       "date": "2026-10-07",
+      "release_ts": 1791331200,
       "rating": 0.0,
       "overview": "When a grief-stricken young woman visits a mysterious, traveling carnival in her small town, she becomes seduced into a dangerous world of pleasure and deception.",
       "tagline": null,

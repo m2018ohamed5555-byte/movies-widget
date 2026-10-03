@@ -27,6 +27,7 @@ jobs:
             jq -c '{
               title,
               date: .release_date,
+              release_ts: (if (.release_date // "") == "" then null else (.release_date + "T00:00:00Z" | fromdateiso8601) end),
               rating: .vote_average,
               overview,
               tagline: (if (.tagline // "") == "" then null else .tagline end),

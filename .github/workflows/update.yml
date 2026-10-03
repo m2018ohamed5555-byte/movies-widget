@@ -23,10 +23,11 @@ jobs:
           : > items.ndjson
           for i in $(seq 0 $((n-1))); do
             id=$(jq -r ".[$i].id" list.json)
+            date=$(jq -r ".[$i].release_date" list.json)
             curl -s "https://api.themoviedb.org/3/movie/$id?api_key=$TMDB_KEY&language=en-US&append_to_response=videos,images&include_image_language=en,null" -o detail.json
-            jq -c '{
+            jq -c --arg date "$date" '{
               title,
-              date: .release_date,
+              date: $date,
               rating: .vote_average,
               overview,
               tagline: (if (.tagline // "") == "" then null else .tagline end),

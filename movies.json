@@ -37,23 +37,6 @@
       "trailer": "https://www.youtube.com/watch?v=ZiseQc567b4"
     },
     {
-      "title": "Musk",
-      "date": "2026-10-09",
-      "rating": 0.0,
-      "overview": "An incisive look behind the legend of Elon Musk, the world’s most heralded \"inventor-entrepreneur\" who has enormous influence on the world in which we all live.",
-      "tagline": "An unflinching look at Earth's most unchecked man.",
-      "runtime": 235,
-      "runtime_text": "3h 55m",
-      "genres": "Documentary",
-      "genres_list": [
-        "Documentary"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w500/fAyZqyN78VYb0usFgsmYjxZIFcN.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/rbF8b5NqcN5SprJmWz9CwGquMGa.jpg",
-      "logo": null,
-      "trailer": "https://www.youtube.com/watch?v=eY_8SyndC10"
-    },
-    {
       "title": "The Beast",
       "date": "2026-10-09",
       "rating": 8.0,
@@ -104,9 +87,27 @@
         "Thriller"
       ],
       "poster": "https://image.tmdb.org/t/p/w500/cyltXU1lAGhRFBuHQIMWBAPj8fI.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/f01Xpmo9BYHWmFEoUG9BrsXFSCL.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/tzoarEu7TsG959upiELyYPm5kO9.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/dl6aDoFDDjTgNMI4Cui2GmKZUpR.png",
-      "trailer": "https://www.youtube.com/watch?v=mlBfQJ8oxB0"
+      "trailer": "https://www.youtube.com/watch?v=ZkN2M4ODdys"
+    },
+    {
+      "title": "A Prayer for the Dying",
+      "date": "2026-10-09",
+      "rating": 0.0,
+      "overview": "In 1870 Friendship, Wisconsin, a small town of Scandinavian settlers still suffering the repercussions of the recent Civil War. When faced with a new and even deadlier threat, one man is forced to make a harrowing choice: save his young family or defend the community that gave him a second chance at life and meaning.",
+      "tagline": "Redemption is coming.",
+      "runtime": 95,
+      "runtime_text": "1h 35m",
+      "genres": "Drama • Thriller",
+      "genres_list": [
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/kYIhGPwr5ztkvnRcD4GzZGfuNhv.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/yMqBFMvAGPw5aM4azNN07kSjNM0.jpg",
+      "logo": null,
+      "trailer": "https://www.youtube.com/watch?v=xbQjXVk9Sps"
     },
     {
       "title": "The Social Reckoning",
@@ -121,7 +122,7 @@
         "Drama",
         "Thriller"
       ],
-      "poster": "https://image.tmdb.org/t/p/w500/nZ8cQbjAQHRuSqwxvuYhOfxyhfW.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/hDe0OryfBINwmZDRtQjnh6UKUJf.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/wXTaGcqX3jvdXSKCJAkl5jZyrKp.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/cYJulf2GTqqzsnPE1Zy6TmirzOO.png",
       "trailer": "https://www.youtube.com/watch?v=R8ANzYpaZaY"
@@ -165,7 +166,7 @@
     {
       "title": "Once Upon a Time in the Middle East",
       "date": "2026-10-09",
-      "rating": 9.023,
+      "rating": 9.0,
       "overview": "Seeking a fresh start, chef Xu Fu travels to the Middle East to support his family and repay his debts. Alongside restaurant manager Ma Junsheng, he transforms the struggling Dragon Restaurant into a thriving business. But when war engulfs the city, their hard-won success is shattered and the restaurant becomes a refuge for those caught in the conflict. As danger closes in, Xu Fu must risk everything to protect his newfound community and preserve a small beacon of hope amid the devastation.",
       "tagline": "Eat well, stay alive.",
       "runtime": 141,

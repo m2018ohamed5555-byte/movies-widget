@@ -13,8 +13,8 @@
         "Drama",
         "Romance"
       ],
-      "poster": "https://image.tmdb.org/t/p/w500/o7ZCmjeW59yujCcAJjjYSJRoZLe.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/mTUWpyf15tLs4YLvy3nirbn6xA9.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/dL3Tcv4FU2K85bgnGRBgLjFSrLr.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/79GJ5BmbjCfoWnRGEcg42QPSdQf.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/otOEfDwZ5iSSaZRSsxX1wueYfSb.png",
       "trailer": "https://www.youtube.com/watch?v=HzGx48E64Xg"
     },
@@ -37,6 +37,23 @@
       "trailer": "https://www.youtube.com/watch?v=ZiseQc567b4"
     },
     {
+      "title": "Musk",
+      "date": "2026-10-09",
+      "rating": 0.0,
+      "overview": "An incisive look behind the legend of Elon Musk, the world’s most heralded \"inventor-entrepreneur\" who has enormous influence on the world in which we all live.",
+      "tagline": "An unflinching look at Earth's most unchecked man.",
+      "runtime": 235,
+      "runtime_text": "3h 55m",
+      "genres": "Documentary",
+      "genres_list": [
+        "Documentary"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/fAyZqyN78VYb0usFgsmYjxZIFcN.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/rbF8b5NqcN5SprJmWz9CwGquMGa.jpg",
+      "logo": null,
+      "trailer": "https://www.youtube.com/watch?v=eY_8SyndC10"
+    },
+    {
       "title": "The Beast",
       "date": "2026-10-09",
       "rating": 8.0,
@@ -53,25 +70,6 @@
       "backdrop": "https://image.tmdb.org/t/p/w780/v5Wb9NoE0s1mGmC5wVeQR1OK22V.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/kO6KowrneLsLdRvv4L2wuGNfT51.png",
       "trailer": "https://www.youtube.com/watch?v=5ckqV_uf8E0"
-    },
-    {
-      "title": "Winter of the Crow",
-      "date": "2026-10-09",
-      "rating": 6.7,
-      "overview": "Warsaw, December 13, 1981. Martial law shuts down the country. Overnight, a country turns into a prison. Taxis have been replaced by tanks. Citizens are treated like criminals. And visiting British Professor Joan Andrews finds herself trapped. After witnessing the murder of a young student by the secret police (the \"Crows\"), Joan herself becomes the target.",
-      "tagline": null,
-      "runtime": 112,
-      "runtime_text": "1h 52m",
-      "genres": "Drama • Thriller • History",
-      "genres_list": [
-        "Drama",
-        "Thriller",
-        "History"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w500/1Fxy0yTc4oJEMAtbNtuidhGFjBo.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/2V3EgEgyF3cq93Pw63pcUeb0PNT.jpg",
-      "logo": null,
-      "trailer": "https://www.youtube.com/watch?v=LBiv3VwAdwM"
     },
     {
       "title": "Animals",
@@ -92,27 +90,9 @@
       "trailer": "https://www.youtube.com/watch?v=ZkN2M4ODdys"
     },
     {
-      "title": "A Prayer for the Dying",
-      "date": "2026-10-09",
-      "rating": 0.0,
-      "overview": "In 1870 Friendship, Wisconsin, a small town of Scandinavian settlers still suffering the repercussions of the recent Civil War. When faced with a new and even deadlier threat, one man is forced to make a harrowing choice: save his young family or defend the community that gave him a second chance at life and meaning.",
-      "tagline": "Redemption is coming.",
-      "runtime": 95,
-      "runtime_text": "1h 35m",
-      "genres": "Drama • Thriller",
-      "genres_list": [
-        "Drama",
-        "Thriller"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w500/kYIhGPwr5ztkvnRcD4GzZGfuNhv.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/yMqBFMvAGPw5aM4azNN07kSjNM0.jpg",
-      "logo": null,
-      "trailer": "https://www.youtube.com/watch?v=xbQjXVk9Sps"
-    },
-    {
       "title": "The Social Reckoning",
       "date": "2026-10-09",
-      "rating": 7.667,
+      "rating": 8.6,
       "overview": "Frances Haugen, a young Facebook engineer, enlists the help of Jeff Horwitz, a Wall Street Journal reporter, to go on a dangerous journey that ends up blowing the whistle on the social network's most guarded secrets.",
       "tagline": "We're way past making friends.",
       "runtime": 112,
@@ -122,7 +102,7 @@
         "Drama",
         "Thriller"
       ],
-      "poster": "https://image.tmdb.org/t/p/w500/hDe0OryfBINwmZDRtQjnh6UKUJf.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/nZ8cQbjAQHRuSqwxvuYhOfxyhfW.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/wXTaGcqX3jvdXSKCJAkl5jZyrKp.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/cYJulf2GTqqzsnPE1Zy6TmirzOO.png",
       "trailer": "https://www.youtube.com/watch?v=R8ANzYpaZaY"
@@ -146,24 +126,6 @@
       "trailer": "https://www.youtube.com/watch?v=KkYCY5YR12U"
     },
     {
-      "title": "Misty Green",
-      "date": "2026-10-09",
-      "rating": 0.0,
-      "overview": "Years after her Hollywood breakthrough, a talented actress whose career has stalled fights for her second act.",
-      "tagline": null,
-      "runtime": 103,
-      "runtime_text": "1h 43m",
-      "genres": "Drama • Comedy",
-      "genres_list": [
-        "Drama",
-        "Comedy"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w500/dUFtfnSfUK5IUfC5XMlMEY36EAp.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/vb8ynrTs7xp7gaEIplf0zcjJZeh.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/z3TILXYRqSDRHiuxToiyBqos8I1.png",
-      "trailer": "https://www.youtube.com/watch?v=5SohUK9E_eo"
-    },
-    {
       "title": "Once Upon a Time in the Middle East",
       "date": "2026-10-09",
       "rating": 9.0,
@@ -180,6 +142,40 @@
       "backdrop": "https://image.tmdb.org/t/p/w780/zr7om0GOLOcLo7SXMmNEG5rz6de.jpg",
       "logo": null,
       "trailer": "https://www.youtube.com/watch?v=iHDNxZF7LRw"
+    },
+    {
+      "title": "Other Mommy",
+      "date": "2026-10-09",
+      "rating": 0.0,
+      "overview": "Young Bela forms a relationship with a sinister entity in her home that looks uncannily like her own mother, drawing her into a terrifying and increasingly dark world.",
+      "tagline": "Your mommy won't save you.",
+      "runtime": 93,
+      "runtime_text": "1h 33m",
+      "genres": "Horror",
+      "genres_list": [
+        "Horror"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/fGRNCssTRrhYZxNzykGGCoMsAVq.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/gy1RZonkd5CYWl64qCdIBcS4HjI.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/jUT3dz3VC5sCEPD6o325FpViQEj.png",
+      "trailer": "https://www.youtube.com/watch?v=-mnTITqqiT0"
+    },
+    {
+      "title": "Fjord",
+      "date": "2026-10-09",
+      "rating": 7.2,
+      "overview": "Following the deaths of Mihai's parents, Mihai and Lisbeth Gheorghiu leave their life behind in Romania and move with their children to a remote village in Norway, hoping to rebuild their lives near Lisbeth's family. There, they grow close to their neighbors, the Halbergs, whose warmth gives them hope for a fresh start. But the fragile peace begins to unravel when the Gheorghiu family’s young daughter, Elia, arrives at school covered in bruises.",
+      "tagline": "When does protection become control?",
+      "runtime": 146,
+      "runtime_text": "2h 26m",
+      "genres": "Drama",
+      "genres_list": [
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/rhKlzjAJCEKUjxEk1qwr4bgbXlG.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/rCYzSP07jCA1HuFvrwgaEAPHitT.jpg",
+      "logo": null,
+      "trailer": "https://www.youtube.com/watch?v=frg59VOungA"
     }
   ]
 }

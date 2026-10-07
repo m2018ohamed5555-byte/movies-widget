@@ -5,46 +5,26 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+concurrency:
+  group: update-movies
+  cancel-in-progress: false
 jobs:
   run:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
-      - name: Fetch
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Build
         env:
           TMDB_KEY: ${{ secrets.TMDB_KEY }}
-        run: |
-          for p in 1 2 3; do
-            curl -s "https://api.themoviedb.org/3/movie/upcoming?api_key=$TMDB_KEY&language=en-US&region=US&page=$p" -o page$p.json
-          done
-          jq -s --arg today "$(date -u +%F)" '[.[].results[]] | map(select(.poster_path != null and (.release_date // "") >= $today)) | unique_by(.id) | sort_by(.release_date) | .[0:10]' page1.json page2.json page3.json > list.json
-          n=$(jq length list.json)
-          [ "$n" -gt 0 ] || exit 1
-          : > items.ndjson
-          for i in $(seq 0 $((n-1))); do
-            id=$(jq -r ".[$i].id" list.json)
-            date=$(jq -r ".[$i].release_date" list.json)
-            curl -s "https://api.themoviedb.org/3/movie/$id?api_key=$TMDB_KEY&language=en-US&append_to_response=videos,images&include_image_language=en,null" -o detail.json
-            jq -c --arg date "$date" '{
-              title,
-              date: $date,
-              rating: .vote_average,
-              overview,
-              tagline: (if (.tagline // "") == "" then null else .tagline end),
-              runtime: .runtime,
-              runtime_text: (if (.runtime // 0) > 0 then "\(.runtime/60|floor)h \(.runtime%60)m" else null end),
-              genres: ([.genres[]?.name] | join(" • ")),
-              genres_list: ([.genres[]?.name]),
-              poster: ("https://image.tmdb.org/t/p/w500" + .poster_path),
-              backdrop: (if .backdrop_path then "https://image.tmdb.org/t/p/w780" + .backdrop_path else null end),
-              logo: ([.images.logos[]? | select((.iso_639_1=="en" or .iso_639_1==null) and (.file_path|endswith(".png")))] | sort_by(-.vote_average) | .[0].file_path | if . then "https://image.tmdb.org/t/p/w500" + . else null end),
-              trailer: ([.videos.results[]? | select(.site=="YouTube" and .type=="Trailer")] | .[0].key | if . then "https://www.youtube.com/watch?v=" + . else null end)
-            }' detail.json >> items.ndjson
-          done
-          jq -s '{movies: .}' items.ndjson > movies.json
+          REGIONS: US
+        run: node scripts/build.mjs
       - name: Commit
         run: |
           git config user.name "bot"
           git config user.email "bot@users.noreply.github.com"
-          git add movies.json
+          git add data movies.json
           git diff --cached --quiet || (git commit -m "update" && git push)

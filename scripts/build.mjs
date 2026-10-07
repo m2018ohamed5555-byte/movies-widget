@@ -64,14 +64,16 @@ const prox = date => {
 const vote = m => ((m.vote_average || 0) / 10) * Math.min(1, (m.vote_count || 0) / 200);
 const ok = m => m.poster_path && m.overview && !m.adult && m.popularity >= MIN_POP;
 
-function pick(list, tr, W) {
-  const pool = [...new Map(list.filter(ok).map(m => [m.id, m])).values()];
+function pick(list, tr, W, used, n) {
+  const pool = [...new Map(
+    list.filter(m => ok(m) && !used.has(m.id)).map(m => [m.id, m])
+  ).values()];
   const p = norm(pool, m => m.popularity);
   return pool.map((m, i) => {
     const t = tr.get(m.id) || 0;
     const s = W.pop * p[i] + W.trend * t + W.vote * vote(m) + W.prox * prox(m.release_date);
     return { id: m.id, score: +s.toFixed(4), hot: t > 0 };
-  }).sort((a, b) => b.score - a.score).slice(0, TOP);
+  }).sort((a, b) => b.score - a.score).slice(0, n);
 }
 
 // ---------- details ----------
@@ -116,28 +118,34 @@ async function buildRegion(region) {
   for (const [slug, ids] of Object.entries(PROV)) {
     const pv = ids ? { with_watch_providers: ids, with_watch_monetization_types: 'flatrate' } : {};
     const rt = ids ? '2|3|4|6' : '2|3';
-    const win = (a, b) => ({
-      'release_date.gte': dOff(a), 'release_date.lte': dOff(b), with_release_type: rt,
+    // a..b = تاريخ الإصدار في المنطقة | pa..b = التاريخ الأصلي (يمنع إعادات العرض)
+    const win = (a, b, pa = a) => ({
+      'release_date.gte': dOff(a), 'release_date.lte': dOff(b),
+      'primary_release_date.gte': dOff(pa), 'primary_release_date.lte': dOff(b),
+      with_release_type: rt,
     });
 
     const [ant, rel, base] = await Promise.all([
-      pages('/discover/movie', disc(region, { ...pv, ...win(0, ids ? 180 : 90) }), 3),
-      pages('/discover/movie', disc(region, { ...pv, ...win(ids ? -30 : -14, 0) }), 2),
+      pages('/discover/movie', disc(region, { ...pv, ...win(1, ids ? 180 : 90) }), 3),
+      pages('/discover/movie', disc(region, { ...pv, ...win(ids ? -30 : -14, 0, ids ? -120 : -60) }), 2),
       ids ? pages('/discover/movie', disc(region, pv), 5) : Promise.resolve([]),
     ]);
 
     const have = new Set(base.map(m => m.id));
-    let trn = ids ? trend.filter(m => have.has(m.id)) : trend;
-    if (trn.length < TOP) {
-      const s = new Set(trn.map(m => m.id));
-      trn = [...trn, ...base.filter(m => !s.has(m.id))];
-    }
-
-    const sec = {
-      anticipated: pick(ant, tr, ANT),
-      trending: pick(trn, tr, TRN),
-      released: pick(rel, tr, REL),
+    const used = new Set();
+    const take = (list, W, n = TOP) => {
+      const r = pick(list, tr, W, used, n);
+      r.forEach(m => used.add(m.id));
+      return r;
     };
+
+    const sec = {};
+    sec.anticipated = take(ant, ANT);
+    sec.released = take(rel, REL);
+    let t = take(ids ? trend.filter(m => have.has(m.id)) : trend, TRN);
+    if (ids && t.length < TOP) t = [...t, ...take(base, TRN, TOP - t.length)];
+    sec.trending = t;
+
     for (const k of Object.keys(sec)) {
       sec[k] = (await lim(sec[k], 6, async m => {
         const d = await detail(m.id).catch(() => null);
@@ -164,4 +172,4 @@ for (const region of REGIONS) {
     await writeFile(`data/${region}/${slug}.json`, JSON.stringify(data));
   if (region === REGIONS[0])
     await writeFile('movies.json', JSON.stringify({ movies: files.all.anticipated }));
-}
+      }

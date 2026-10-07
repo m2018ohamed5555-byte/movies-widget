@@ -4,15 +4,27 @@ const KEY = process.env.TMDB_KEY;
 const REGIONS = (process.env.REGIONS || 'US').split(',');
 const API = 'https://api.themoviedb.org/3';
 const IMG = 'https://image.tmdb.org/t/p/';
-const TOP = 10, MIN_POP = 5, MIN_ANT = 5;
+const TOP = 10, MIN_POP = 5, MIN_ANT = 5, MIN_REL = 5, MIN_VOTES = 20;
 
+// ids احتياطية. بتتدمج مع اللي بيتلاقى بالاسم من TMDB
 const PROV = {
-  all: null, netflix: '8', disney: '337', prime: '9|119',
-  max: '1899|384', apple: '350', hulu: '15',
-  paramount: '531', peacock: '386|387',
+  all: [], netflix: [8], disney: [337], prime: [9, 119],
+  max: [1899, 384], apple: [350], hulu: [15],
+  paramount: [531], peacock: [386, 387],
 };
-// الاستوديوهات المرتبطة بكل خدمة (تقدير). Netflix وApple بياناتهم الحقيقية كفاية
+const NAME = {
+  netflix: /^netflix$/i,
+  disney: /^disney(\+| plus)$/i,
+  prime: /^(amazon )?prime video$/i,
+  max: /^(hbo )?max$/i,
+  apple: /^apple tv(\+| plus)$/i,
+  hulu: /^hulu$/i,
+  paramount: /^paramount(\+| plus)( premium| essential)?$/i,
+  peacock: /^peacock( premium)?( plus)?$/i,
+};
 const STUDIO = {
+  netflix: ['Netflix', 'Netflix Animation'],
+  apple: ['Apple Studios', 'Apple Original Films'],
   disney: ['Marvel Studios', 'Lucasfilm Ltd.', 'Pixar', 'Walt Disney Pictures', '20th Century Studios'],
   max: ['Warner Bros. Pictures', 'DC Studios', 'New Line Cinema', 'Legendary Pictures'],
   paramount: ['Paramount Pictures', 'Paramount Animation', 'Nickelodeon Movies'],
@@ -60,7 +72,19 @@ const lim = async (arr, n, fn) => {
   return out;
 };
 
-// ---------- studios ----------
+// ---------- providers & studios ----------
+async function resolveProviders(region) {
+  const d = await get('/watch/providers/movie', { watch_region: region });
+  const list = d.results || [];
+  const out = { all: '' };
+  for (const slug of Object.keys(NAME)) {
+    const hit = list.filter(p => NAME[slug].test(p.provider_name.trim()));
+    out[slug] = [...new Set([...PROV[slug], ...hit.map(p => p.provider_id)])].join('|');
+    console.log('provider', region, slug, out[slug], '|', hit.map(p => p.provider_name).join(', ') || 'NO NAME MATCH');
+  }
+  return out;
+}
+
 const cid = new Map();
 async function companies(names) {
   const out = [];
@@ -110,9 +134,11 @@ const shape = d => {
     .sort((a, b) => b.vote_average - a.vote_average)[0];
   const tr = (d.videos?.results || []).find(v => v.site === 'YouTube' && v.type === 'Trailer');
   const rt = d.runtime || 0;
+  const votes = d.vote_count || 0;
   return {
     id: d.id, title: d.title, date: d.release_date,
-    rating: +(d.vote_average || 0).toFixed(1),
+    rating: votes >= MIN_VOTES ? +(d.vote_average || 0).toFixed(1) : 0,
+    votes,
     overview: d.overview, tagline: d.tagline || null,
     runtime: rt, runtime_text: rt > 0 ? `${Math.floor(rt / 60)}h ${rt % 60}m` : null,
     genres: d.genres.map(g => g.name).join(' • '),
@@ -131,10 +157,14 @@ const detail = id => {
   return cache.get(id);
 };
 
-const enrich = async (list, extra = {}) =>
+const enrich = async list =>
   (await lim(list, 6, async m => {
     const d = await detail(m.id).catch(() => null);
-    return d && { ...d, score: m.score, hot: m.hot, ...(m.src ? { src: m.src } : {}), ...extra };
+    return d && {
+      ...d, score: m.score, hot: m.hot,
+      ...(m.src ? { src: m.src } : {}),
+      ...(m.fb ? { fb: true } : {}),
+    };
   })).filter(Boolean);
 
 // ---------- build ----------
@@ -146,10 +176,12 @@ const disc = (region, extra) => ({
 async function buildRegion(region) {
   const trend = await pages('/trending/movie/day', {}, 3);
   const tr = new Map(trend.map((m, i) => [m.id, 1 - i / trend.length]));
+  const pids = await resolveProviders(region);
   const files = {};
 
-  for (const [slug, ids] of Object.entries(PROV)) {
-    const pv = ids ? { with_watch_providers: ids, with_watch_monetization_types: 'flatrate' } : {};
+  for (const slug of Object.keys(PROV)) {
+    const ids = pids[slug];
+    let pv = ids ? { with_watch_providers: ids, with_watch_monetization_types: 'flatrate' } : {};
     const rt = ids ? '2|3|4|6' : '2|3';
     const win = (a, b, pa = a, t = rt) => ({
       'release_date.gte': dOff(a), 'release_date.lte': dOff(b),
@@ -158,58 +190,76 @@ async function buildRegion(region) {
     });
     const studio = STUDIO[slug] ? await companies(STUDIO[slug]) : '';
 
-    const [ant, rel, base, stu] = await Promise.all([
+    let base = [];
+    if (ids) {
+      base = await pages('/discover/movie', disc(region, pv), 5);
+      if (!base.length) {
+        console.warn('EMPTY base (flatrate) ->', slug, ids, '| retry without flatrate');
+        pv = { with_watch_providers: ids };
+        base = await pages('/discover/movie', disc(region, pv), 5);
+      }
+      if (!base.length) console.warn('EMPTY base ->', slug, ids);
+    }
+
+    const [ant, rel, stu, recent] = await Promise.all([
       pages('/discover/movie', disc(region, { ...pv, ...win(1, ids ? 180 : 90) }), 3),
       pages('/discover/movie', disc(region, { ...pv, ...win(ids ? -30 : -14, 0, ids ? -120 : -30) }), 2),
-      ids ? pages('/discover/movie', disc(region, pv), 5) : Promise.resolve([]),
       studio
-        ? pages('/discover/movie', disc(region, { with_companies: studio, ...win(1, 90, 1, '2|3') }), 2)
+        ? pages('/discover/movie', disc(region, { with_companies: studio, ...win(1, 120, 1, '2|3|4|6') }), 2)
+        : Promise.resolve([]),
+      ids
+        ? pages('/discover/movie', disc(region, {
+            ...pv, sort_by: 'primary_release_date.desc',
+            'primary_release_date.gte': dOff(-365), 'primary_release_date.lte': dOff(0),
+            'vote_count.gte': 20,
+          }), 1)
         : Promise.resolve([]),
     ]);
 
     const have = new Set(base.map(m => m.id));
     const stuIds = new Set(stu.map(m => m.id));
     const used = new Set();
-    const take = (list, W, n = TOP, src) => {
-      const r = pick(list, tr, W, used, n, src);
-      r.forEach(m => used.add(m.id));
-      return r;
+    const take = (list, W, n = TOP, src, extra = {}) =>
+      pick(list, tr, W, used, n, src).map(m => { used.add(m.id); return { ...m, ...extra }; });
+
+    const sec = {
+      anticipated: take([...ant, ...stu], ANT, TOP, stuIds),
+      released: take(rel, REL),
+      trending: take(ids ? trend.filter(m => have.has(m.id)) : trend, TRN),
     };
 
-    const sec = {};
-    sec.anticipated = take([...ant, ...stu], ANT, TOP, stuIds);
     if (ids) {
-      sec.trending = take(trend.filter(m => have.has(m.id)), TRN);
-      sec.released = take(rel, REL);
       if (sec.trending.length < TOP)
-        sec.trending = [...sec.trending, ...take(base, TRN, TOP - sec.trending.length)];
-    } else {
-      sec.released = take(rel, REL);
-      sec.trending = take(trend, TRN);
+        sec.trending.push(...take(base, TRN, TOP - sec.trending.length, undefined, { fb: true }));
+      if (sec.anticipated.length < MIN_ANT)
+        sec.anticipated.push(...take(base, ANT, TOP - sec.anticipated.length, undefined, { fb: true }));
+      if (sec.released.length < MIN_REL) {
+        const fill = recent.filter(m => ok(m) && !used.has(m.id)).slice(0, TOP - sec.released.length);
+        fill.forEach(m => used.add(m.id));
+        sec.released.push(...fill.map(m => ({ id: m.id, score: 0, hot: tr.has(m.id), fb: true })));
+      }
     }
 
     for (const k of Object.keys(sec)) sec[k] = await enrich(sec[k]);
 
-    // لسه ناقص -> نكمّل من أشهر أفلام نفس الـprovider
-    let fb = 0;
-    if (ids && sec.anticipated.length < MIN_ANT) {
-      const extra = await enrich(
-        take(base, ANT, TOP - sec.anticipated.length), { fb: true }
-      );
-      fb = extra.length;
-      sec.anticipated = [...sec.anticipated, ...extra];
-    }
-
+    const cnt = f => ({
+      a: sec.anticipated.filter(f).length,
+      t: sec.trending.filter(f).length,
+      r: sec.released.filter(f).length,
+    });
     files[slug] = {
       meta: {
         region, provider: slug, updated: new Date().toISOString(),
         n: { a: sec.anticipated.length, t: sec.trending.length, r: sec.released.length },
         studio: sec.anticipated.filter(m => m.src === 'studio').length,
-        fb,
+        fb: cnt(m => m.fb),
       },
-      ...sec,
+      anticipated: sec.anticipated,
+      trending: sec.trending,
+      released: sec.released,
     };
-    console.log(region, slug, files[slug].meta.n, 'studio', files[slug].meta.studio, 'fb', fb);
+    console.log(region, slug, JSON.stringify(files[slug].meta.n),
+      'studio', files[slug].meta.studio, 'fb', JSON.stringify(files[slug].meta.fb));
   }
   return files;
 }

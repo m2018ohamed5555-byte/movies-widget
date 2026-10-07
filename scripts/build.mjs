@@ -4,7 +4,7 @@ const KEY = process.env.TMDB_KEY;
 const REGIONS = (process.env.REGIONS || 'US').split(',');
 const API = 'https://api.themoviedb.org/3';
 const IMG = 'https://image.tmdb.org/t/p/';
-const TOP = 10, MIN_POP = 5;
+const TOP = 10, MIN_POP = 5, MIN_ANT = 5;
 
 const PROV = {
   all: null, netflix: '8', disney: '337', prime: '9|119',
@@ -118,7 +118,6 @@ async function buildRegion(region) {
   for (const [slug, ids] of Object.entries(PROV)) {
     const pv = ids ? { with_watch_providers: ids, with_watch_monetization_types: 'flatrate' } : {};
     const rt = ids ? '2|3|4|6' : '2|3';
-    // a..b = تاريخ الإصدار في المنطقة | pa..b = التاريخ الأصلي (يمنع إعادات العرض)
     const win = (a, b, pa = a) => ({
       'release_date.gte': dOff(a), 'release_date.lte': dOff(b),
       'primary_release_date.gte': dOff(pa), 'primary_release_date.lte': dOff(b),
@@ -127,7 +126,7 @@ async function buildRegion(region) {
 
     const [ant, rel, base] = await Promise.all([
       pages('/discover/movie', disc(region, { ...pv, ...win(1, ids ? 180 : 90) }), 3),
-      pages('/discover/movie', disc(region, { ...pv, ...win(ids ? -30 : -14, 0, ids ? -120 : -60) }), 2),
+      pages('/discover/movie', disc(region, { ...pv, ...win(ids ? -30 : -14, 0, ids ? -120 : -30) }), 2),
       ids ? pages('/discover/movie', disc(region, pv), 5) : Promise.resolve([]),
     ]);
 
@@ -141,10 +140,15 @@ async function buildRegion(region) {
 
     const sec = {};
     sec.anticipated = take(ant, ANT);
-    sec.released = take(rel, REL);
-    let t = take(ids ? trend.filter(m => have.has(m.id)) : trend, TRN);
-    if (ids && t.length < TOP) t = [...t, ...take(base, TRN, TOP - t.length)];
-    sec.trending = t;
+    if (ids) {
+      sec.trending = take(trend.filter(m => have.has(m.id)), TRN);
+      sec.released = take(rel, REL);
+      if (sec.trending.length < TOP)
+        sec.trending = [...sec.trending, ...take(base, TRN, TOP - sec.trending.length)];
+    } else {
+      sec.released = take(rel, REL);
+      sec.trending = take(trend, TRN);
+    }
 
     for (const k of Object.keys(sec)) {
       sec[k] = (await lim(sec[k], 6, async m => {
@@ -152,14 +156,28 @@ async function buildRegion(region) {
         return d && { ...d, score: m.score, hot: m.hot };
       })).filter(Boolean);
     }
+
+    // مفيش أفلام قادمة كفاية للـprovider -> نكمّل من All ونعلّمها fb
+    let fb = 0;
+    if (ids && sec.anticipated.length < MIN_ANT) {
+      const s = new Set(sec.anticipated.map(m => m.id));
+      const extra = files.all.anticipated
+        .filter(m => !s.has(m.id))
+        .slice(0, TOP - sec.anticipated.length)
+        .map(m => ({ ...m, fb: true }));
+      fb = extra.length;
+      sec.anticipated = [...sec.anticipated, ...extra];
+    }
+
     files[slug] = {
       meta: {
         region, provider: slug, updated: new Date().toISOString(),
         n: { a: sec.anticipated.length, t: sec.trending.length, r: sec.released.length },
+        fb,
       },
       ...sec,
     };
-    console.log(region, slug, files[slug].meta.n);
+    console.log(region, slug, files[slug].meta.n, 'fb', fb);
   }
   return files;
 }
@@ -172,4 +190,4 @@ for (const region of REGIONS) {
     await writeFile(`data/${region}/${slug}.json`, JSON.stringify(data));
   if (region === REGIONS[0])
     await writeFile('movies.json', JSON.stringify({ movies: files.all.anticipated }));
-      }
+        }

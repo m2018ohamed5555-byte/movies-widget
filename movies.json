@@ -18,42 +18,6 @@
       "trailer": "https://www.youtube.com/watch?v=eY_8SyndC10"
     },
     {
-      "title": "Animals",
-      "date": "2026-10-09",
-      "rating": 0.0,
-      "overview": "When the son of an L.A. mayoral candidate is kidnapped, he and his wife have a few hours to come up with the ransom payment. With most of their money spent on his political campaign, they have to get their hands dirty and expose a side of their lives they never intended to see the light of day.",
-      "tagline": "Power can't protect you.",
-      "runtime": 106,
-      "runtime_text": "1h 46m",
-      "genres": "Crime • Thriller",
-      "genres_list": [
-        "Crime",
-        "Thriller"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w500/cyltXU1lAGhRFBuHQIMWBAPj8fI.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/swcmyUx5lbtPB2Qd8S2VuPK901i.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/dl6aDoFDDjTgNMI4Cui2GmKZUpR.png",
-      "trailer": "https://www.youtube.com/watch?v=ZkN2M4ODdys"
-    },
-    {
-      "title": "Tenzing",
-      "date": "2026-10-09",
-      "rating": 4.0,
-      "overview": "A determined man embarks on a high-stakes quest—and defies seemingly impossible odds—to fulfill his dream of being the first to reach the summit of Mount Everest.",
-      "tagline": "The ascent that made history.",
-      "runtime": 126,
-      "runtime_text": "2h 6m",
-      "genres": "Drama • History",
-      "genres_list": [
-        "Drama",
-        "History"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w500/eI0QW02PYqhnmIvLRdn9vrfVVP7.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/9MdxBPjI58xkzA7RtKX9xRKvlZp.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/oGcjxm8gwgOgRvZ5TAsrCiwdLoS.png",
-      "trailer": "https://www.youtube.com/watch?v=KkYCY5YR12U"
-    },
-    {
       "title": "Fjord",
       "date": "2026-10-09",
       "rating": 7.2,
@@ -71,115 +35,149 @@
       "trailer": "https://www.youtube.com/watch?v=frg59VOungA"
     },
     {
-      "title": "Double Trouble",
-      "date": "2026-10-09",
+      "title": "Jailer 2",
+      "date": "2026-10-15",
       "rating": 0.0,
-      "overview": "Two witty sisters in Vegas get tangled in a holiday heist and join forces with an ex-MI6 guard to outmaneuver a master thief and recover a diamond gauntlet before Christmas.",
+      "overview": "Following the events of \"Jailer\",  former ruthless police officer Muthuvel Pandian must come face-to-face with the consequences of his actions against the antique mafia.",
       "tagline": null,
-      "runtime": 88,
-      "runtime_text": "1h 28m",
+      "runtime": 175,
+      "runtime_text": "2h 55m",
       "genres": "Action • Comedy",
       "genres_list": [
         "Action",
         "Comedy"
       ],
-      "poster": "https://image.tmdb.org/t/p/w500/2ecp59fHPF5Uq6vRQ6CJtyx4iAp.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/36PuIfwqea2yHCu8mep3Qwu5M5u.jpg",
-      "logo": null,
-      "trailer": "https://www.youtube.com/watch?v=gBYr2Ymc-lU"
+      "poster": "https://image.tmdb.org/t/p/w500/uPNAz3mYu6MDh2kA0V6qT2m412T.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/m0ks2o59mOAz6WdCybJ5FAUNTOU.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/7BjhGm81tIXLQC2sWvLTQAj3Gmx.png",
+      "trailer": null
     },
     {
-      "title": "The Florist",
-      "date": "2026-10-09",
-      "rating": 5.5,
-      "overview": "A quiet horticulturalist harboring a secret life as a lethal assassin finds his true identity jeopardized when he forms an unlikely friendship with a witnesses to police corruption.",
+      "title": "Lady Liberty: Secrets of an Icon",
+      "date": "2026-10-15",
+      "rating": 0.0,
+      "overview": "This iconic statue was a gift from France to the new-born American Republic and was the first crowd-funded monument of all time. A symbol of emancipation and freedom, which took two decades to be completed. The film features original 3D virtual reconstitutions of Auguste Bartholdi’s Atelier in Paris and travels back in time to bring viewers at the heart of the Statue’s original construction, revealing the founding ideals of our democracies.",
       "tagline": null,
-      "runtime": 97,
-      "runtime_text": "1h 37m",
-      "genres": "Action • Thriller",
+      "runtime": 89,
+      "runtime_text": "1h 29m",
+      "genres": "Documentary • History • Drama",
+      "genres_list": [
+        "Documentary",
+        "History",
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/pFiBwmii7UJnEEoslEXKzbzy2bU.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/lUH110PY6b9O9V8NjgSWXcqThGZ.jpg",
+      "logo": null,
+      "trailer": "https://www.youtube.com/watch?v=2gCntFQcdfU"
+    },
+    {
+      "title": "Street Fighter",
+      "date": "2026-10-16",
+      "rating": 0.0,
+      "overview": "In 1993, estranged Street Fighters Ryu and Ken Masters are thrown back into combat when the mysterious Chun-Li recruits them for the next World Warrior Tournament: a brutal clash of fists, fate, and fury. But behind this battle royale lies a deadly conspiracy that forces them to face off against each other and the demons of their past. And if they don't, it's GAME OVER!",
+      "tagline": "Ready. Set. Fight.",
+      "runtime": 120,
+      "runtime_text": "2h 0m",
+      "genres": "Action • Fantasy",
       "genres_list": [
         "Action",
-        "Thriller"
+        "Fantasy"
       ],
-      "poster": "https://image.tmdb.org/t/p/w500/w2bdIz33mMXq382aIL6VLGaGEnp.jpg",
-      "backdrop": null,
+      "poster": "https://image.tmdb.org/t/p/w500/dJPT2Uf12X6aFg8i5N67NTpIZ9t.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/zDE9hd1SG9695YncbZGjSf7Z9Jk.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/qoyIWgvedhBFmoRFSoCPIFF3as8.png",
+      "trailer": "https://www.youtube.com/watch?v=U6sbm1OaJb8"
+    },
+    {
+      "title": "Trust Me, I'm a Doctor",
+      "date": "2026-10-16",
+      "rating": 0.0,
+      "overview": "The life of Dr. Sandeep Kapoor was turned upside down when he's implicated in the wrongful death trial of one-time Playboy centerfold Anna Nicole Smith.",
+      "tagline": "Sometimes the truth needs a second opinion.",
+      "runtime": 0,
+      "runtime_text": null,
+      "genres": "Drama • Comedy",
+      "genres_list": [
+        "Drama",
+        "Comedy"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/fG3MKWWnSlpNhXKK9q7pDXyVdCo.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/wmM1wH9BA6U5VO5GPdXjjHeQMO8.jpg",
       "logo": null,
-      "trailer": "https://www.youtube.com/watch?v=LNmIdALXoKo"
+      "trailer": "https://www.youtube.com/watch?v=X4zhhkpI3oY"
     },
     {
-      "title": "Monster Mia",
-      "date": "2026-10-09",
-      "rating": 9.5,
-      "overview": "12-year-old Mia and her scruffy pet rat Quentin are sent to the mysterious Rotwood Academy after one too many problems at school. The new school gives her the creeps, and Mia needs to figure a way out before the students realize she isn't a monster like them! But the vice principal Van Vlad hosts a particular dislike for humans, and Mia is scared he has seen through her act...",
-      "tagline": "Welcome to Rotwood Academy – where fitting in means standing out!",
-      "runtime": 82,
-      "runtime_text": "1h 22m",
-      "genres": "Animation • Fantasy • Family",
-      "genres_list": [
-        "Animation",
-        "Fantasy",
-        "Family"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w500/rEIgF9W6OXJiHpM1fXLVVMqQlfF.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/n6P7q23qH4w0XIdDfvG7Hk7GhSZ.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/955eST6sh0YxE08H7jDfBzjfAd2.png",
-      "trailer": "https://www.youtube.com/watch?v=CbqDABPksnw"
-    },
-    {
-      "title": "Angel and the Badman",
-      "date": "2026-10-09",
+      "title": "Whalefall",
+      "date": "2026-10-16",
       "rating": 0.0,
-      "overview": "A wounded outlaw finds unexpected mercy in the care of a rancher's daughter. The hope of love pulls him toward a different life until the law, and his violent past, close in on his new home. Now he must choose the kind of man he'll become.",
-      "tagline": null,
-      "runtime": 105,
-      "runtime_text": "1h 45m",
-      "genres": "Western • Action • Adventure • Romance",
-      "genres_list": [
-        "Western",
-        "Action",
-        "Adventure",
-        "Romance"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w500/mJe53zlhGBdcjtN1GqncNZ5Unm0.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/qsXgcngz1gH7kRzJfzxU4gCktDn.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/1ZZpyx1mx0TkknaK6SnXpzrxMid.png",
-      "trailer": "https://www.youtube.com/watch?v=3hwFBZ6475g"
-    },
-    {
-      "title": "V/H/S/Mixtape",
-      "date": "2026-10-09",
-      "rating": 0.0,
-      "overview": "V/H/S/MIXTAPE cranks the volume on horror with a blood-soaked collection of cursed music videos, terrifying performances, and found footage. Press play. Pray it stops.",
-      "tagline": "Low fidelity. High body count.",
+      "overview": "Following the death of his father, Jay Gardiner goes diving off the central Coast of California in search of his remains, but is swallowed by a massive sperm whale. While trapped inside its belly with only one hour of oxygen left, Jay comes to realize that the hard-earned lessons his father imparted may be the key to his escape.",
+      "tagline": "Hold your breath.",
       "runtime": 98,
       "runtime_text": "1h 38m",
-      "genres": "Horror • Music • Thriller",
+      "genres": "Thriller",
       "genres_list": [
-        "Horror",
-        "Music",
         "Thriller"
       ],
-      "poster": "https://image.tmdb.org/t/p/w500/uS8yoiA6NfsuYeOTbVfpem8Ib9.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/mpB4pgtUcc7rCLxvlknzCbAQQEE.jpg",
-      "logo": null,
-      "trailer": "https://www.youtube.com/watch?v=GrIouRKyPDw"
+      "poster": "https://image.tmdb.org/t/p/w500/vjTYUTgh9nO88i6HZ4YPRhiFL05.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/dUzzwJpX4Fiet2QJy5P1TxpW1Qa.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/xOqGqHiv8USQMR94A8RjiLsQOTY.png",
+      "trailer": "https://www.youtube.com/watch?v=Dw-5ZGapGTQ"
     },
     {
-      "title": "Fresh Meat",
-      "date": "2026-10-12",
-      "rating": 0.0,
-      "overview": "In the back of a butcher shop, a little girl watches terrifying tales on a screen that must be fed. As its appetite grows, her father must find increasingly gruesome ways to keep the show going.",
-      "tagline": "Only some will make the cut.",
-      "runtime": 115,
-      "runtime_text": "1h 55m",
-      "genres": "Horror",
+      "title": "Crawlers",
+      "date": "2026-10-16",
+      "rating": 6.3,
+      "overview": "Tenants at Paradiso Palms apartments fight a deadly spider invasion while the cunning building manager might be their only hope for survival.",
+      "tagline": "Skin will crawl.",
+      "runtime": 80,
+      "runtime_text": "1h 20m",
+      "genres": "Horror • Thriller",
       "genres_list": [
-        "Horror"
+        "Horror",
+        "Thriller"
       ],
-      "poster": "https://image.tmdb.org/t/p/w500/pDO9mCRhWEtl6MRTksWZ1bPBrnZ.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/19OqRmY4zc6oDLsEODGi9RSmt2I.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/myXZQbAgWsLdhiifisxV8vuwYKW.png",
-      "trailer": "https://www.youtube.com/watch?v=HrFLrIrFQyI"
+      "poster": "https://image.tmdb.org/t/p/w500/lNXeEpg4yLSRwXwOeR5lbPgwbqL.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/ayJsUQ4bEG6yY0UB6lMboiaDfYE.jpg",
+      "logo": null,
+      "trailer": "https://www.youtube.com/watch?v=uLpZTosf6uI"
+    },
+    {
+      "title": "Ranabaali",
+      "date": "2026-10-16",
+      "rating": 0.0,
+      "overview": "Set in 19th-century British India, a fierce leader rises from a drought-stricken land to fight colonial oppression and atrocities.",
+      "tagline": "The legend of the cursed land.",
+      "runtime": 185,
+      "runtime_text": "3h 5m",
+      "genres": "Action • Drama • History",
+      "genres_list": [
+        "Action",
+        "Drama",
+        "History"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/rMg3BFUKs8IaekSJgMT1IYmypk.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/diWGrCrTUPCRF5xQQrndDf2JT1e.jpg",
+      "logo": null,
+      "trailer": null
+    },
+    {
+      "title": "LA BOLA NEGRA",
+      "date": "2026-10-16",
+      "rating": 8.5,
+      "overview": "The intertwined lives of three men in three different eras, three lives intimately linked by sexuality and desire, pain, and legacy.",
+      "tagline": "Love leaves a legacy.",
+      "runtime": 155,
+      "runtime_text": "2h 35m",
+      "genres": "Drama • War",
+      "genres_list": [
+        "Drama",
+        "War"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/l76qrRUs1e1Th4CNeQIQ10TjHOl.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/wM4LLukeBIfhjn7LcVP6VIced4p.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/yo5bUoiAGu5kYJvIjzMq0iCIAU2.png",
+      "trailer": "https://www.youtube.com/watch?v=lBVxKt0gKDY"
     }
   ]
 }

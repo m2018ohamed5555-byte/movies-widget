@@ -31,7 +31,7 @@ jobs:
             logo_url="null"
             if [ -n "$logo_path" ]; then
               curl -sL "https://image.tmdb.org/t/p/w500$logo_path" -o raw_logo.png
-              convert raw_logo.png -resize 500x160 -trim +repage "logos/$id.png"
+              convert raw_logo.png -trim +repage -resize 500x160 -background none -gravity West -extent 500x160 "logos/$id.png"
               logo_url="https://raw.githubusercontent.com/m2018ohamed5555-byte/movies-widget/main/logos/$id.png"
             fi
             jq -c --arg date "$date" --arg logo "$logo_url" '{

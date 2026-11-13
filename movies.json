@@ -56,13 +56,30 @@
       "trailer": "https://www.youtube.com/watch?v=xzh7HzLXXpk"
     },
     {
+      "title": "The First Five Minutes... The Title Design Legacy of Dan Perri",
+      "date": "2026-11-18",
+      "rating": 0.0,
+      "overview": "An in-depth exploration into the life of Dan Perri, the man who created titles for some of the most iconic movies of all time.",
+      "tagline": "Meet the man who made the first five minutes of 300 of your favorite movies.",
+      "runtime": 95,
+      "runtime_text": "1h 35m",
+      "genres": "Documentary",
+      "genres_list": [
+        "Documentary"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/5isFx6NCQwiHSHbxXhODB3AFAd3.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/8XeYvwB7GT2uif6nysOHq7En5D4.jpg",
+      "logo": null,
+      "trailer": null
+    },
+    {
       "title": "ENE Repeat",
       "date": "2026-11-19",
       "rating": 0.0,
       "overview": "A close-knit group of friends embark on another unforgettable journey, where old memories, new adventures, and unexpected twists test their friendship.",
       "tagline": null,
-      "runtime": 155,
-      "runtime_text": "2h 35m",
+      "runtime": 167,
+      "runtime_text": "2h 47m",
       "genres": "Comedy • Drama",
       "genres_list": [
         "Comedy",
@@ -167,24 +184,6 @@
       "backdrop": "https://image.tmdb.org/t/p/w780/aqFZcr2dxSZ2UwWSo1WC6C0rwDf.jpg",
       "logo": "https://raw.githubusercontent.com/m2018ohamed5555-byte/movies-widget/main/logos/1300968.png",
       "trailer": "https://www.youtube.com/watch?v=Dr060OLTodE"
-    },
-    {
-      "title": "Transplant",
-      "date": "2026-11-20",
-      "rating": 0.0,
-      "overview": "A motivated surgical resident pushes himself to extreme lengths while training under a legendary heart transplant surgeon who's obsessed with protecting his perfect reputation.",
-      "tagline": null,
-      "runtime": 93,
-      "runtime_text": "1h 33m",
-      "genres": "Drama • Thriller",
-      "genres_list": [
-        "Drama",
-        "Thriller"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w500/qxtXGskdQu3bnHNjJOiY02mYEbD.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/y8tJBx1UMZ7N1iF4VDLUWTmSMKt.jpg",
-      "logo": null,
-      "trailer": "https://www.youtube.com/watch?v=C2jOKwkC-Aw"
     }
   ]
 }

@@ -20,7 +20,7 @@ jobs:
           path: ~/.u2net
           key: u2net-model-v1
       - name: Install rembg
-        run: pip install rembg onnxruntime
+        run: pip install "rembg[cpu,cli]"
       - name: Warm up rembg model
         run: |
           curl -sL "https://raw.githubusercontent.com/danielgatis/rembg/main/example/animal-1.jpg" -o /tmp/test.jpg

@@ -1,43 +1,6 @@
 {
   "movies": [
     {
-      "title": "Bitter Christmas",
-      "date": "2026-11-13",
-      "rating": 6.2,
-      "overview": "During a long December holiday weekend, a woman, whose mother has recently died, throws herself into work as a form of escape. Her relentless pace is interrupted when a panic attack forces her to take a break.",
-      "tagline": null,
-      "runtime": 111,
-      "runtime_text": "1h 51m",
-      "genres": "Drama • Comedy",
-      "genres_list": [
-        "Drama",
-        "Comedy"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w500/kiPGcHX0YT49nrab76G0bqw3gHW.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/ppLv2F7dhvI3wxaEoOP1E0OyBPP.jpg",
-      "logo": null,
-      "trailer": "https://www.youtube.com/watch?v=R-9dlnkY448"
-    },
-    {
-      "title": "Paper Tiger",
-      "date": "2026-11-13",
-      "rating": 6.0,
-      "overview": "Two brothers become entangled in a scheme that turns out to be too good to be true. As they try to navigate their way through the dangerous world of the Russian mafia, family bonds begin to fray with life-altering consequences.",
-      "tagline": "All debts are paid in blood.",
-      "runtime": 115,
-      "runtime_text": "1h 55m",
-      "genres": "Crime • Drama • Thriller",
-      "genres_list": [
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w500/p6oLmq5KmuWY6uRXBQBL2q30jia.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/wg4Qr8ppCXDgCEgupW9lNsUijF7.jpg",
-      "logo": "https://raw.githubusercontent.com/m2018ohamed5555-byte/movies-widget/main/logos/1381273.png",
-      "trailer": "https://www.youtube.com/watch?v=MLwTyQOhBkw"
-    },
-    {
       "title": "Madden",
       "date": "2026-11-18",
       "rating": 0.0,
@@ -76,7 +39,7 @@
       "title": "ENE Repeat",
       "date": "2026-11-19",
       "rating": 0.0,
-      "overview": "A close-knit group of friends embark on another unforgettable journey, where old memories, new adventures, and unexpected twists test their friendship.",
+      "overview": "Vivek and his gang of friends embark on an attempt to create an ambitious survival film.",
       "tagline": null,
       "runtime": 167,
       "runtime_text": "2h 47m",
@@ -85,7 +48,7 @@
         "Comedy",
         "Drama"
       ],
-      "poster": "https://image.tmdb.org/t/p/w500/yVIJDYaLHEheY1A3ofd0fBCOPHu.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/qMBlRfQNusaUhhBAIcHmforVTW5.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/ygh5XRm9EmEUsBpBPNHnVGmxcSl.jpg",
       "logo": null,
       "trailer": null
@@ -169,7 +132,7 @@
     {
       "title": "The Hunger Games: Sunrise on the Reaping",
       "date": "2026-11-20",
-      "rating": 10.0,
+      "rating": 9.0,
       "overview": "Return to the world of Panem 24 years before the events of The Hunger Games, starting on the morning of the reaping of the 50th Hunger Games, also known as the Second Quarter Quell.",
       "tagline": "Welcome to the Second Quarter Quell.",
       "runtime": 159,
@@ -184,6 +147,42 @@
       "backdrop": "https://image.tmdb.org/t/p/w780/aqFZcr2dxSZ2UwWSo1WC6C0rwDf.jpg",
       "logo": "https://raw.githubusercontent.com/m2018ohamed5555-byte/movies-widget/main/logos/1300968.png",
       "trailer": "https://www.youtube.com/watch?v=Dr060OLTodE"
+    },
+    {
+      "title": "Transplant",
+      "date": "2026-11-20",
+      "rating": 0.0,
+      "overview": "A motivated surgical resident pushes himself to extreme lengths while training under a legendary heart transplant surgeon who's obsessed with protecting his perfect reputation.",
+      "tagline": null,
+      "runtime": 93,
+      "runtime_text": "1h 33m",
+      "genres": "Drama • Thriller",
+      "genres_list": [
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/qxtXGskdQu3bnHNjJOiY02mYEbD.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/y8tJBx1UMZ7N1iF4VDLUWTmSMKt.jpg",
+      "logo": null,
+      "trailer": "https://www.youtube.com/watch?v=C2jOKwkC-Aw"
+    },
+    {
+      "title": "The Vile",
+      "date": "2026-11-20",
+      "rating": 5.0,
+      "overview": "Devoted wife and mother Amani, whose life begins to unravel when her husband returns home with a second wife and an unseen darkness infiltrates her life.",
+      "tagline": "Nothing is what it seems.",
+      "runtime": 97,
+      "runtime_text": "1h 37m",
+      "genres": "Horror • Thriller",
+      "genres_list": [
+        "Horror",
+        "Thriller"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/yzvKrIFvHQwUuibOoHX9xSx0JQ3.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/fbzd4gV8HaE14V4a3D4WKXzc64z.jpg",
+      "logo": null,
+      "trailer": "https://www.youtube.com/watch?v=JqvU-xl_rqk"
     }
   ]
 }

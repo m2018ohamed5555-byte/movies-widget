@@ -13,9 +13,9 @@
         "Drama",
         "History"
       ],
-      "poster": "https://image.tmdb.org/t/p/w500/bRa83oPFFPqaAF3wrpVWPqqfFel.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/bRa83oPFFPqaAF3wrpVWPqqfFel.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/iNKyRudHcd2oXV5eaWE0LbixkX3.jpg",
-      "logo": "https://raw.githubusercontent.com/m2018ohamed5555-byte/movies-widget/main/logos/1131943.png",
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1131943.png",
       "trailer": "https://www.youtube.com/watch?v=xzh7HzLXXpk"
     },
     {
@@ -30,7 +30,7 @@
       "genres_list": [
         "Documentary"
       ],
-      "poster": "https://image.tmdb.org/t/p/w500/5isFx6NCQwiHSHbxXhODB3AFAd3.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/5isFx6NCQwiHSHbxXhODB3AFAd3.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/8XeYvwB7GT2uif6nysOHq7En5D4.jpg",
       "logo": null,
       "trailer": null
@@ -48,7 +48,7 @@
         "Comedy",
         "Drama"
       ],
-      "poster": "https://image.tmdb.org/t/p/w500/qMBlRfQNusaUhhBAIcHmforVTW5.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/qMBlRfQNusaUhhBAIcHmforVTW5.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/ygh5XRm9EmEUsBpBPNHnVGmxcSl.jpg",
       "logo": null,
       "trailer": null
@@ -66,7 +66,7 @@
         "Crime",
         "Drama"
       ],
-      "poster": "https://image.tmdb.org/t/p/w500/c47IqLeltfbQKAAces0eRMmLEi7.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/c47IqLeltfbQKAAces0eRMmLEi7.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/zjCKxJQLVYVGTvqOuUbyBIByvW2.jpg",
       "logo": null,
       "trailer": "https://www.youtube.com/watch?v=T6Ms_6r_k08"
@@ -85,9 +85,9 @@
         "Crime",
         "Thriller"
       ],
-      "poster": "https://image.tmdb.org/t/p/w500/bM37B5CuMWrPyGPpNsKzTGict4Q.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/bM37B5CuMWrPyGPpNsKzTGict4Q.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/i5HacpkXOKQ85lfbnMO3jXvAnPy.jpg",
-      "logo": "https://raw.githubusercontent.com/m2018ohamed5555-byte/movies-widget/main/logos/848700.png",
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/848700.png",
       "trailer": "https://www.youtube.com/watch?v=wdFIMrC4oW8"
     },
     {
@@ -105,9 +105,9 @@
         "Thriller",
         "Drama"
       ],
-      "poster": "https://image.tmdb.org/t/p/w500/ujp2aHu1lWMjAGoletnsmv3mcMn.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/ujp2aHu1lWMjAGoletnsmv3mcMn.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/ppQKMpC4WhEumnzu4aAcWjAr7WU.jpg",
-      "logo": "https://raw.githubusercontent.com/m2018ohamed5555-byte/movies-widget/main/logos/1287520.png",
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1287520.png",
       "trailer": "https://www.youtube.com/watch?v=8N9e-skJ3hw"
     },
     {
@@ -124,9 +124,9 @@
         "Crime",
         "Thriller"
       ],
-      "poster": "https://image.tmdb.org/t/p/w500/8KTcbsdz2PcyA58puJMA3CUnZeA.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/8KTcbsdz2PcyA58puJMA3CUnZeA.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/mFC8CT6L6PaoPc3s8WpvALPNLRD.jpg",
-      "logo": "https://raw.githubusercontent.com/m2018ohamed5555-byte/movies-widget/main/logos/1299329.png",
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1299329.png",
       "trailer": "https://www.youtube.com/watch?v=d7NLG3IfowQ"
     },
     {
@@ -143,9 +143,9 @@
         "Action",
         "Adventure"
       ],
-      "poster": "https://image.tmdb.org/t/p/w500/j1MNyNNgNQL6f27cb3m3uKaPKd6.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/j1MNyNNgNQL6f27cb3m3uKaPKd6.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/aqFZcr2dxSZ2UwWSo1WC6C0rwDf.jpg",
-      "logo": "https://raw.githubusercontent.com/m2018ohamed5555-byte/movies-widget/main/logos/1300968.png",
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1300968.png",
       "trailer": "https://www.youtube.com/watch?v=Dr060OLTodE"
     },
     {
@@ -161,7 +161,7 @@
         "Drama",
         "Thriller"
       ],
-      "poster": "https://image.tmdb.org/t/p/w500/qxtXGskdQu3bnHNjJOiY02mYEbD.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/qxtXGskdQu3bnHNjJOiY02mYEbD.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/y8tJBx1UMZ7N1iF4VDLUWTmSMKt.jpg",
       "logo": null,
       "trailer": "https://www.youtube.com/watch?v=C2jOKwkC-Aw"
@@ -179,7 +179,7 @@
         "Horror",
         "Thriller"
       ],
-      "poster": "https://image.tmdb.org/t/p/w500/yzvKrIFvHQwUuibOoHX9xSx0JQ3.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/yzvKrIFvHQwUuibOoHX9xSx0JQ3.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/fbzd4gV8HaE14V4a3D4WKXzc64z.jpg",
       "logo": null,
       "trailer": "https://www.youtube.com/watch?v=JqvU-xl_rqk"

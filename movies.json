@@ -150,9 +150,9 @@
         "Action",
         "Adventure"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/j1MNyNNgNQL6f27cb3m3uKaPKd6.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/jNcZH8yplxttRlf0wwqfGGMKHxX.jpg",
       "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1300968.jpg",
-      "backdrop_fg": null,
+      "backdrop_fg": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/cutouts/1300968.png",
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1300968.png",
       "trailer": "https://www.youtube.com/watch?v=Dr060OLTodE"
     },

@@ -34,7 +34,7 @@ jobs:
           for p in 1 2 3; do
             curl -s "https://api.themoviedb.org/3/movie/upcoming?api_key=$TMDB_KEY&language=en-US&region=US&page=$p" -o page$p.json
           done
-          jq -s --arg today "$(date -u +%F)" '[.[].results[]] | map(select(.poster_path != null and (.release_date // "") >= $today)) | unique_by(.id) | sort_by(.release_date) | .[0:10]' page1.json page2.json page3.json > list.json
+          jq -s --arg today "$(date -u +%F)" '[.[].results[]] | map(select(.poster_path != null and (.release_date // "") >= $today)) | unique_by(.id) | sort_by(.release_date) | .[0:2]' page1.json page2.json page3.json > list.json
           n=$(jq length list.json)
           [ "$n" -gt 0 ] || exit 1
           mkdir -p logos cutouts backdrops
@@ -97,7 +97,7 @@ jobs:
 
                 echo "movie $id overlap_pct=$pct"
 
-                if [ "$pct" -lt 60 ]; then
+                if [ "$pct" -lt 101 ]; then
                   cp cutout_raw.png "cutouts/$id.png"
                   cutout_url="https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/cutouts/$id.png"
                 fi

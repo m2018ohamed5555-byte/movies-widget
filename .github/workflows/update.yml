@@ -23,7 +23,7 @@ jobs:
         run: pip install "rembg[cpu,cli]"
       - name: Warm up rembg model
         run: |
-          curl -sL "https://raw.githubusercontent.com/danielgatis/rembg/main/example/animal-1.jpg" -o /tmp/test.jpg
+          curl -sL "https://raw.githubusercontent.com/danielgatis/rembg/main/examples/animal-1.jpg" -o /tmp/test.jpg
           rembg i /tmp/test.jpg /tmp/test_out.png
           ls -la ~/.u2net/ || echo "no model folder created"
       - name: Fetch

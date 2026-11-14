@@ -32,7 +32,7 @@ jobs:
             if [ -n "$logo_path" ]; then
               curl -sL "https://image.tmdb.org/t/p/w500$logo_path" -o raw_logo.png
               convert raw_logo.png -trim +repage -resize 500x160\> -background none -gravity West -extent 500x160 -bordercolor none -border 15 "logos/$id.png"
-              logo_url="https://raw.githubusercontent.com/m2018ohamed5555-byte/movies-widget/main/logos/$id.png"
+              logo_url="https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/$id.png"
             fi
             jq -c --arg date "$date" --arg logo "$logo_url" '{
               title,
@@ -44,7 +44,7 @@ jobs:
               runtime_text: (if (.runtime // 0) > 0 then "\(.runtime/60|floor)h \(.runtime%60)m" else null end),
               genres: ([.genres[]?.name] | join(" • ")),
               genres_list: ([.genres[]?.name]),
-              poster: ("https://image.tmdb.org/t/p/w500" + .poster_path),
+              poster: ("https://image.tmdb.org/t/p/w342" + .poster_path),
               backdrop: (if .backdrop_path then "https://image.tmdb.org/t/p/w780" + .backdrop_path else null end),
               logo: (if $logo == "null" then null else $logo end),
               trailer: ([.videos.results[]? | select(.site=="YouTube" and .type=="Trailer")] | .[0].key | if . then "https://www.youtube.com/watch?v=" + . else null end)

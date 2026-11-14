@@ -21,6 +21,11 @@ jobs:
           key: u2net-model-v1
       - name: Install rembg
         run: pip install rembg onnxruntime
+      - name: Warm up rembg model
+        run: |
+          curl -sL "https://raw.githubusercontent.com/danielgatis/rembg/main/example/animal-1.jpg" -o /tmp/test.jpg
+          rembg i /tmp/test.jpg /tmp/test_out.png
+          ls -la ~/.u2net/ || echo "no model folder created"
       - name: Fetch
         env:
           TMDB_KEY: ${{ secrets.TMDB_KEY }}
@@ -55,7 +60,7 @@ jobs:
               convert raw_backdrop.jpg -resize 751x438^ -gravity center -extent 751x438 "backdrops/$id.jpg"
               backdrop_url="https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/$id.jpg"
 
-              rembg i "backdrops/$id.jpg" cutout_raw.png >/dev/null 2>&1 || true
+              rembg i "backdrops/$id.jpg" cutout_raw.png || echo "rembg failed for $id"
 
               if [ -s cutout_raw.png ]; then
                 geo=$(identify -format "%@" cutout_raw.png)

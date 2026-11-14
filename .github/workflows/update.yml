@@ -10,6 +10,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Cache rembg model
+        uses: actions/cache@v4
+        with:
+          path: ~/.u2net
+          key: u2net-model-v1
+      - name: Install rembg
+        run: pip install rembg onnxruntime
       - name: Fetch
         env:
           TMDB_KEY: ${{ secrets.TMDB_KEY }}
@@ -21,12 +32,13 @@ jobs:
           jq -s --arg today "$(date -u +%F)" '[.[].results[]] | map(select(.poster_path != null and (.release_date // "") >= $today)) | unique_by(.id) | sort_by(.release_date) | .[0:10]' page1.json page2.json page3.json > list.json
           n=$(jq length list.json)
           [ "$n" -gt 0 ] || exit 1
-          mkdir -p logos
+          mkdir -p logos cutouts backdrops
           : > items.ndjson
           for i in $(seq 0 $((n-1))); do
             id=$(jq -r ".[$i].id" list.json)
             date=$(jq -r ".[$i].release_date" list.json)
             curl -s "https://api.themoviedb.org/3/movie/$id?api_key=$TMDB_KEY&language=en-US&append_to_response=videos,images&include_image_language=en,null" -o detail.json
+
             logo_path=$(jq -r '[.images.logos[]? | select((.iso_639_1=="en" or .iso_639_1==null) and (.file_path|endswith(".png")))] | sort_by(-.vote_average) | .[0].file_path // empty' detail.json)
             logo_url="null"
             if [ -n "$logo_path" ]; then
@@ -34,7 +46,60 @@ jobs:
               convert raw_logo.png -trim +repage -resize 500x160\> -background none -gravity West -extent 500x160 -bordercolor none -border 15 "logos/$id.png"
               logo_url="https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/$id.png"
             fi
-            jq -c --arg date "$date" --arg logo "$logo_url" '{
+
+            backdrop_path=$(jq -r '.backdrop_path // empty' detail.json)
+            backdrop_url="null"
+            cutout_url="null"
+            if [ -n "$backdrop_path" ]; then
+              curl -sL "https://image.tmdb.org/t/p/w780$backdrop_path" -o raw_backdrop.jpg
+              convert raw_backdrop.jpg -resize 751x438^ -gravity center -extent 751x438 "backdrops/$id.jpg"
+              backdrop_url="https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/$id.jpg"
+
+              rembg i "backdrops/$id.jpg" cutout_raw.png >/dev/null 2>&1 || true
+
+              if [ -s cutout_raw.png ]; then
+                geo=$(identify -format "%@" cutout_raw.png)
+                cw=$(echo "$geo" | sed -E 's/^([0-9]+)x.*/\1/')
+                ch=$(echo "$geo" | sed -E 's/^[0-9]+x([0-9]+).*/\1/')
+                cx=$(echo "$geo" | sed -E 's/^[0-9]+x[0-9]+\+(-?[0-9]+)\+.*/\1/')
+                cy=$(echo "$geo" | sed -E 's/^[0-9]+x[0-9]+\+-?[0-9]+\+(-?[0-9]+)$/\1/')
+
+                logo_w=500
+                logo_h=160
+                lx1=0
+                ly1=$(( (438 - logo_h) / 2 ))
+                lx2=$logo_w
+                ly2=$(( ly1 + logo_h ))
+
+                cx2=$((cx + cw))
+                cy2=$((cy + ch))
+                ox1=$(( cx > lx1 ? cx : lx1 ))
+                oy1=$(( cy > ly1 ? cy : ly1 ))
+                ox2=$(( cx2 < lx2 ? cx2 : lx2 ))
+                oy2=$(( cy2 < ly2 ? cy2 : ly2 ))
+                ow=$(( ox2 - ox1 ))
+                oh=$(( oy2 - oy1 ))
+
+                overlap_area=0
+                if [ "$ow" -gt 0 ] && [ "$oh" -gt 0 ]; then
+                  overlap_area=$((ow * oh))
+                fi
+                logo_area=$((logo_w * logo_h))
+                pct=0
+                if [ "$logo_area" -gt 0 ]; then
+                  pct=$(( overlap_area * 100 / logo_area ))
+                fi
+
+                echo "movie $id overlap_pct=$pct"
+
+                if [ "$pct" -lt 60 ]; then
+                  cp cutout_raw.png "cutouts/$id.png"
+                  cutout_url="https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/cutouts/$id.png"
+                fi
+              fi
+            fi
+
+            jq -c --arg date "$date" --arg logo "$logo_url" --arg backdrop "$backdrop_url" --arg cutout "$cutout_url" '{
               title,
               date: $date,
               rating: .vote_average,
@@ -45,7 +110,8 @@ jobs:
               genres: ([.genres[]?.name] | join(" • ")),
               genres_list: ([.genres[]?.name]),
               poster: ("https://image.tmdb.org/t/p/w342" + .poster_path),
-              backdrop: (if .backdrop_path then "https://image.tmdb.org/t/p/w780" + .backdrop_path else null end),
+              backdrop: (if $backdrop == "null" then null else $backdrop end),
+              backdrop_fg: (if $cutout == "null" then null else $cutout end),
               logo: (if $logo == "null" then null else $logo end),
               trailer: ([.videos.results[]? | select(.site=="YouTube" and .type=="Trailer")] | .[0].key | if . then "https://www.youtube.com/watch?v=" + . else null end)
             }' detail.json >> items.ndjson
@@ -55,5 +121,5 @@ jobs:
         run: |
           git config user.name "bot"
           git config user.email "bot@users.noreply.github.com"
-          git add movies.json logos
+          git add movies.json logos cutouts backdrops
           git diff --cached --quiet || (git commit -m "update" && git push)

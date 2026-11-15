@@ -15,7 +15,7 @@
       ],
       "poster": "https://image.tmdb.org/t/p/w342/bRa83oPFFPqaAF3wrpVWPqqfFel.jpg",
       "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1131943.jpg",
-      "backdrop_fg": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/cutouts/1131943.png",
+      "backdrop_fg": null,
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1131943.png",
       "trailer": "https://www.youtube.com/watch?v=xzh7HzLXXpk"
     },
@@ -33,7 +33,165 @@
       ],
       "poster": "https://image.tmdb.org/t/p/w342/5isFx6NCQwiHSHbxXhODB3AFAd3.jpg",
       "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1815534.jpg",
-      "backdrop_fg": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/cutouts/1815534.png",
+      "backdrop_fg": null,
+      "logo": null,
+      "trailer": null
+    },
+    {
+      "title": "ENE Repeat",
+      "date": "2026-11-19",
+      "rating": 0.0,
+      "overview": "Vivek and his gang of friends embark on an attempt to create an ambitious survival film.",
+      "tagline": null,
+      "runtime": 167,
+      "runtime_text": "2h 47m",
+      "genres": "Comedy • Drama",
+      "genres_list": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/qMBlRfQNusaUhhBAIcHmforVTW5.jpg",
+      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1505644.jpg",
+      "backdrop_fg": null,
+      "logo": null,
+      "trailer": null
+    },
+    {
+      "title": "Dark Noon",
+      "date": "2026-11-19",
+      "rating": 0.0,
+      "overview": "Caught in a cycle of petty crime and imprisonment, a man is released from prison for a failed bank robbery attempt while an impending solar eclipse offers a way out of the cycle.",
+      "tagline": null,
+      "runtime": 84,
+      "runtime_text": "1h 24m",
+      "genres": "Crime • Drama",
+      "genres_list": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/c47IqLeltfbQKAAces0eRMmLEi7.jpg",
+      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1809505.jpg",
+      "backdrop_fg": null,
+      "logo": null,
+      "trailer": "https://www.youtube.com/watch?v=T6Ms_6r_k08"
+    },
+    {
+      "title": "Minotaur",
+      "date": "2026-11-20",
+      "rating": 7.4,
+      "overview": "When Gleb, a successful company director, finds himself under siege from mounting corporate pressures, an increasingly unstable world, and the discovery of his wife's affair, the collapse of his carefully ordered life accelerates toward violence.",
+      "tagline": "Morality is a maze.",
+      "runtime": 142,
+      "runtime_text": "2h 22m",
+      "genres": "Drama • Crime • Thriller",
+      "genres_list": [
+        "Drama",
+        "Crime",
+        "Thriller"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/bM37B5CuMWrPyGPpNsKzTGict4Q.jpg",
+      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/848700.jpg",
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/848700.png",
+      "trailer": "https://www.youtube.com/watch?v=wdFIMrC4oW8"
+    },
+    {
+      "title": "November 1963",
+      "date": "2026-11-20",
+      "rating": 0.0,
+      "overview": "Follows the 48 hours after the assassination of President John F. Kennedy, the alleged involvement of Sam Giancana and the 'Chicago Outfit', and a supposed broken promise after the mob helped to get Kennedy elected.",
+      "tagline": "Betrayed by power. Fuelled by revenge.",
+      "runtime": 120,
+      "runtime_text": "2h 0m",
+      "genres": "History • Crime • Thriller • Drama",
+      "genres_list": [
+        "History",
+        "Crime",
+        "Thriller",
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/ujp2aHu1lWMjAGoletnsmv3mcMn.jpg",
+      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1287520.jpg",
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1287520.png",
+      "trailer": "https://www.youtube.com/watch?v=8N9e-skJ3hw"
+    },
+    {
+      "title": "Josephine",
+      "date": "2026-11-20",
+      "rating": 0.0,
+      "overview": "After eight-year-old Josephine accidentally witnesses a brutal assault, she begins acting out violently to protect herself. This emotional trauma leads to conflicts between her parents as they search for justice and a way to feel safe again.",
+      "tagline": "Too young to understand. Too old to forget.",
+      "runtime": 119,
+      "runtime_text": "1h 59m",
+      "genres": "Drama • Crime • Thriller",
+      "genres_list": [
+        "Drama",
+        "Crime",
+        "Thriller"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/8KTcbsdz2PcyA58puJMA3CUnZeA.jpg",
+      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1299329.jpg",
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1299329.png",
+      "trailer": "https://www.youtube.com/watch?v=d7NLG3IfowQ"
+    },
+    {
+      "title": "The Hunger Games: Sunrise on the Reaping",
+      "date": "2026-11-20",
+      "rating": 9.25,
+      "overview": "Return to the world of Panem 24 years before the events of The Hunger Games, starting on the morning of the reaping of the 50th Hunger Games, also known as the Second Quarter Quell.",
+      "tagline": "Welcome to the Second Quarter Quell.",
+      "runtime": 159,
+      "runtime_text": "2h 39m",
+      "genres": "Science Fiction • Action • Adventure",
+      "genres_list": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/jNcZH8yplxttRlf0wwqfGGMKHxX.jpg",
+      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1300968.jpg",
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1300968.png",
+      "trailer": "https://www.youtube.com/watch?v=Dr060OLTodE"
+    },
+    {
+      "title": "Transplant",
+      "date": "2026-11-20",
+      "rating": 0.0,
+      "overview": "A motivated surgical resident pushes himself to extreme lengths while training under a legendary heart transplant surgeon who's obsessed with protecting his perfect reputation.",
+      "tagline": null,
+      "runtime": 93,
+      "runtime_text": "1h 33m",
+      "genres": "Drama • Thriller",
+      "genres_list": [
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/qxtXGskdQu3bnHNjJOiY02mYEbD.jpg",
+      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1359254.jpg",
+      "backdrop_fg": null,
+      "logo": null,
+      "trailer": "https://www.youtube.com/watch?v=C2jOKwkC-Aw"
+    },
+    {
+      "title": "O.M: Operation Mole",
+      "date": "2026-11-20",
+      "rating": 0.0,
+      "overview": "Set across the temple corridors of Tirupati and Tiruvannamalai, an elite undercover operative infiltrates a sprawling transnational red sanders syndicate. As criminal politics escalate, a covert task force launches Operation Mole to dismantle the cartel from within.",
+      "tagline": null,
+      "runtime": 179,
+      "runtime_text": "2h 59m",
+      "genres": "Crime • Action • Thriller",
+      "genres_list": [
+        "Crime",
+        "Action",
+        "Thriller"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/vFnFLqXjf7RQfkNxrrys43BZKxJ.jpg",
+      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1384528.jpg",
+      "backdrop_fg": null,
       "logo": null,
       "trailer": null
     }

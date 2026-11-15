@@ -34,7 +34,7 @@ jobs:
           for p in 1 2 3; do
             curl -s "https://api.themoviedb.org/3/movie/upcoming?api_key=$TMDB_KEY&language=en-US&region=US&page=$p" -o page$p.json
           done
-          jq -s --arg today "$(date -u +%F)" '[.[].results[]] | map(select(.poster_path != null and (.release_date // "") >= $today)) | unique_by(.id) | sort_by(.release_date) | .[0:2]' page1.json page2.json page3.json > list.json
+          jq -s --arg today "$(date -u +%F)" '[.[].results[]] | map(select(.poster_path != null and (.release_date // "") >= $today)) | unique_by(.id) | sort_by(.release_date) | .[0:10]' page1.json page2.json page3.json > list.json
           n=$(jq length list.json)
           [ "$n" -gt 0 ] || exit 1
           mkdir -p logos cutouts backdrops
@@ -89,16 +89,26 @@ jobs:
                 if [ "$ow" -gt 0 ] && [ "$oh" -gt 0 ]; then
                   overlap_area=$((ow * oh))
                 fi
+
                 logo_area=$((logo_w * logo_h))
-                pct=0
+                char_area=$((cw * ch))
+
+                pct_logo=0
                 if [ "$logo_area" -gt 0 ]; then
-                  pct=$(( overlap_area * 100 / logo_area ))
+                  pct_logo=$(( overlap_area * 100 / logo_area ))
+                fi
+                pct_char=0
+                if [ "$char_area" -gt 0 ]; then
+                  pct_char=$(( overlap_area * 100 / char_area ))
                 fi
 
-                echo "movie $id overlap_pct=$pct"
+                echo "movie $id overlap_logo=$pct_logo overlap_char=$pct_char"
 
-                if [ "$pct" -lt 101 ]; then
+                if [ "$overlap_area" -eq 0 ]; then
                   cp cutout_raw.png "cutouts/$id.png"
+                  cutout_url="https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/cutouts/$id.png"
+                elif [ "$pct_logo" -lt 70 ] && [ "$pct_char" -lt 60 ]; then
+                  convert cutout_raw.png -alpha set -region ${logo_w}x${logo_h}+${lx1}+${ly1} -alpha transparent +region "cutouts/$id.png"
                   cutout_url="https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/cutouts/$id.png"
                 fi
               fi

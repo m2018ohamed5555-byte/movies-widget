@@ -1,25 +1,6 @@
 {
   "movies": [
     {
-      "title": "Madden",
-      "date": "2026-11-18",
-      "rating": 0.0,
-      "overview": "Chronicles John Madden's incredible journey alongside best friend and true original Al Davis—from a Super Bowl-winning partnership with the Raiders, to becoming football’s most recognizable voice, to building the worldwide Madden NFL video game.",
-      "tagline": null,
-      "runtime": 110,
-      "runtime_text": "1h 50m",
-      "genres": "Drama • History",
-      "genres_list": [
-        "Drama",
-        "History"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/bRa83oPFFPqaAF3wrpVWPqqfFel.jpg",
-      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1131943.jpg",
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1131943.png",
-      "trailer": "https://www.youtube.com/watch?v=xzh7HzLXXpk"
-    },
-    {
       "title": "The First Five Minutes... The Title Design Legacy of Dan Perri",
       "date": "2026-11-18",
       "rating": 0.0,
@@ -194,6 +175,25 @@
       "backdrop_fg": null,
       "logo": null,
       "trailer": null
+    },
+    {
+      "title": "The Vile",
+      "date": "2026-11-20",
+      "rating": 5.0,
+      "overview": "Devoted wife and mother Amani, whose life begins to unravel when her husband returns home with a second wife and an unseen darkness infiltrates her life.",
+      "tagline": "Nothing is what it seems.",
+      "runtime": 97,
+      "runtime_text": "1h 37m",
+      "genres": "Horror • Thriller",
+      "genres_list": [
+        "Horror",
+        "Thriller"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/yzvKrIFvHQwUuibOoHX9xSx0JQ3.jpg",
+      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1500908.jpg",
+      "backdrop_fg": null,
+      "logo": null,
+      "trailer": "https://www.youtube.com/watch?v=JqvU-xl_rqk"
     }
   ]
 }

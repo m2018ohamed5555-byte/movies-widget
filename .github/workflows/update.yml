@@ -25,26 +25,51 @@ jobs:
         run: |
           curl -sL "https://raw.githubusercontent.com/danielgatis/rembg/main/examples/animal-1.jpg" -o /tmp/test.jpg
           rembg i /tmp/test.jpg /tmp/test_out.png
-          ls -la /home/runner/.u2net/ || echo "no model folder created"
-      - name: Fetch
+      - name: Select candidates
         env:
           TMDB_KEY: ${{ secrets.TMDB_KEY }}
         run: |
           sudo apt-get install -y imagemagick >/dev/null 2>&1 || true
-          for p in 1 2 3; do
-            curl -s "https://api.themoviedb.org/3/movie/upcoming?api_key=$TMDB_KEY&language=en-US&region=US&page=$p" -o page$p.json
-          done
-          jq -s --arg today "$(date -u +%F)" '[.[].results[]] | map(select(.poster_path != null and (.release_date // "") >= $today)) | unique_by(.id) | sort_by(.release_date) | .[0:10]' page1.json page2.json page3.json > list.json
-          n=$(jq length list.json)
-          [ "$n" -gt 0 ] || exit 1
-          mkdir -p logos cutouts backdrops
-          : > items.ndjson
-          for i in $(seq 0 $((n-1))); do
-            id=$(jq -r ".[$i].id" list.json)
-            date=$(jq -r ".[$i].release_date" list.json)
-            curl -s "https://api.themoviedb.org/3/movie/$id?api_key=$TMDB_KEY&language=en-US&append_to_response=videos,images&include_image_language=en,null" -o detail.json
+          today="$(date -u +%F)"
+          future="$(date -u -d '+180 days' +%F)"
 
-            logo_path=$(jq -r '[.images.logos[]? | select((.iso_639_1=="en" or .iso_639_1==null) and (.file_path|endswith(".png")))] | sort_by(-.vote_average) | .[0].file_path // empty' detail.json)
+          for p in 1 2; do curl -s "https://api.themoviedb.org/3/trending/movie/week?api_key=$TMDB_KEY&page=$p" -o tw$p.json; done
+          curl -s "https://api.themoviedb.org/3/trending/movie/day?api_key=$TMDB_KEY&page=1" -o td1.json
+          for p in 1 2 3 4; do curl -s "https://api.themoviedb.org/3/discover/movie?api_key=$TMDB_KEY&language=en-US&region=US&include_adult=false&include_video=false&sort_by=popularity.desc&primary_release_date.gte=$today&primary_release_date.lte=$future&page=$p" -o da$p.json; done
+          for p in 1 2; do curl -s "https://api.themoviedb.org/3/movie/upcoming?api_key=$TMDB_KEY&language=en-US&region=US&page=$p" -o up$p.json; done
+
+          jq -s '[.[].results[]]' tw1.json tw2.json > trend_week.json
+          jq -s '[.[].results[]]' td1.json > trend_day.json
+          jq -s '[.[].results[]]' da1.json da2.json da3.json da4.json > disc_ant.json
+          jq -s '[.[].results[]]' up1.json up2.json > upcoming.json
+
+          jq -n \
+            --slurpfile trend_week trend_week.json \
+            --slurpfile trend_day trend_day.json \
+            --slurpfile disc_ant disc_ant.json \
+            --slurpfile upcoming upcoming.json \
+            --arg today "$today" \
+            -f select.jq > selection.json
+
+          echo "=== selection counts ==="
+          jq '{featured: (.featured|length), trending: (.trending|length), anticipated: (.anticipated|length)}' selection.json
+
+          fc=$(jq '.featured|length' selection.json)
+          tc=$(jq '.trending|length' selection.json)
+          ac=$(jq '.anticipated|length' selection.json)
+          [ "$fc" -ge 1 ] && [ "$tc" -ge 1 ] && [ "$ac" -ge 1 ] || { echo "selection produced an empty section, aborting"; exit 1; }
+      - name: Build details & images
+        env:
+          TMDB_KEY: ${{ secrets.TMDB_KEY }}
+        run: |
+          mkdir -p logos cutouts backdrops details
+          feat_ids=$(jq -r '.featured[]' selection.json)
+          all_ids=$(jq -r '[.featured[], .trending[], .anticipated[]] | unique | .[]' selection.json)
+
+          for id in $all_ids; do
+            curl -s "https://api.themoviedb.org/3/movie/$id?api_key=$TMDB_KEY&language=en-US&append_to_response=videos,images&include_image_language=en,null" -o "detail_$id.json"
+
+            logo_path=$(jq -r '[.images.logos[]? | select((.iso_639_1=="en" or .iso_639_1==null) and (.file_path|endswith(".png")))] | sort_by(-.vote_average) | .[0].file_path // empty' "detail_$id.json")
             logo_url="null"
             if [ -n "$logo_path" ]; then
               curl -sL "https://image.tmdb.org/t/p/w500$logo_path" -o raw_logo.png
@@ -52,124 +77,135 @@ jobs:
               logo_url="https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/$id.png"
             fi
 
-            backdrop_path=$(jq -r '.backdrop_path // empty' detail.json)
+            is_featured=0
+            for fid in $feat_ids; do [ "$fid" = "$id" ] && is_featured=1; done
+
             backdrop_url="null"
             cutout_url="null"
-            if [ -n "$backdrop_path" ]; then
-              curl -sL "https://image.tmdb.org/t/p/w780$backdrop_path" -o raw_backdrop.jpg
-              convert raw_backdrop.jpg -resize 751x438^ -gravity center -extent 751x438 "backdrops/$id.jpg"
-              backdrop_url="https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/$id.jpg"
+            if [ "$is_featured" -eq 1 ]; then
+              backdrop_path=$(jq -r '.backdrop_path // empty' "detail_$id.json")
+              if [ -n "$backdrop_path" ]; then
+                curl -sL "https://image.tmdb.org/t/p/w780$backdrop_path" -o raw_backdrop.jpg
+                convert raw_backdrop.jpg -resize 751x438^ -gravity center -extent 751x438 "backdrops/$id.jpg"
+                backdrop_url="https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/$id.jpg"
 
-              rembg i "backdrops/$id.jpg" cutout_raw.png || echo "rembg failed for $id"
+                rembg i "backdrops/$id.jpg" cutout_raw.png || echo "rembg failed for $id"
 
-              if [ -s cutout_raw.png ]; then
-                geo=$(identify -format "%@" cutout_raw.png)
-                cw=$(echo "$geo" | sed -E 's/^([0-9]+)x.*/\1/')
-                ch=$(echo "$geo" | sed -E 's/^[0-9]+x([0-9]+).*/\1/')
-                cx=$(echo "$geo" | sed -E 's/^[0-9]+x[0-9]+\+(-?[0-9]+)\+.*/\1/')
-                cy=$(echo "$geo" | sed -E 's/^[0-9]+x[0-9]+\+-?[0-9]+\+(-?[0-9]+)$/\1/')
+                if [ -s cutout_raw.png ]; then
+                  geo=$(identify -format "%@" cutout_raw.png)
+                  cw=$(echo "$geo" | sed -E 's/^([0-9]+)x.*/\1/')
+                  ch=$(echo "$geo" | sed -E 's/^[0-9]+x([0-9]+).*/\1/')
+                  cx=$(echo "$geo" | sed -E 's/^[0-9]+x[0-9]+\+(-?[0-9]+)\+.*/\1/')
+                  cy=$(echo "$geo" | sed -E 's/^[0-9]+x[0-9]+\+-?[0-9]+\+(-?[0-9]+)$/\1/')
 
-                canvas_w=751
-                canvas_h=438
-                logo_w=500
-                logo_h=160
-                lx1=0
-                ly1=139
+                  canvas_w=751; canvas_h=438; logo_w=500; logo_h=160; lx1=0; ly1=139
 
-                width_ratio=$(( cw * 100 / canvas_w ))
-                height_ratio=$(( ch * 100 / canvas_h ))
-                center_x=$(( cx + cw / 2 ))
-                center_ratio=$(( center_x * 100 / canvas_w ))
+                  width_ratio=$(( cw * 100 / canvas_w ))
+                  height_ratio=$(( ch * 100 / canvas_h ))
+                  center_x=$(( cx + cw / 2 ))
+                  center_ratio=$(( center_x * 100 / canvas_w ))
 
-                total_occ=$(convert cutout_raw.png -alpha extract -threshold 10% -format "%[fx:mean*100]" info: 2>/dev/null)
-                logo_occ=$(convert cutout_raw.png -alpha extract -threshold 10% -crop ${logo_w}x${logo_h}+${lx1}+${ly1} +repage -format "%[fx:mean*100]" info: 2>/dev/null)
-                total_occ_i=$(printf "%.0f" "${total_occ:-0}" 2>/dev/null || echo 0)
-                logo_occ_i=$(printf "%.0f" "${logo_occ:-0}" 2>/dev/null || echo 0)
+                  total_occ=$(convert cutout_raw.png -alpha extract -threshold 10% -format "%[fx:mean*100]" info: 2>/dev/null)
+                  logo_occ=$(convert cutout_raw.png -alpha extract -threshold 10% -crop ${logo_w}x${logo_h}+${lx1}+${ly1} +repage -format "%[fx:mean*100]" info: 2>/dev/null)
+                  total_occ_i=$(printf "%.0f" "${total_occ:-0}" 2>/dev/null || echo 0)
+                  logo_occ_i=$(printf "%.0f" "${logo_occ:-0}" 2>/dev/null || echo 0)
 
-                subject_overlap_ratio=$(awk -v l="${logo_occ:-0}" -v t="${total_occ:-0}" 'BEGIN{
-                  logo_area=500*160; canvas_area=751*438;
-                  lf=l/100*logo_area; tf=t/100*canvas_area;
-                  if (tf<=0) {print 0} else {printf "%.0f", (lf*100)/tf}
-                }')
+                  subject_overlap_ratio=$(awk -v l="${logo_occ:-0}" -v t="${total_occ:-0}" 'BEGIN{
+                    logo_area=500*160; canvas_area=751*438;
+                    lf=l/100*logo_area; tf=t/100*canvas_area;
+                    if (tf<=0) {print 0} else {printf "%.0f", (lf*100)/tf}
+                  }')
 
-                reject=0
-                reason=""
-                if [ "$total_occ_i" -lt 1 ]; then reject=1; reason="empty_cutout"; fi
-                if [ "$reject" -eq 0 ] && [ "$width_ratio" -gt 85 ]; then reject=1; reason="width_${width_ratio}"; fi
-                if [ "$reject" -eq 0 ] && [ "$height_ratio" -gt 98 ]; then reject=1; reason="height_${height_ratio}"; fi
-                if [ "$reject" -eq 0 ] && [ "$logo_occ_i" -gt 25 ]; then reject=1; reason="logo_coverage_${logo_occ_i}"; fi
-                if [ "$reject" -eq 0 ] && [ "$subject_overlap_ratio" -gt 45 ]; then reject=1; reason="subject_overlap_${subject_overlap_ratio}"; fi
+                  reject=0; reason=""
+                  if [ "$total_occ_i" -lt 1 ]; then reject=1; reason="empty_cutout"; fi
+                  if [ "$reject" -eq 0 ] && [ "$width_ratio" -gt 85 ]; then reject=1; reason="width_${width_ratio}"; fi
+                  if [ "$reject" -eq 0 ] && [ "$height_ratio" -gt 98 ]; then reject=1; reason="height_${height_ratio}"; fi
+                  if [ "$reject" -eq 0 ] && [ "$logo_occ_i" -gt 25 ]; then reject=1; reason="logo_coverage_${logo_occ_i}"; fi
+                  if [ "$reject" -eq 0 ] && [ "$subject_overlap_ratio" -gt 45 ]; then reject=1; reason="subject_overlap_${subject_overlap_ratio}"; fi
 
-                grid_warn=0
-                if [ "$reject" -eq 0 ]; then
-                  max_cell=0
-                  left_col_sum=0
-                  central_warn=0
-                  prev_central=0
-                  for row in 0 1 2 3; do
-                    for col in 0 1 2 3 4; do
-                      gx=$((col*100)); gy=$((ly1+row*40))
-                      cell_occ=$(convert cutout_raw.png -alpha extract -threshold 10% -crop 100x40+${gx}+${gy} +repage -format "%[fx:mean*100]" info: 2>/dev/null)
-                      cell_i=$(printf "%.0f" "${cell_occ:-0}" 2>/dev/null || echo 0)
-                      if [ "$cell_i" -gt "$max_cell" ]; then max_cell=$cell_i; fi
-                      if [ "$col" -eq 0 ]; then left_col_sum=$((left_col_sum + cell_i)); fi
-                      if [ "$col" -ge 1 ] && [ "$col" -le 3 ] && [ "$cell_i" -gt 30 ]; then
-                        if [ "$prev_central" -eq 1 ]; then central_warn=1; fi
-                        prev_central=1
-                      else
-                        prev_central=0
-                      fi
+                  grid_warn=0
+                  if [ "$reject" -eq 0 ]; then
+                    max_cell=0; left_col_sum=0; central_warn=0; prev_central=0
+                    for row in 0 1 2 3; do
+                      for col in 0 1 2 3 4; do
+                        gx=$((col*100)); gy=$((ly1+row*40))
+                        cell_occ=$(convert cutout_raw.png -alpha extract -threshold 10% -crop 100x40+${gx}+${gy} +repage -format "%[fx:mean*100]" info: 2>/dev/null)
+                        cell_i=$(printf "%.0f" "${cell_occ:-0}" 2>/dev/null || echo 0)
+                        if [ "$cell_i" -gt "$max_cell" ]; then max_cell=$cell_i; fi
+                        if [ "$col" -eq 0 ]; then left_col_sum=$((left_col_sum + cell_i)); fi
+                        if [ "$col" -ge 1 ] && [ "$col" -le 3 ] && [ "$cell_i" -gt 30 ]; then
+                          if [ "$prev_central" -eq 1 ]; then central_warn=1; fi
+                          prev_central=1
+                        else
+                          prev_central=0
+                        fi
+                      done
                     done
-                  done
-                  if [ "$max_cell" -gt 50 ]; then grid_warn=1; fi
-                  if [ "$central_warn" -eq 1 ]; then grid_warn=1; fi
-                  if [ "$left_col_sum" -gt 100 ]; then grid_warn=1; fi
-                fi
+                    if [ "$max_cell" -gt 50 ]; then grid_warn=1; fi
+                    if [ "$central_warn" -eq 1 ]; then grid_warn=1; fi
+                    if [ "$left_col_sum" -gt 100 ]; then grid_warn=1; fi
+                  fi
 
-                if [ "$reject" -eq 0 ]; then
-                  if [ "$logo_occ_i" -ge 15 ]; then
-                    if [ "$center_ratio" -lt 65 ] || [ "$grid_warn" -eq 1 ] || [ "$width_ratio" -ge 70 ] || [ "$height_ratio" -ge 90 ]; then
-                      reject=1; reason="high_interference_unfavorable"
-                    fi
-                  elif [ "$logo_occ_i" -ge 8 ]; then
-                    if [ "$center_ratio" -lt 50 ] || [ "$grid_warn" -eq 1 ] || [ "$width_ratio" -ge 85 ] || [ "$height_ratio" -ge 98 ]; then
-                      reject=1; reason="moderate_interference_risk"
-                    fi
-                  else
-                    if { [ "$width_ratio" -ge 85 ] || [ "$height_ratio" -ge 98 ]; } && [ "$center_ratio" -lt 50 ] && [ "$grid_warn" -eq 1 ]; then
-                      reject=1; reason="low_interference_multi_risk"
+                  if [ "$reject" -eq 0 ]; then
+                    if [ "$logo_occ_i" -ge 15 ]; then
+                      if [ "$center_ratio" -lt 65 ] || [ "$grid_warn" -eq 1 ] || [ "$width_ratio" -ge 70 ] || [ "$height_ratio" -ge 90 ]; then reject=1; reason="high_interference"; fi
+                    elif [ "$logo_occ_i" -ge 8 ]; then
+                      if [ "$center_ratio" -lt 50 ] || [ "$grid_warn" -eq 1 ] || [ "$width_ratio" -ge 85 ] || [ "$height_ratio" -ge 98 ]; then reject=1; reason="moderate_interference"; fi
+                    else
+                      if { [ "$width_ratio" -ge 85 ] || [ "$height_ratio" -ge 98 ]; } && [ "$center_ratio" -lt 50 ] && [ "$grid_warn" -eq 1 ]; then reject=1; reason="low_interference_multi_risk"; fi
                     fi
                   fi
-                fi
 
-                if [ "$reject" -eq 1 ]; then
-                  echo "movie $id DECISION=suppress reason=${reason:-stage_a} logo_occ=$logo_occ_i subj_overlap=$subject_overlap_ratio width=$width_ratio height=$height_ratio center=$center_ratio"
-                else
-                  cp cutout_raw.png "cutouts/$id.png"
-                  cutout_url="https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/cutouts/$id.png"
-                  echo "movie $id DECISION=accept logo_occ=$logo_occ_i subj_overlap=$subject_overlap_ratio width=$width_ratio height=$height_ratio center=$center_ratio"
+                  if [ "$reject" -eq 1 ]; then
+                    echo "movie $id DECISION=suppress reason=${reason:-stage_a}"
+                  else
+                    cp cutout_raw.png "cutouts/$id.png"
+                    cutout_url="https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/cutouts/$id.png"
+                    echo "movie $id DECISION=accept"
+                  fi
                 fi
               fi
             fi
 
-            jq -c --arg date "$date" --arg logo "$logo_url" --arg backdrop "$backdrop_url" --arg cutout "$cutout_url" '{
+            jq -c --arg logo "$logo_url" --arg backdrop "$backdrop_url" --arg cutout "$cutout_url" '{
+              id,
               title,
-              date: $date,
-              rating: .vote_average,
+              date: .release_date,
+              rating: (if (.vote_count // 0) >= 20 then (.vote_average // 0 | (.*10|round)/10) else 0 end),
               overview,
               tagline: (if (.tagline // "") == "" then null else .tagline end),
-              runtime: .runtime,
+              runtime,
               runtime_text: (if (.runtime // 0) > 0 then "\(.runtime/60|floor)h \(.runtime%60)m" else null end),
               genres: ([.genres[]?.name] | join(" • ")),
               genres_list: ([.genres[]?.name]),
-              poster: ("https://image.tmdb.org/t/p/w342" + .poster_path),
+              poster: (if .poster_path then "https://image.tmdb.org/t/p/w342" + .poster_path else null end),
               backdrop: (if $backdrop == "null" then null else $backdrop end),
               backdrop_fg: (if $cutout == "null" then null else $cutout end),
               logo: (if $logo == "null" then null else $logo end),
+              badge: null,
               trailer: ([.videos.results[]? | select(.site=="YouTube" and .type=="Trailer")] | .[0].key | if . then "https://www.youtube.com/watch?v=" + . else null end)
-            }' detail.json >> items.ndjson
+            }' "detail_$id.json" > "details/$id.json"
           done
-          jq -s '{movies: .}' items.ndjson > movies.json
+      - name: Assemble movies.json
+        run: |
+          jq -s '
+            (map({(.id|tostring): .}) | add) as $byId
+            | {
+                featured: [ $feat_ids[] as $i | $byId[($i|tostring)] ],
+                trending: [ $trend_ids[] as $i | $byId[($i|tostring)] ],
+                anticipated: [ $ant_ids[] as $i | $byId[($i|tostring)] ]
+              }
+          ' \
+          --argjson feat_ids "$(jq '.featured' selection.json)" \
+          --argjson trend_ids "$(jq '.trending' selection.json)" \
+          --argjson ant_ids "$(jq '.anticipated' selection.json)" \
+          details/*.json > movies.json
+
+          fc=$(jq '.featured|length' movies.json)
+          tc=$(jq '.trending|length' movies.json)
+          ac=$(jq '.anticipated|length' movies.json)
+          echo "final counts: featured=$fc trending=$tc anticipated=$ac"
+          [ "$fc" -ge 1 ] && [ "$tc" -ge 1 ] && [ "$ac" -ge 1 ] || { echo "assembly produced an empty section, aborting"; exit 1; }
       - name: Commit
         run: |
           git config user.name "bot"

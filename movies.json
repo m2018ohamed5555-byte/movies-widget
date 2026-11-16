@@ -66,6 +66,29 @@
       "trailer": "https://www.youtube.com/watch?v=AyIZ9tiiN8I"
     },
     {
+      "id": 1400837,
+      "title": "Other Mommy",
+      "date": "2026-10-07",
+      "rating": 6.3,
+      "overview": "7-year-old Bela forms a relationship with a sinister entity in her home that looks uncannily like her own mother, drawing her into a terrifying and increasingly dark world.",
+      "tagline": "Your mommy won't save you.",
+      "runtime": 93,
+      "runtime_text": "1h 33m",
+      "genres": "Horror • Mystery",
+      "genres_list": [
+        "Horror",
+        "Mystery"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/fGRNCssTRrhYZxNzykGGCoMsAVq.jpg",
+      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1400837.jpg",
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1400837.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=-mnTITqqiT0"
+    }
+  ],
+  "trending": [
+    {
       "id": 969681,
       "title": "Spider-Man: Brand New Day",
       "date": "2026-07-29",
@@ -81,34 +104,11 @@
         "Adventure"
       ],
       "poster": "https://image.tmdb.org/t/p/w342/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
-      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/969681.jpg",
+      "backdrop": null,
       "backdrop_fg": null,
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/969681.png",
       "badge": null,
       "trailer": "https://www.youtube.com/watch?v=P3uI5sLosKU"
-    }
-  ],
-  "trending": [
-    {
-      "id": 1400837,
-      "title": "Other Mommy",
-      "date": "2026-10-07",
-      "rating": 6.3,
-      "overview": "7-year-old Bela forms a relationship with a sinister entity in her home that looks uncannily like her own mother, drawing her into a terrifying and increasingly dark world.",
-      "tagline": "Your mommy won't save you.",
-      "runtime": 93,
-      "runtime_text": "1h 33m",
-      "genres": "Horror • Mystery",
-      "genres_list": [
-        "Horror",
-        "Mystery"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/fGRNCssTRrhYZxNzykGGCoMsAVq.jpg",
-      "backdrop": null,
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1400837.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=-mnTITqqiT0"
     },
     {
       "id": 1381071,
@@ -200,27 +200,6 @@
   ],
   "anticipated": [
     {
-      "id": 1170608,
-      "title": "Dune: Part Three",
-      "date": "2026-12-15",
-      "rating": 0,
-      "overview": "Nearly two decades after he seized control of the Imperium, Paul Atreides is now a ruthless Emperor, and must face the consequences of his reign as old allies return, terrifying new threats emerge, and betrayal lurks in every shadow. Haunted by visions of Imperial collapse and the reappearance of his long-lost love, Paul is drawn into a sweeping conspiracy, with Chani at the heart of its unfolding mystery. As enemies close in, Paul must confront the true cost of power and the fate of those he loves the most.",
-      "tagline": "The epic conclusion.",
-      "runtime": 150,
-      "runtime_text": "2h 30m",
-      "genres": "Science Fiction • Adventure",
-      "genres_list": [
-        "Science Fiction",
-        "Adventure"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/glt0v4I89rMWstDNCaFXc5SNyO1.jpg",
-      "backdrop": null,
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1170608.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=uJqaGLmZpGo"
-    },
-    {
       "id": 1476614,
       "title": "All of a Sudden",
       "date": "2026-06-19",
@@ -307,6 +286,27 @@
       "logo": null,
       "badge": null,
       "trailer": "https://www.youtube.com/watch?v=pzg0OkKku2M"
+    },
+    {
+      "id": 1400336,
+      "title": "Focker-in-Law",
+      "date": "2026-11-21",
+      "rating": 0,
+      "overview": "Henry, son of Greg and Pam Focker, aims to marry Olivia, a strong-willed former hostage negotiator who appears to be his complete mismatch. To Greg's shock, stepdad Jack Byrnes takes a liking to Olivia, and her unprecedented rise into his Circle of Trust sparks chaos in the family before Jack's 80th birthday party.",
+      "tagline": "Every family has its traditions.",
+      "runtime": 105,
+      "runtime_text": "1h 45m",
+      "genres": "Comedy • Romance",
+      "genres_list": [
+        "Comedy",
+        "Romance"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/bZhYdECsSuCrmbfYhKAc2bgsNz.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1400336.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=9CKu3WoMYCg"
     }
   ]
 }

@@ -1,126 +1,185 @@
 {
-  "movies": [
+  "featured": [
     {
-      "title": "The First Five Minutes... The Title Design Legacy of Dan Perri",
-      "date": "2026-11-18",
-      "rating": 0.0,
-      "overview": "An in-depth exploration into the life of Dan Perri, the man who created titles for some of the most iconic movies of all time.",
-      "tagline": "Meet the man who made the first five minutes of 300 of your favorite movies.",
-      "runtime": 95,
-      "runtime_text": "1h 35m",
-      "genres": "Documentary",
+      "id": 1263337,
+      "title": "Heart of the Beast",
+      "date": "2026-09-19",
+      "rating": 7.6,
+      "overview": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
+      "tagline": "Survival depends on their bond.",
+      "runtime": 101,
+      "runtime_text": "1h 41m",
+      "genres": "Adventure • Thriller",
       "genres_list": [
-        "Documentary"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/5isFx6NCQwiHSHbxXhODB3AFAd3.jpg",
-      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1815534.jpg",
-      "backdrop_fg": null,
-      "logo": null,
-      "trailer": null
-    },
-    {
-      "title": "ENE Repeat",
-      "date": "2026-11-19",
-      "rating": 0.0,
-      "overview": "Vivek and his gang of friends embark on an attempt to create an ambitious survival film.",
-      "tagline": null,
-      "runtime": 167,
-      "runtime_text": "2h 47m",
-      "genres": "Comedy • Drama",
-      "genres_list": [
-        "Comedy",
-        "Drama"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/qMBlRfQNusaUhhBAIcHmforVTW5.jpg",
-      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1505644.jpg",
-      "backdrop_fg": null,
-      "logo": null,
-      "trailer": null
-    },
-    {
-      "title": "Dark Noon",
-      "date": "2026-11-19",
-      "rating": 0.0,
-      "overview": "Caught in a cycle of petty crime and imprisonment, a man is released from prison for a failed bank robbery attempt while an impending solar eclipse offers a way out of the cycle.",
-      "tagline": null,
-      "runtime": 84,
-      "runtime_text": "1h 24m",
-      "genres": "Crime • Drama",
-      "genres_list": [
-        "Crime",
-        "Drama"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/c47IqLeltfbQKAAces0eRMmLEi7.jpg",
-      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1809505.jpg",
-      "backdrop_fg": null,
-      "logo": null,
-      "trailer": "https://www.youtube.com/watch?v=T6Ms_6r_k08"
-    },
-    {
-      "title": "Minotaur",
-      "date": "2026-11-20",
-      "rating": 7.406,
-      "overview": "When Gleb, a successful company director, finds himself under siege from mounting corporate pressures, an increasingly unstable world, and the discovery of his wife's affair, the collapse of his carefully ordered life accelerates toward violence.",
-      "tagline": "Morality is a maze.",
-      "runtime": 142,
-      "runtime_text": "2h 22m",
-      "genres": "Drama • Crime • Thriller",
-      "genres_list": [
-        "Drama",
-        "Crime",
+        "Adventure",
         "Thriller"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/bM37B5CuMWrPyGPpNsKzTGict4Q.jpg",
-      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/848700.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/6sYemVUn79UPKz1ZsSG6kPU4RVy.jpg",
+      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1263337.jpg",
       "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/848700.png",
-      "trailer": "https://www.youtube.com/watch?v=wdFIMrC4oW8"
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1263337.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=UkMuGKqAux4"
     },
     {
-      "title": "November 1963",
-      "date": "2026-11-20",
-      "rating": 0.0,
-      "overview": "Follows the 48 hours after the assassination of President John F. Kennedy, the alleged involvement of Sam Giancana and the 'Chicago Outfit', and a supposed broken promise after the mob helped to get Kennedy elected.",
-      "tagline": "Betrayed by power. Fuelled by revenge.",
-      "runtime": 120,
-      "runtime_text": "2h 0m",
-      "genres": "History • Crime • Thriller • Drama",
+      "id": 1423191,
+      "title": "Resident Evil",
+      "date": "2026-09-16",
+      "rating": 7.5,
+      "overview": "Medical courier Bryan unwittingly finds himself fighting for survival as one fateful, horrifying night collapses around him in chaos.",
+      "tagline": "A new era of evil.",
+      "runtime": 94,
+      "runtime_text": "1h 34m",
+      "genres": "Horror • Science Fiction • Adventure",
       "genres_list": [
-        "History",
-        "Crime",
-        "Thriller",
-        "Drama"
+        "Horror",
+        "Science Fiction",
+        "Adventure"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/ujp2aHu1lWMjAGoletnsmv3mcMn.jpg",
-      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1287520.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/gAgWJhUSQWCgtKR8170nMkYlBda.jpg",
+      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1423191.jpg",
       "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1287520.png",
-      "trailer": "https://www.youtube.com/watch?v=8N9e-skJ3hw"
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1423191.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=mNd1gb19A-c"
     },
     {
-      "title": "Josephine",
-      "date": "2026-11-20",
-      "rating": 0.0,
-      "overview": "After eight-year-old Josephine accidentally witnesses a brutal assault, she begins acting out violently to protect herself. This emotional trauma leads to conflicts between her parents as they search for justice and a way to feel safe again.",
-      "tagline": "Too young to understand. Too old to forget.",
-      "runtime": 119,
-      "runtime_text": "1h 59m",
-      "genres": "Drama • Crime • Thriller",
+      "id": 1368337,
+      "title": "The Odyssey",
+      "date": "2026-07-15",
+      "rating": 8,
+      "overview": "Odysseus, the legendary King of Ithaca, embarks on a long and perilous journey home following the Trojan War. Throughout his voyage, he is forced to confront the whims of gods, mythological monsters, and trials that stretch both his cunning and his humanity to the breaking point.",
+      "tagline": "Defy the gods.",
+      "runtime": 173,
+      "runtime_text": "2h 53m",
+      "genres": "Adventure • Action • Fantasy",
       "genres_list": [
-        "Drama",
-        "Crime",
-        "Thriller"
+        "Adventure",
+        "Action",
+        "Fantasy"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/8KTcbsdz2PcyA58puJMA3CUnZeA.jpg",
-      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1299329.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg",
+      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1368337.jpg",
       "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1299329.png",
-      "trailer": "https://www.youtube.com/watch?v=d7NLG3IfowQ"
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1368337.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=AyIZ9tiiN8I"
     },
     {
+      "id": 969681,
+      "title": "Spider-Man: Brand New Day",
+      "date": "2026-07-29",
+      "rating": 8.5,
+      "overview": "Fighting crime full-time as Spider-Man in a world that doesn't remember him—and the pressure of seeing his old friends move on without him—sparks a change in Peter Parker he may not have the power to control. But that transformation might also be the only thing that can stop a shocking new threat to the city and those he loves - a powerful villain no one can even see.",
+      "tagline": "A brand new day starts now.",
+      "runtime": 145,
+      "runtime_text": "2h 25m",
+      "genres": "Science Fiction • Action • Adventure",
+      "genres_list": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
+      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/969681.jpg",
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/969681.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=P3uI5sLosKU"
+    }
+  ],
+  "trending": [
+    {
+      "id": 1400837,
+      "title": "Other Mommy",
+      "date": "2026-10-07",
+      "rating": 6.3,
+      "overview": "7-year-old Bela forms a relationship with a sinister entity in her home that looks uncannily like her own mother, drawing her into a terrifying and increasingly dark world.",
+      "tagline": "Your mommy won't save you.",
+      "runtime": 93,
+      "runtime_text": "1h 33m",
+      "genres": "Horror • Mystery",
+      "genres_list": [
+        "Horror",
+        "Mystery"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/fGRNCssTRrhYZxNzykGGCoMsAVq.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1400837.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=-mnTITqqiT0"
+    },
+    {
+      "id": 1381071,
+      "title": "Godzilla Minus Zero",
+      "date": "2026-11-03",
+      "rating": 7.7,
+      "overview": "War reduced Japan to zero, and Godzilla plunged it into minus. Two years have passed since then, and the country has faced agonizing struggles to achieve recovery and finally reclaim its daily life. Just as humanity managed to cling to a hard-won peace, a new threat strikes, crushing hope in an instant. There is no third time. Everything ends here.",
+      "tagline": "There is no third time. Everything ends here.",
+      "runtime": 135,
+      "runtime_text": "2h 15m",
+      "genres": "Science Fiction • Horror • Action",
+      "genres_list": [
+        "Science Fiction",
+        "Horror",
+        "Action"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/hSmIJluOJmTWvJs4d7kHRxjc8s8.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1381071.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=Pu0pH5BuCPM"
+    },
+    {
+      "id": 1003596,
+      "title": "Avengers: Doomsday",
+      "date": "2026-12-16",
+      "rating": 0,
+      "overview": "Beloved heroes from three distinct universes are set on a deadly collision course and face an existential threat unlike anything they've ever encountered.",
+      "tagline": "Meet your doom.",
+      "runtime": 165,
+      "runtime_text": "2h 45m",
+      "genres": "Science Fiction • Action • Adventure",
+      "genres_list": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/1zqWkLwC1zLBBBtIWzmkmWeMWnT.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1003596.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=X1aFkAkFASk"
+    },
+    {
+      "id": 1567605,
+      "title": "Ebenezer",
+      "date": "2026-11-11",
+      "rating": 7.7,
+      "overview": "An elderly miser embarks on a supernatural journey after visits from the ghost of his former business partner and the Spirits of Christmas Past, Present, and Yet to Come force him to confront his past and fight for a second chance at happiness.",
+      "tagline": "Before he was Scrooge, he was…",
+      "runtime": 115,
+      "runtime_text": "1h 55m",
+      "genres": "Fantasy • Comedy",
+      "genres_list": [
+        "Fantasy",
+        "Comedy"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/6H2N59jJW1hZEzn2ZdrMvJw5vNI.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1567605.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=D-n-lqKVr78"
+    },
+    {
+      "id": 1300968,
       "title": "The Hunger Games: Sunrise on the Reaping",
-      "date": "2026-11-20",
-      "rating": 9.2,
+      "date": "2026-11-18",
+      "rating": 0,
       "overview": "Return to the world of Panem 24 years before the events of The Hunger Games, starting on the morning of the reaping of the 50th Hunger Games, also known as the Second Quarter Quell.",
       "tagline": "Welcome to the Second Quarter Quell.",
       "runtime": 159,
@@ -132,68 +191,122 @@
         "Adventure"
       ],
       "poster": "https://image.tmdb.org/t/p/w342/jNcZH8yplxttRlf0wwqfGGMKHxX.jpg",
-      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1300968.jpg",
+      "backdrop": null,
       "backdrop_fg": null,
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1300968.png",
+      "badge": null,
       "trailer": "https://www.youtube.com/watch?v=Dr060OLTodE"
+    }
+  ],
+  "anticipated": [
+    {
+      "id": 1170608,
+      "title": "Dune: Part Three",
+      "date": "2026-12-15",
+      "rating": 0,
+      "overview": "Nearly two decades after he seized control of the Imperium, Paul Atreides is now a ruthless Emperor, and must face the consequences of his reign as old allies return, terrifying new threats emerge, and betrayal lurks in every shadow. Haunted by visions of Imperial collapse and the reappearance of his long-lost love, Paul is drawn into a sweeping conspiracy, with Chani at the heart of its unfolding mystery. As enemies close in, Paul must confront the true cost of power and the fate of those he loves the most.",
+      "tagline": "The epic conclusion.",
+      "runtime": 150,
+      "runtime_text": "2h 30m",
+      "genres": "Science Fiction • Adventure",
+      "genres_list": [
+        "Science Fiction",
+        "Adventure"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/glt0v4I89rMWstDNCaFXc5SNyO1.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1170608.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=uJqaGLmZpGo"
     },
     {
-      "title": "Transplant",
-      "date": "2026-11-20",
-      "rating": 0.0,
-      "overview": "A motivated surgical resident pushes himself to extreme lengths while training under a legendary heart transplant surgeon who's obsessed with protecting his perfect reputation.",
-      "tagline": null,
-      "runtime": 93,
-      "runtime_text": "1h 33m",
-      "genres": "Drama • Thriller",
+      "id": 1476614,
+      "title": "All of a Sudden",
+      "date": "2026-06-19",
+      "rating": 7.8,
+      "overview": "Director of a care facility for the elderly, Marie-Lou strives to introduce an innovative care philosophy based on listening and respecting residents’ dignity, despite resistance from part of her staff. Her encounter with Mari, a Japanese theater director battling cancer, will profoundly reshape her path. By forming a deep, supportive friendship, the two women join forces in a shared struggle to make the impossible possible.",
+      "tagline": "One night. Two strangers. A lifetime of questions.",
+      "runtime": 196,
+      "runtime_text": "3h 16m",
+      "genres": "Drama",
+      "genres_list": [
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/kFD1vl6FPt8heIIgFiAyIbZqrYh.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1476614.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=2AxtdPvDojA"
+    },
+    {
+      "id": 848700,
+      "title": "Minotaur",
+      "date": "2026-10-14",
+      "rating": 7.4,
+      "overview": "When Gleb, a successful company director, finds himself under siege from mounting corporate pressures, an increasingly unstable world, and the discovery of his wife's affair, the collapse of his carefully ordered life accelerates toward violence.",
+      "tagline": "Morality is a maze.",
+      "runtime": 142,
+      "runtime_text": "2h 22m",
+      "genres": "Drama • Crime • Thriller",
       "genres_list": [
         "Drama",
-        "Thriller"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/qxtXGskdQu3bnHNjJOiY02mYEbD.jpg",
-      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1359254.jpg",
-      "backdrop_fg": null,
-      "logo": null,
-      "trailer": "https://www.youtube.com/watch?v=C2jOKwkC-Aw"
-    },
-    {
-      "title": "O.M: Operation Mole",
-      "date": "2026-11-20",
-      "rating": 0.0,
-      "overview": "Set across the temple corridors of Tirupati and Tiruvannamalai, an elite undercover operative infiltrates a sprawling transnational red sanders syndicate. As criminal politics escalate, a covert task force launches Operation Mole to dismantle the cartel from within.",
-      "tagline": null,
-      "runtime": 179,
-      "runtime_text": "2h 59m",
-      "genres": "Crime • Action • Thriller",
-      "genres_list": [
         "Crime",
-        "Action",
         "Thriller"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/vFnFLqXjf7RQfkNxrrys43BZKxJ.jpg",
-      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1384528.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/bM37B5CuMWrPyGPpNsKzTGict4Q.jpg",
+      "backdrop": null,
       "backdrop_fg": null,
-      "logo": null,
-      "trailer": null
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/848700.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=wdFIMrC4oW8"
     },
     {
-      "title": "The Vile",
-      "date": "2026-11-20",
-      "rating": 5.0,
-      "overview": "Devoted wife and mother Amani, whose life begins to unravel when her husband returns home with a second wife and an unseen darkness infiltrates her life.",
-      "tagline": "Nothing is what it seems.",
-      "runtime": 97,
-      "runtime_text": "1h 37m",
-      "genres": "Horror • Thriller",
+      "id": 1538497,
+      "title": "Hexed",
+      "date": "2026-11-25",
+      "rating": 0,
+      "overview": "An impulsive and unconventional teenage girl named Billie discovers secret magical abilities which, once unleashed, hurtle her into a spectacle-filled journey out of suburbia and into a vast witch realm called Hexe. Forced to team up with her cautious mother, Alice, they uncover family mysteries that could change the world of witches forever.",
+      "tagline": "Something is happening to Billie...",
+      "runtime": 103,
+      "runtime_text": "1h 43m",
+      "genres": "Adventure • Animation • Family • Fantasy • Comedy",
       "genres_list": [
-        "Horror",
-        "Thriller"
+        "Adventure",
+        "Animation",
+        "Family",
+        "Fantasy",
+        "Comedy"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/yzvKrIFvHQwUuibOoHX9xSx0JQ3.jpg",
-      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1500908.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/yykeYKbDBM9eUMJUucaaDo2mi1p.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1538497.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=IuosV-TRxDU"
+    },
+    {
+      "id": 947502,
+      "title": "In Waves",
+      "date": "2026-07-01",
+      "rating": 7.3,
+      "overview": "In Los Angeles, shy teenager AJ meets Kristen, who lives for surfing; he loves skateboarding and drawing. They fall madly in love, and a happy future seems within reach. But everything changes when Kristen faces a sudden illness. Together, they face adversity, driven by the strength of their love, their friends, and their newly shared passion for surfing and the ocean.",
+      "tagline": "Like a storm, grief comes in waves.",
+      "runtime": 91,
+      "runtime_text": "1h 31m",
+      "genres": "Animation • Romance • Drama",
+      "genres_list": [
+        "Animation",
+        "Romance",
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/ry9Kj3maM9WllIe9T6C7EnS5kxI.jpg",
+      "backdrop": null,
       "backdrop_fg": null,
       "logo": null,
-      "trailer": "https://www.youtube.com/watch?v=JqvU-xl_rqk"
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=pzg0OkKku2M"
     }
   ]
 }

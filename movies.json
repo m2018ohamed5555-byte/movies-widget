@@ -70,14 +70,13 @@
       "title": "Other Mommy",
       "date": "2026-10-07",
       "rating": 6.3,
-      "overview": "7-year-old Bela forms a relationship with a sinister entity in her home that looks uncannily like her own mother, drawing her into a terrifying and increasingly dark world.",
+      "overview": "Young Bela forms a relationship with a sinister entity in her home that looks uncannily like her own mother, drawing her into a terrifying and increasingly dark world.",
       "tagline": "Your mommy won't save you.",
       "runtime": 93,
       "runtime_text": "1h 33m",
-      "genres": "Horror • Mystery",
+      "genres": "Horror",
       "genres_list": [
-        "Horror",
-        "Mystery"
+        "Horror"
       ],
       "poster": "https://image.tmdb.org/t/p/w342/fGRNCssTRrhYZxNzykGGCoMsAVq.jpg",
       "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1400837.jpg",
@@ -190,7 +189,7 @@
         "Action",
         "Adventure"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/jNcZH8yplxttRlf0wwqfGGMKHxX.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/j1MNyNNgNQL6f27cb3m3uKaPKd6.jpg",
       "backdrop": null,
       "backdrop_fg": null,
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1300968.png",
@@ -219,6 +218,30 @@
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1170608.png",
       "badge": null,
       "trailer": "https://www.youtube.com/watch?v=uJqaGLmZpGo"
+    },
+    {
+      "id": 1538497,
+      "title": "Hexed",
+      "date": "2026-11-25",
+      "rating": 0,
+      "overview": "An impulsive and unconventional teenage girl named Billie discovers secret magical abilities which, once unleashed, hurtle her into a spectacle-filled journey out of suburbia and into a vast witch realm called Hexe. Forced to team up with her cautious mother, Alice, they uncover family mysteries that could change the world of witches forever.",
+      "tagline": "Something is happening to Billie...",
+      "runtime": 103,
+      "runtime_text": "1h 43m",
+      "genres": "Adventure • Animation • Family • Fantasy • Comedy",
+      "genres_list": [
+        "Adventure",
+        "Animation",
+        "Family",
+        "Fantasy",
+        "Comedy"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/yykeYKbDBM9eUMJUucaaDo2mi1p.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1538497.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=IuosV-TRxDU"
     },
     {
       "id": 1476614,
@@ -261,30 +284,6 @@
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/848700.png",
       "badge": null,
       "trailer": "https://www.youtube.com/watch?v=wdFIMrC4oW8"
-    },
-    {
-      "id": 1538497,
-      "title": "Hexed",
-      "date": "2026-11-25",
-      "rating": 0,
-      "overview": "An impulsive and unconventional teenage girl named Billie discovers secret magical abilities which, once unleashed, hurtle her into a spectacle-filled journey out of suburbia and into a vast witch realm called Hexe. Forced to team up with her cautious mother, Alice, they uncover family mysteries that could change the world of witches forever.",
-      "tagline": "Something is happening to Billie...",
-      "runtime": 103,
-      "runtime_text": "1h 43m",
-      "genres": "Adventure • Animation • Family • Fantasy • Comedy",
-      "genres_list": [
-        "Adventure",
-        "Animation",
-        "Family",
-        "Fantasy",
-        "Comedy"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/yykeYKbDBM9eUMJUucaaDo2mi1p.jpg",
-      "backdrop": null,
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1538497.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=IuosV-TRxDU"
     },
     {
       "id": 947502,

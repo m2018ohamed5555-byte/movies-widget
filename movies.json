@@ -1,25 +1,26 @@
 {
   "featured": [
     {
-      "id": 1263337,
-      "title": "Heart of the Beast",
-      "date": "2026-09-19",
-      "rating": 7.7,
-      "overview": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
-      "tagline": "Survival depends on their bond.",
-      "runtime": 101,
-      "runtime_text": "1h 41m",
-      "genres": "Adventure • Thriller",
+      "id": 1368337,
+      "title": "The Odyssey",
+      "date": "2026-07-15",
+      "rating": 8,
+      "overview": "Odysseus, the legendary King of Ithaca, embarks on a long and perilous journey home following the Trojan War. Throughout his voyage, he is forced to confront the whims of gods, mythological monsters, and trials that stretch both his cunning and his humanity to the breaking point.",
+      "tagline": "Defy the gods.",
+      "runtime": 173,
+      "runtime_text": "2h 53m",
+      "genres": "Adventure • Action • Fantasy",
       "genres_list": [
         "Adventure",
-        "Thriller"
+        "Action",
+        "Fantasy"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/6sYemVUn79UPKz1ZsSG6kPU4RVy.jpg",
-      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1263337.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/zG7hzAyqa9KIjM0Yse0bxty4Cq8.jpg",
+      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1368337.jpg",
       "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1263337.png",
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1368337.png",
       "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=UkMuGKqAux4"
+      "trailer": "https://www.youtube.com/watch?v=AyIZ9tiiN8I"
     },
     {
       "id": 1400837,
@@ -88,26 +89,25 @@
   ],
   "trending": [
     {
-      "id": 1368337,
-      "title": "The Odyssey",
-      "date": "2026-07-15",
-      "rating": 8,
-      "overview": "Odysseus, the legendary King of Ithaca, embarks on a long and perilous journey home following the Trojan War. Throughout his voyage, he is forced to confront the whims of gods, mythological monsters, and trials that stretch both his cunning and his humanity to the breaking point.",
-      "tagline": "Defy the gods.",
-      "runtime": 173,
-      "runtime_text": "2h 53m",
-      "genres": "Adventure • Action • Fantasy",
+      "id": 1263337,
+      "title": "Heart of the Beast",
+      "date": "2026-09-19",
+      "rating": 7.7,
+      "overview": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
+      "tagline": "Survival depends on their bond.",
+      "runtime": 101,
+      "runtime_text": "1h 41m",
+      "genres": "Adventure • Thriller",
       "genres_list": [
         "Adventure",
-        "Action",
-        "Fantasy"
+        "Thriller"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/6sYemVUn79UPKz1ZsSG6kPU4RVy.jpg",
       "backdrop": null,
       "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1368337.png",
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1263337.png",
       "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=AyIZ9tiiN8I"
+      "trailer": "https://www.youtube.com/watch?v=UkMuGKqAux4"
     },
     {
       "id": 1423191,
@@ -132,26 +132,26 @@
       "trailer": "https://www.youtube.com/watch?v=mNd1gb19A-c"
     },
     {
-      "id": 1381071,
-      "title": "Godzilla Minus Zero",
-      "date": "2026-11-03",
-      "rating": 7.7,
-      "overview": "War reduced Japan to zero, and Godzilla plunged it into minus. Two years have passed since then, and the country has faced agonizing struggles to achieve recovery and finally reclaim its daily life. Just as humanity managed to cling to a hard-won peace, a new threat strikes, crushing hope in an instant. There is no third time. Everything ends here.",
-      "tagline": "There is no third time. Everything ends here.",
-      "runtime": 135,
-      "runtime_text": "2h 15m",
-      "genres": "Science Fiction • Horror • Action",
+      "id": 1003596,
+      "title": "Avengers: Doomsday",
+      "date": "2026-12-16",
+      "rating": 0,
+      "overview": "Beloved heroes from three distinct universes are set on a deadly collision course and face an existential threat unlike anything they've ever encountered.",
+      "tagline": "Meet your doom.",
+      "runtime": 165,
+      "runtime_text": "2h 45m",
+      "genres": "Science Fiction • Action • Adventure",
       "genres_list": [
         "Science Fiction",
-        "Horror",
-        "Action"
+        "Action",
+        "Adventure"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/hSmIJluOJmTWvJs4d7kHRxjc8s8.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/1zqWkLwC1zLBBBtIWzmkmWeMWnT.jpg",
       "backdrop": null,
       "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1381071.png",
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1003596.png",
       "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=Pu0pH5BuCPM"
+      "trailer": "https://www.youtube.com/watch?v=X1aFkAkFASk"
     },
     {
       "id": 1567605,
@@ -176,34 +176,10 @@
       "trailer": "https://www.youtube.com/watch?v=D-n-lqKVr78"
     },
     {
-      "id": 1003596,
-      "title": "Avengers: Doomsday",
-      "date": "2026-12-16",
-      "rating": 0,
-      "overview": "Beloved heroes from three distinct universes are set on a deadly collision course and face an existential threat unlike anything they've ever encountered.",
-      "tagline": "Meet your doom.",
-      "runtime": 165,
-      "runtime_text": "2h 45m",
-      "genres": "Science Fiction • Action • Adventure",
-      "genres_list": [
-        "Science Fiction",
-        "Action",
-        "Adventure"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/1zqWkLwC1zLBBBtIWzmkmWeMWnT.jpg",
-      "backdrop": null,
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1003596.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=X1aFkAkFASk"
-    }
-  ],
-  "anticipated": [
-    {
       "id": 1300968,
       "title": "The Hunger Games: Sunrise on the Reaping",
       "date": "2026-11-18",
-      "rating": 0,
+      "rating": 8.2,
       "overview": "Return to the world of Panem 24 years before the events of The Hunger Games, starting on the morning of the reaping of the 50th Hunger Games, also known as the Second Quarter Quell.",
       "tagline": "Welcome to the Second Quarter Quell.",
       "runtime": 159,
@@ -214,12 +190,77 @@
         "Action",
         "Adventure"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/ffJaYMtB6v1TrvkyhCOqwqCKm0o.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/j1MNyNNgNQL6f27cb3m3uKaPKd6.jpg",
       "backdrop": null,
       "backdrop_fg": null,
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1300968.png",
       "badge": null,
       "trailer": "https://www.youtube.com/watch?v=Dr060OLTodE"
+    }
+  ],
+  "anticipated": [
+    {
+      "id": 1131943,
+      "title": "Madden",
+      "date": "2026-11-18",
+      "rating": 0,
+      "overview": "Chronicles John Madden's incredible journey alongside best friend and true original Al Davis—from a Super Bowl-winning partnership with the Raiders, to becoming football’s most recognizable voice, to building the worldwide Madden NFL video game.",
+      "tagline": null,
+      "runtime": 110,
+      "runtime_text": "1h 50m",
+      "genres": "Drama • History",
+      "genres_list": [
+        "Drama",
+        "History"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/bRa83oPFFPqaAF3wrpVWPqqfFel.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1131943.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=xzh7HzLXXpk"
+    },
+    {
+      "id": 1551025,
+      "title": "Guarding Stars",
+      "date": "2026-11-18",
+      "rating": 0,
+      "overview": "When a no-nonsense bodyguard is assigned to protect a charming action star over the holidays, sparks fly, secrets unravel, and Christmas gets a whole lot more complicated.",
+      "tagline": null,
+      "runtime": 109,
+      "runtime_text": "1h 49m",
+      "genres": "Comedy • Romance",
+      "genres_list": [
+        "Comedy",
+        "Romance"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/wWNizZ4IcSld3xXH1WEXziJiNJN.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1551025.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=mFvtVPMa5ak"
+    },
+    {
+      "id": 1170608,
+      "title": "Dune: Part Three",
+      "date": "2026-12-15",
+      "rating": 0,
+      "overview": "Nearly two decades after he seized control of the Imperium, Paul Atreides is now a ruthless Emperor, and must face the consequences of his reign as old allies return, terrifying new threats emerge, and betrayal lurks in every shadow. Haunted by visions of Imperial collapse and the reappearance of his long-lost love, Paul is drawn into a sweeping conspiracy, with Chani at the heart of its unfolding mystery. As enemies close in, Paul must confront the true cost of power and the fate of those he loves the most.",
+      "tagline": "The epic conclusion.",
+      "runtime": 150,
+      "runtime_text": "2h 30m",
+      "genres": "Science Fiction • Adventure",
+      "genres_list": [
+        "Science Fiction",
+        "Adventure"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/d43fvHQsIMa4kpyhKXw0haEJIvI.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1170608.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=uJqaGLmZpGo"
     },
     {
       "id": 1538497,
@@ -246,27 +287,6 @@
       "trailer": "https://www.youtube.com/watch?v=IuosV-TRxDU"
     },
     {
-      "id": 1170608,
-      "title": "Dune: Part Three",
-      "date": "2026-12-15",
-      "rating": 0,
-      "overview": "Nearly two decades after he seized control of the Imperium, Paul Atreides is now a ruthless Emperor, and must face the consequences of his reign as old allies return, terrifying new threats emerge, and betrayal lurks in every shadow. Haunted by visions of Imperial collapse and the reappearance of his long-lost love, Paul is drawn into a sweeping conspiracy, with Chani at the heart of its unfolding mystery. As enemies close in, Paul must confront the true cost of power and the fate of those he loves the most.",
-      "tagline": "The epic conclusion.",
-      "runtime": 150,
-      "runtime_text": "2h 30m",
-      "genres": "Science Fiction • Adventure",
-      "genres_list": [
-        "Science Fiction",
-        "Adventure"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/d43fvHQsIMa4kpyhKXw0haEJIvI.jpg",
-      "backdrop": null,
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1170608.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=uJqaGLmZpGo"
-    },
-    {
       "id": 1476614,
       "title": "All of a Sudden",
       "date": "2026-06-19",
@@ -285,28 +305,6 @@
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1476614.png",
       "badge": null,
       "trailer": "https://www.youtube.com/watch?v=2AxtdPvDojA"
-    },
-    {
-      "id": 848700,
-      "title": "Minotaur",
-      "date": "2026-10-14",
-      "rating": 7.4,
-      "overview": "When Gleb, a successful company director, finds himself under siege from mounting corporate pressures, an increasingly unstable world, and the discovery of his wife's affair, the collapse of his carefully ordered life accelerates toward violence.",
-      "tagline": "Morality is a maze.",
-      "runtime": 142,
-      "runtime_text": "2h 22m",
-      "genres": "Drama • Crime • Thriller",
-      "genres_list": [
-        "Drama",
-        "Crime",
-        "Thriller"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/bM37B5CuMWrPyGPpNsKzTGict4Q.jpg",
-      "backdrop": null,
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/848700.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=wdFIMrC4oW8"
     }
   ]
 }

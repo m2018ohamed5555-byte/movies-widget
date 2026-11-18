@@ -22,26 +22,24 @@
       "trailer": "https://www.youtube.com/watch?v=UkMuGKqAux4"
     },
     {
-      "id": 1423191,
-      "title": "Resident Evil",
-      "date": "2026-09-16",
-      "rating": 7.5,
-      "overview": "Medical courier Bryan unwittingly finds himself fighting for survival as one fateful, horrifying night collapses around him in chaos.",
-      "tagline": "A new era of evil.",
-      "runtime": 94,
-      "runtime_text": "1h 34m",
-      "genres": "Horror • Science Fiction • Adventure",
+      "id": 1400837,
+      "title": "Other Mommy",
+      "date": "2026-10-07",
+      "rating": 6.4,
+      "overview": "Young Bela forms a relationship with a sinister entity in her home that looks uncannily like her own mother, drawing her into a terrifying and increasingly dark world.",
+      "tagline": "Your mommy won't save you.",
+      "runtime": 93,
+      "runtime_text": "1h 33m",
+      "genres": "Horror",
       "genres_list": [
-        "Horror",
-        "Science Fiction",
-        "Adventure"
+        "Horror"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/gAgWJhUSQWCgtKR8170nMkYlBda.jpg",
-      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1423191.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/fGRNCssTRrhYZxNzykGGCoMsAVq.jpg",
+      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1400837.jpg",
       "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1423191.png",
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1400837.png",
       "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=mNd1gb19A-c"
+      "trailer": "https://www.youtube.com/watch?v=-mnTITqqiT0"
     },
     {
       "id": 969681,
@@ -112,24 +110,26 @@
       "trailer": "https://www.youtube.com/watch?v=AyIZ9tiiN8I"
     },
     {
-      "id": 1400837,
-      "title": "Other Mommy",
-      "date": "2026-10-07",
-      "rating": 6.4,
-      "overview": "Young Bela forms a relationship with a sinister entity in her home that looks uncannily like her own mother, drawing her into a terrifying and increasingly dark world.",
-      "tagline": "Your mommy won't save you.",
-      "runtime": 93,
-      "runtime_text": "1h 33m",
-      "genres": "Horror",
+      "id": 1423191,
+      "title": "Resident Evil",
+      "date": "2026-09-16",
+      "rating": 7.5,
+      "overview": "Medical courier Bryan unwittingly finds himself fighting for survival as one fateful, horrifying night collapses around him in chaos.",
+      "tagline": "A new era of evil.",
+      "runtime": 94,
+      "runtime_text": "1h 34m",
+      "genres": "Horror • Science Fiction • Adventure",
       "genres_list": [
-        "Horror"
+        "Horror",
+        "Science Fiction",
+        "Adventure"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/fGRNCssTRrhYZxNzykGGCoMsAVq.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/gAgWJhUSQWCgtKR8170nMkYlBda.jpg",
       "backdrop": null,
       "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1400837.png",
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1423191.png",
       "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=-mnTITqqiT0"
+      "trailer": "https://www.youtube.com/watch?v=mNd1gb19A-c"
     },
     {
       "id": 1381071,
@@ -154,28 +154,6 @@
       "trailer": "https://www.youtube.com/watch?v=Pu0pH5BuCPM"
     },
     {
-      "id": 1003596,
-      "title": "Avengers: Doomsday",
-      "date": "2026-12-16",
-      "rating": 0,
-      "overview": "Beloved heroes from three distinct universes are set on a deadly collision course and face an existential threat unlike anything they've ever encountered.",
-      "tagline": "Meet your doom.",
-      "runtime": 165,
-      "runtime_text": "2h 45m",
-      "genres": "Science Fiction • Action • Adventure",
-      "genres_list": [
-        "Science Fiction",
-        "Action",
-        "Adventure"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/1zqWkLwC1zLBBBtIWzmkmWeMWnT.jpg",
-      "backdrop": null,
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1003596.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=X1aFkAkFASk"
-    },
-    {
       "id": 1567605,
       "title": "Ebenezer",
       "date": "2026-11-11",
@@ -196,6 +174,28 @@
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1567605.png",
       "badge": null,
       "trailer": "https://www.youtube.com/watch?v=D-n-lqKVr78"
+    },
+    {
+      "id": 1003596,
+      "title": "Avengers: Doomsday",
+      "date": "2026-12-16",
+      "rating": 0,
+      "overview": "Beloved heroes from three distinct universes are set on a deadly collision course and face an existential threat unlike anything they've ever encountered.",
+      "tagline": "Meet your doom.",
+      "runtime": 165,
+      "runtime_text": "2h 45m",
+      "genres": "Science Fiction • Action • Adventure",
+      "genres_list": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/1zqWkLwC1zLBBBtIWzmkmWeMWnT.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1003596.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=X1aFkAkFASk"
     }
   ],
   "anticipated": [
@@ -214,33 +214,12 @@
         "Action",
         "Adventure"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/kONfwpf0AZzvL1zqjZV9C89g1PY.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/ffJaYMtB6v1TrvkyhCOqwqCKm0o.jpg",
       "backdrop": null,
       "backdrop_fg": null,
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1300968.png",
       "badge": null,
       "trailer": "https://www.youtube.com/watch?v=Dr060OLTodE"
-    },
-    {
-      "id": 1170608,
-      "title": "Dune: Part Three",
-      "date": "2026-12-15",
-      "rating": 0,
-      "overview": "Nearly two decades after he seized control of the Imperium, Paul Atreides is now a ruthless Emperor, and must face the consequences of his reign as old allies return, terrifying new threats emerge, and betrayal lurks in every shadow. Haunted by visions of Imperial collapse and the reappearance of his long-lost love, Paul is drawn into a sweeping conspiracy, with Chani at the heart of its unfolding mystery. As enemies close in, Paul must confront the true cost of power and the fate of those he loves the most.",
-      "tagline": "The epic conclusion.",
-      "runtime": 150,
-      "runtime_text": "2h 30m",
-      "genres": "Science Fiction • Adventure",
-      "genres_list": [
-        "Science Fiction",
-        "Adventure"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/d43fvHQsIMa4kpyhKXw0haEJIvI.jpg",
-      "backdrop": null,
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1170608.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=uJqaGLmZpGo"
     },
     {
       "id": 1538497,
@@ -265,6 +244,27 @@
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1538497.png",
       "badge": null,
       "trailer": "https://www.youtube.com/watch?v=IuosV-TRxDU"
+    },
+    {
+      "id": 1170608,
+      "title": "Dune: Part Three",
+      "date": "2026-12-15",
+      "rating": 0,
+      "overview": "Nearly two decades after he seized control of the Imperium, Paul Atreides is now a ruthless Emperor, and must face the consequences of his reign as old allies return, terrifying new threats emerge, and betrayal lurks in every shadow. Haunted by visions of Imperial collapse and the reappearance of his long-lost love, Paul is drawn into a sweeping conspiracy, with Chani at the heart of its unfolding mystery. As enemies close in, Paul must confront the true cost of power and the fate of those he loves the most.",
+      "tagline": "The epic conclusion.",
+      "runtime": 150,
+      "runtime_text": "2h 30m",
+      "genres": "Science Fiction • Adventure",
+      "genres_list": [
+        "Science Fiction",
+        "Adventure"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/d43fvHQsIMa4kpyhKXw0haEJIvI.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1170608.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=uJqaGLmZpGo"
     },
     {
       "id": 1476614,

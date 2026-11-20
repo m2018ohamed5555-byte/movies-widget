@@ -23,6 +23,47 @@
       "trailer": "https://www.youtube.com/watch?v=AyIZ9tiiN8I"
     },
     {
+      "id": 1400837,
+      "title": "Other Mommy",
+      "date": "2026-10-07",
+      "rating": 6.4,
+      "overview": "Young Bela forms a relationship with a sinister entity in her home that looks uncannily like her own mother, drawing her into a terrifying and increasingly dark world.",
+      "tagline": "Your mommy won't save you.",
+      "runtime": 93,
+      "runtime_text": "1h 33m",
+      "genres": "Horror",
+      "genres_list": [
+        "Horror"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/fGRNCssTRrhYZxNzykGGCoMsAVq.jpg",
+      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1400837.jpg",
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1400837.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=-mnTITqqiT0"
+    },
+    {
+      "id": 1263337,
+      "title": "Heart of the Beast",
+      "date": "2026-09-19",
+      "rating": 7.8,
+      "overview": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
+      "tagline": "Survival depends on their bond.",
+      "runtime": 102,
+      "runtime_text": "1h 42m",
+      "genres": "Adventure • Thriller",
+      "genres_list": [
+        "Adventure",
+        "Thriller"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/6sYemVUn79UPKz1ZsSG6kPU4RVy.jpg",
+      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1263337.jpg",
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1263337.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=UkMuGKqAux4"
+    },
+    {
       "id": 1423191,
       "title": "Resident Evil",
       "date": "2026-09-16",
@@ -43,48 +84,6 @@
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1423191.png",
       "badge": null,
       "trailer": "https://www.youtube.com/watch?v=mNd1gb19A-c"
-    },
-    {
-      "id": 969681,
-      "title": "Spider-Man: Brand New Day",
-      "date": "2026-07-29",
-      "rating": 8.5,
-      "overview": "Fighting crime full-time as Spider-Man in a world that doesn't remember him—and the pressure of seeing his old friends move on without him—sparks a change in Peter Parker he may not have the power to control. But that transformation might also be the only thing that can stop a shocking new threat to the city and those he loves - a powerful villain no one can even see.",
-      "tagline": "A brand new day starts now.",
-      "runtime": 145,
-      "runtime_text": "2h 25m",
-      "genres": "Science Fiction • Action • Adventure",
-      "genres_list": [
-        "Science Fiction",
-        "Action",
-        "Adventure"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
-      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/969681.jpg",
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/969681.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=P3uI5sLosKU"
-    },
-    {
-      "id": 1400837,
-      "title": "Other Mommy",
-      "date": "2026-10-07",
-      "rating": 6.4,
-      "overview": "Young Bela forms a relationship with a sinister entity in her home that looks uncannily like her own mother, drawing her into a terrifying and increasingly dark world.",
-      "tagline": "Your mommy won't save you.",
-      "runtime": 93,
-      "runtime_text": "1h 33m",
-      "genres": "Horror",
-      "genres_list": [
-        "Horror"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/fGRNCssTRrhYZxNzykGGCoMsAVq.jpg",
-      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1400837.jpg",
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1400837.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=-mnTITqqiT0"
     }
   ],
   "trending": [
@@ -92,7 +91,7 @@
       "id": 1300968,
       "title": "The Hunger Games: Sunrise on the Reaping",
       "date": "2026-11-18",
-      "rating": 7.3,
+      "rating": 7.4,
       "overview": "Return to the world of Panem 24 years before the events of The Hunger Games, starting on the morning of the reaping of the 50th Hunger Games, also known as the Second Quarter Quell.",
       "tagline": "Welcome to the Second Quarter Quell.",
       "runtime": 159,
@@ -111,26 +110,26 @@
       "trailer": "https://www.youtube.com/watch?v=Dr060OLTodE"
     },
     {
-      "id": 1381071,
-      "title": "Godzilla Minus Zero",
-      "date": "2026-11-03",
-      "rating": 7.7,
-      "overview": "War reduced Japan to zero, and Godzilla plunged it into minus. Two years have passed since then, and the country has faced agonizing struggles to achieve recovery and finally reclaim its daily life. Just as humanity managed to cling to a hard-won peace, a new threat strikes, crushing hope in an instant. There is no third time. Everything ends here.",
-      "tagline": "There is no third time. Everything ends here.",
-      "runtime": 135,
-      "runtime_text": "2h 15m",
-      "genres": "Science Fiction • Horror • Action",
+      "id": 969681,
+      "title": "Spider-Man: Brand New Day",
+      "date": "2026-07-29",
+      "rating": 8.5,
+      "overview": "Fighting crime full-time as Spider-Man in a world that doesn't remember him—and the pressure of seeing his old friends move on without him—sparks a change in Peter Parker he may not have the power to control. But that transformation might also be the only thing that can stop a shocking new threat to the city and those he loves - a powerful villain no one can even see.",
+      "tagline": "A brand new day starts now.",
+      "runtime": 145,
+      "runtime_text": "2h 25m",
+      "genres": "Science Fiction • Action • Adventure",
       "genres_list": [
         "Science Fiction",
-        "Horror",
-        "Action"
+        "Action",
+        "Adventure"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/hSmIJluOJmTWvJs4d7kHRxjc8s8.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
       "backdrop": null,
       "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1381071.png",
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/969681.png",
       "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=Pu0pH5BuCPM"
+      "trailer": "https://www.youtube.com/watch?v=P3uI5sLosKU"
     },
     {
       "id": 1003596,
@@ -155,49 +154,96 @@
       "trailer": "https://www.youtube.com/watch?v=X1aFkAkFASk"
     },
     {
-      "id": 1185344,
-      "title": "The Beast",
-      "date": "2026-10-08",
-      "rating": 5.2,
-      "overview": "When a militia of unidentified hostiles coordinates a coup against the United States, the president must fight back by utilizing the highly classified offensive capabilities of his armored limousine, nicknamed The Beast.",
-      "tagline": "You know Air Force One. Now meet...",
-      "runtime": 99,
-      "runtime_text": "1h 39m",
-      "genres": "Action • Thriller",
+      "id": 1381071,
+      "title": "Godzilla Minus Zero",
+      "date": "2026-11-03",
+      "rating": 7.7,
+      "overview": "War reduced Japan to zero, and Godzilla plunged it into minus. Two years have passed since then, and the country has faced agonizing struggles to achieve recovery and finally reclaim its daily life. Just as humanity managed to cling to a hard-won peace, a new threat strikes, crushing hope in an instant. There is no third time. Everything ends here.",
+      "tagline": "There is no third time. Everything ends here.",
+      "runtime": 135,
+      "runtime_text": "2h 15m",
+      "genres": "Science Fiction • Horror • Action",
       "genres_list": [
-        "Action",
-        "Thriller"
+        "Science Fiction",
+        "Horror",
+        "Action"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/ocg5JfJP19fodcv5uQUApkmZMdI.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/hSmIJluOJmTWvJs4d7kHRxjc8s8.jpg",
       "backdrop": null,
       "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1185344.png",
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1381071.png",
       "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=5ckqV_uf8E0"
+      "trailer": "https://www.youtube.com/watch?v=Pu0pH5BuCPM"
     },
     {
-      "id": 1263337,
-      "title": "Heart of the Beast",
-      "date": "2026-09-19",
-      "rating": 7.8,
-      "overview": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
-      "tagline": "Survival depends on their bond.",
-      "runtime": 102,
-      "runtime_text": "1h 42m",
-      "genres": "Adventure • Thriller",
+      "id": 1551025,
+      "title": "Guarding Stars",
+      "date": "2026-11-18",
+      "rating": 7.1,
+      "overview": "When a no-nonsense bodyguard is assigned to protect a charming action star over the holidays, sparks fly, secrets unravel, and Christmas gets a whole lot more complicated.",
+      "tagline": null,
+      "runtime": 109,
+      "runtime_text": "1h 49m",
+      "genres": "Romance • Comedy",
       "genres_list": [
-        "Adventure",
-        "Thriller"
+        "Romance",
+        "Comedy"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/6sYemVUn79UPKz1ZsSG6kPU4RVy.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/wWNizZ4IcSld3xXH1WEXziJiNJN.jpg",
       "backdrop": null,
       "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1263337.png",
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1551025.png",
       "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=UkMuGKqAux4"
+      "trailer": "https://www.youtube.com/watch?v=mFvtVPMa5ak"
     }
   ],
   "anticipated": [
+    {
+      "id": 1595124,
+      "title": "Steps",
+      "date": "2026-11-20",
+      "rating": 0,
+      "overview": "After being blamed for disrupting the Royal Ball with a stolen magic wand, a misunderstood stepsister accidentally turns her sister into a frog and must team up with Cinderella and an unlikely ally to save the kingdom and rewrite their fairytale ending.",
+      "tagline": "At midnight, we ride.",
+      "runtime": 102,
+      "runtime_text": "1h 42m",
+      "genres": "Animation • Fantasy • Comedy • Family • Adventure",
+      "genres_list": [
+        "Animation",
+        "Fantasy",
+        "Comedy",
+        "Family",
+        "Adventure"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/jtfCcWZ3ZyKdgi0u7JVOxEOSSJP.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1595124.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=tNV4i3BqUGY"
+    },
+    {
+      "id": 1568060,
+      "title": "Perfect Liars",
+      "date": "2026-11-20",
+      "rating": 0,
+      "overview": "Jude Derry arrives at the exclusive Tagus university with a hidden mission: to infiltrate the circle of the Cash brothers and uncover the truth about her brother's death. What begins as revenge turns into a dangerous triangle of seduction, forbidden attraction and lies, drawing her toward a truth she may not be ready to face.",
+      "tagline": null,
+      "runtime": 108,
+      "runtime_text": "1h 48m",
+      "genres": "Drama • Romance • Thriller",
+      "genres_list": [
+        "Drama",
+        "Romance",
+        "Thriller"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/kej8EipJOvfHUHFg5wtT7gQ6bNb.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1568060.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=50v6k3LUcxU"
+    },
     {
       "id": 1538497,
       "title": "Hexed",
@@ -223,50 +269,25 @@
       "trailer": "https://www.youtube.com/watch?v=IuosV-TRxDU"
     },
     {
-      "id": 1595124,
-      "title": "Steps",
-      "date": "2026-11-20",
+      "id": 1400336,
+      "title": "Focker In-Law",
+      "date": "2026-11-21",
       "rating": 0,
-      "overview": "Think you know Cinderella's 'evil' stepsisters? Think again! When misunderstood Lilith is blamed for hijacking the Royal Ball with a stolen magic wand, she accidentally turns her sister Margot into a frog and leaves the kingdom in the hands of a prince-obsessed mean girl. Now Lilith must team up with Cinderella — and a surprisingly dreamy troll — to save the kingdom, repair the fractured fairytale, and prove that even so-called villains deserve a shot at happily-ever-after.",
-      "tagline": "At midnight, we ride.",
-      "runtime": 102,
-      "runtime_text": "1h 42m",
-      "genres": "Animation • Fantasy • Comedy • Family • Adventure",
+      "overview": "Henry, son of Greg and Pam Focker, aims to marry Olivia, a strong-willed former hostage negotiator who appears to be his complete mismatch. To Greg's shock, stepdad Jack Byrnes takes a liking to Olivia, and her unprecedented rise into his Circle of Trust sparks chaos in the family before Jack's 80th birthday party.",
+      "tagline": "Every family has its traditions.",
+      "runtime": 105,
+      "runtime_text": "1h 45m",
+      "genres": "Comedy • Romance",
       "genres_list": [
-        "Animation",
-        "Fantasy",
         "Comedy",
-        "Family",
-        "Adventure"
+        "Romance"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/rZmdm70Li2znSd9N4ZyrMkoKWkw.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/iHJhSfqFpDMOyeMc6h6BOeHxse2.jpg",
       "backdrop": null,
       "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1595124.png",
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1400336.png",
       "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=tNV4i3BqUGY"
-    },
-    {
-      "id": 1568060,
-      "title": "Perfect Liars",
-      "date": "2026-11-20",
-      "rating": 0,
-      "overview": "Jude Derry arrives at the exclusive Tagus university with a hidden mission: to infiltrate the circle of the Cash brothers and uncover the truth about her brother's death. What begins as revenge turns into a dangerous triangle of seduction, forbidden attraction and lies, drawing her toward a truth she may not be ready to face. Based on the novel by Alex Mirez.",
-      "tagline": null,
-      "runtime": 0,
-      "runtime_text": null,
-      "genres": "Drama • Romance • Thriller",
-      "genres_list": [
-        "Drama",
-        "Romance",
-        "Thriller"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/kej8EipJOvfHUHFg5wtT7gQ6bNb.jpg",
-      "backdrop": null,
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1568060.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=50v6k3LUcxU"
+      "trailer": "https://www.youtube.com/watch?v=9CKu3WoMYCg"
     },
     {
       "id": 1165369,
@@ -289,27 +310,6 @@
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1165369.png",
       "badge": null,
       "trailer": "https://www.youtube.com/watch?v=J6MRNchmZkY"
-    },
-    {
-      "id": 1400336,
-      "title": "Focker-in-Law",
-      "date": "2026-11-21",
-      "rating": 0,
-      "overview": "Henry, son of Greg and Pam Focker, aims to marry Olivia, a strong-willed former hostage negotiator who appears to be his complete mismatch. To Greg's shock, stepdad Jack Byrnes takes a liking to Olivia, and her unprecedented rise into his Circle of Trust sparks chaos in the family before Jack's 80th birthday party.",
-      "tagline": "Every family has its traditions.",
-      "runtime": 105,
-      "runtime_text": "1h 45m",
-      "genres": "Comedy • Romance",
-      "genres_list": [
-        "Comedy",
-        "Romance"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/iHJhSfqFpDMOyeMc6h6BOeHxse2.jpg",
-      "backdrop": null,
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1400336.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=9CKu3WoMYCg"
     }
   ]
 }

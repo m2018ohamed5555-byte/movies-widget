@@ -65,50 +65,6 @@
       "trailer": "https://www.youtube.com/watch?v=P3uI5sLosKU"
     },
     {
-      "id": 1567605,
-      "title": "Ebenezer",
-      "date": "2026-11-11",
-      "rating": 7.6,
-      "overview": "An elderly miser embarks on a supernatural journey after visits from the ghost of his former business partner and the Spirits of Christmas Past, Present, and Yet to Come force him to confront his past and fight for a second chance at happiness.",
-      "tagline": "Before he was Scrooge, he was…",
-      "runtime": 115,
-      "runtime_text": "1h 55m",
-      "genres": "Fantasy • Comedy",
-      "genres_list": [
-        "Fantasy",
-        "Comedy"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/6H2N59jJW1hZEzn2ZdrMvJw5vNI.jpg",
-      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1567605.jpg",
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1567605.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=D-n-lqKVr78"
-    }
-  ],
-  "trending": [
-    {
-      "id": 1263337,
-      "title": "Heart of the Beast",
-      "date": "2026-09-19",
-      "rating": 7.7,
-      "overview": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
-      "tagline": "Survival depends on their bond.",
-      "runtime": 101,
-      "runtime_text": "1h 41m",
-      "genres": "Adventure • Thriller",
-      "genres_list": [
-        "Adventure",
-        "Thriller"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/6sYemVUn79UPKz1ZsSG6kPU4RVy.jpg",
-      "backdrop": null,
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1263337.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=UkMuGKqAux4"
-    },
-    {
       "id": 1423191,
       "title": "Resident Evil",
       "date": "2026-09-16",
@@ -124,11 +80,78 @@
         "Adventure"
       ],
       "poster": "https://image.tmdb.org/t/p/w342/gAgWJhUSQWCgtKR8170nMkYlBda.jpg",
-      "backdrop": null,
+      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1423191.jpg",
       "backdrop_fg": null,
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1423191.png",
       "badge": null,
       "trailer": "https://www.youtube.com/watch?v=mNd1gb19A-c"
+    }
+  ],
+  "trending": [
+    {
+      "id": 1263337,
+      "title": "Heart of the Beast",
+      "date": "2026-09-19",
+      "rating": 7.8,
+      "overview": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
+      "tagline": "Survival depends on their bond.",
+      "runtime": 102,
+      "runtime_text": "1h 42m",
+      "genres": "Adventure • Thriller",
+      "genres_list": [
+        "Adventure",
+        "Thriller"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/6sYemVUn79UPKz1ZsSG6kPU4RVy.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1263337.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=UkMuGKqAux4"
+    },
+    {
+      "id": 1300968,
+      "title": "The Hunger Games: Sunrise on the Reaping",
+      "date": "2026-11-18",
+      "rating": 7.4,
+      "overview": "Return to the world of Panem 24 years before the events of The Hunger Games, starting on the morning of the reaping of the 50th Hunger Games, also known as the Second Quarter Quell.",
+      "tagline": "Welcome to the Second Quarter Quell.",
+      "runtime": 159,
+      "runtime_text": "2h 39m",
+      "genres": "Science Fiction • Action • Adventure",
+      "genres_list": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/jNcZH8yplxttRlf0wwqfGGMKHxX.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1300968.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=Dr060OLTodE"
+    },
+    {
+      "id": 1003596,
+      "title": "Avengers: Doomsday",
+      "date": "2026-12-16",
+      "rating": 0,
+      "overview": "Beloved heroes from three distinct universes are set on a deadly collision course and face an existential threat unlike anything they've ever encountered.",
+      "tagline": "Meet your doom.",
+      "runtime": 165,
+      "runtime_text": "2h 45m",
+      "genres": "Science Fiction • Action • Adventure",
+      "genres_list": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/1zqWkLwC1zLBBBtIWzmkmWeMWnT.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1003596.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=X1aFkAkFASk"
     },
     {
       "id": 1381071,
@@ -153,51 +176,96 @@
       "trailer": "https://www.youtube.com/watch?v=Pu0pH5BuCPM"
     },
     {
-      "id": 1300968,
-      "title": "The Hunger Games: Sunrise on the Reaping",
+      "id": 1551025,
+      "title": "Guarding Stars",
       "date": "2026-11-18",
       "rating": 7.5,
-      "overview": "Return to the world of Panem 24 years before the events of The Hunger Games, starting on the morning of the reaping of the 50th Hunger Games, also known as the Second Quarter Quell.",
-      "tagline": "Welcome to the Second Quarter Quell.",
-      "runtime": 159,
-      "runtime_text": "2h 39m",
-      "genres": "Science Fiction • Action • Adventure",
+      "overview": "When a no-nonsense bodyguard is assigned to protect a charming action star over the holidays, sparks fly, secrets unravel, and Christmas gets a whole lot more complicated.",
+      "tagline": null,
+      "runtime": 109,
+      "runtime_text": "1h 49m",
+      "genres": "Romance • Comedy",
       "genres_list": [
-        "Science Fiction",
-        "Action",
-        "Adventure"
+        "Romance",
+        "Comedy"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/nzIXSQNgYZwFOMrmv0d0I3ulvkM.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/wWNizZ4IcSld3xXH1WEXziJiNJN.jpg",
       "backdrop": null,
       "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1300968.png",
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1551025.png",
       "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=Dr060OLTodE"
-    },
-    {
-      "id": 1003596,
-      "title": "Avengers: Doomsday",
-      "date": "2026-12-16",
-      "rating": 0,
-      "overview": "Beloved heroes from three distinct universes are set on a deadly collision course and face an existential threat unlike anything they've ever encountered.",
-      "tagline": "Meet your doom.",
-      "runtime": 165,
-      "runtime_text": "2h 45m",
-      "genres": "Science Fiction • Action • Adventure",
-      "genres_list": [
-        "Science Fiction",
-        "Action",
-        "Adventure"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/cWXtJhrlruF8CeYuaBGE8vdj3Q9.jpg",
-      "backdrop": null,
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1003596.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=X1aFkAkFASk"
+      "trailer": "https://www.youtube.com/watch?v=mFvtVPMa5ak"
     }
   ],
   "anticipated": [
+    {
+      "id": 1568060,
+      "title": "Perfect Liars",
+      "date": "2026-11-20",
+      "rating": 0,
+      "overview": "",
+      "tagline": null,
+      "runtime": 0,
+      "runtime_text": null,
+      "genres": "Drama • Romance • Thriller",
+      "genres_list": [
+        "Drama",
+        "Romance",
+        "Thriller"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/6bQ0YqBV61wlBHArIyksxs0FoT6.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1568060.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=50v6k3LUcxU"
+    },
+    {
+      "id": 1538497,
+      "title": "Hexed",
+      "date": "2026-11-25",
+      "rating": 0,
+      "overview": "An impulsive and unconventional teenage girl named Billie discovers secret magical abilities which, once unleashed, hurtle her into a spectacle-filled journey out of suburbia and into a vast witch realm called Hexe. Forced to team up with her cautious mother, Alice, they uncover family mysteries that could change the world of witches forever.",
+      "tagline": "Something is happening to Billie...",
+      "runtime": 103,
+      "runtime_text": "1h 43m",
+      "genres": "Adventure • Animation • Family • Fantasy • Comedy",
+      "genres_list": [
+        "Adventure",
+        "Animation",
+        "Family",
+        "Fantasy",
+        "Comedy"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/yykeYKbDBM9eUMJUucaaDo2mi1p.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1538497.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=IuosV-TRxDU"
+    },
+    {
+      "id": 1165369,
+      "title": "De Gaulle: Liberté",
+      "date": "2026-06-26",
+      "rating": 7.9,
+      "overview": "While World War II is raging, General De Gaulle seeks to convince the world that the battle for France not lost. Reality seems determined to prove him wrong. Yet, little by little, resistance fighters, rebellious students and determined soldiers rise up. Their faith, audacity and thirst for freedom defy what history seemed to have written in advance.",
+      "tagline": null,
+      "runtime": 159,
+      "runtime_text": "2h 39m",
+      "genres": "Drama • War • History",
+      "genres_list": [
+        "Drama",
+        "War",
+        "History"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/vyI8RnUy0tV7F0rj0WUjlNKIIHx.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1165369.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=J6MRNchmZkY"
+    },
     {
       "id": 1170608,
       "title": "Dune: Part Three",
@@ -239,72 +307,6 @@
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1400336.png",
       "badge": null,
       "trailer": "https://www.youtube.com/watch?v=9CKu3WoMYCg"
-    },
-    {
-      "id": 1538497,
-      "title": "Hexed",
-      "date": "2026-11-25",
-      "rating": 0,
-      "overview": "An impulsive and unconventional teenage girl named Billie discovers secret magical abilities which, once unleashed, hurtle her into a spectacle-filled journey out of suburbia and into a vast witch realm called Hexe. Forced to team up with her cautious mother, Alice, they uncover family mysteries that could change the world of witches forever.",
-      "tagline": "Something is happening to Billie...",
-      "runtime": 103,
-      "runtime_text": "1h 43m",
-      "genres": "Adventure • Animation • Family • Fantasy • Comedy",
-      "genres_list": [
-        "Adventure",
-        "Animation",
-        "Family",
-        "Fantasy",
-        "Comedy"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/yykeYKbDBM9eUMJUucaaDo2mi1p.jpg",
-      "backdrop": null,
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1538497.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=IuosV-TRxDU"
-    },
-    {
-      "id": 1476614,
-      "title": "All of a Sudden",
-      "date": "2026-06-19",
-      "rating": 7.8,
-      "overview": "Director of a care facility for the elderly, Marie-Lou strives to introduce an innovative care philosophy based on listening and respecting residents’ dignity, despite resistance from part of her staff. Her encounter with Mari, a Japanese theater director battling cancer, will profoundly reshape her path. By forming a deep, supportive friendship, the two women join forces in a shared struggle to make the impossible possible.",
-      "tagline": "One night. Two strangers. A lifetime of questions.",
-      "runtime": 197,
-      "runtime_text": "3h 17m",
-      "genres": "Drama",
-      "genres_list": [
-        "Drama"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/kFD1vl6FPt8heIIgFiAyIbZqrYh.jpg",
-      "backdrop": null,
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1476614.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=2AxtdPvDojA"
-    },
-    {
-      "id": 1384528,
-      "title": "O.M: Operation Mole",
-      "date": "2026-11-19",
-      "rating": 0,
-      "overview": "Set across the temple corridors of Tirupati and Tiruvannamalai, an elite undercover operative infiltrates a sprawling transnational red sanders syndicate. As criminal politics escalate, a covert task force launches Operation Mole to dismantle the cartel from within.",
-      "tagline": null,
-      "runtime": 178,
-      "runtime_text": "2h 58m",
-      "genres": "Crime • Action • Thriller",
-      "genres_list": [
-        "Crime",
-        "Action",
-        "Thriller"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/vFnFLqXjf7RQfkNxrrys43BZKxJ.jpg",
-      "backdrop": null,
-      "backdrop_fg": null,
-      "logo": null,
-      "badge": null,
-      "trailer": null
     }
   ]
 }

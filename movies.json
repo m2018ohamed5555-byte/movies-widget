@@ -17,30 +17,32 @@
       ],
       "poster": "https://image.tmdb.org/t/p/w342/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg",
       "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1368337.jpg",
-      "backdrop_fg": null,
+      "backdrop_fg": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/cutouts/1368337.png",
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1368337.png",
       "badge": null,
       "trailer": "https://www.youtube.com/watch?v=AyIZ9tiiN8I"
     },
     {
-      "id": 1400837,
-      "title": "Other Mommy",
-      "date": "2026-10-07",
-      "rating": 6.4,
-      "overview": "Young Bela forms a relationship with a sinister entity in her home that looks uncannily like her own mother, drawing her into a terrifying and increasingly dark world.",
-      "tagline": "Your mommy won't save you.",
-      "runtime": 93,
-      "runtime_text": "1h 33m",
-      "genres": "Horror",
+      "id": 1423191,
+      "title": "Resident Evil",
+      "date": "2026-09-16",
+      "rating": 7.5,
+      "overview": "Medical courier Bryan unwittingly finds himself fighting for survival as one fateful, horrifying night collapses around him in chaos.",
+      "tagline": "A new era of evil.",
+      "runtime": 94,
+      "runtime_text": "1h 34m",
+      "genres": "Horror • Science Fiction • Adventure",
       "genres_list": [
-        "Horror"
+        "Horror",
+        "Science Fiction",
+        "Adventure"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/fGRNCssTRrhYZxNzykGGCoMsAVq.jpg",
-      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1400837.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/gAgWJhUSQWCgtKR8170nMkYlBda.jpg",
+      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1423191.jpg",
       "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1400837.png",
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1423191.png",
       "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=-mnTITqqiT0"
+      "trailer": "https://www.youtube.com/watch?v=mNd1gb19A-c"
     },
     {
       "id": 969681,
@@ -65,55 +67,32 @@
       "trailer": "https://www.youtube.com/watch?v=P3uI5sLosKU"
     },
     {
-      "id": 1423191,
-      "title": "Resident Evil",
-      "date": "2026-09-16",
-      "rating": 7.5,
-      "overview": "Medical courier Bryan unwittingly finds himself fighting for survival as one fateful, horrifying night collapses around him in chaos.",
-      "tagline": "A new era of evil.",
-      "runtime": 94,
-      "runtime_text": "1h 34m",
-      "genres": "Horror • Science Fiction • Adventure",
+      "id": 1400837,
+      "title": "Other Mommy",
+      "date": "2026-10-07",
+      "rating": 6.4,
+      "overview": "Young Bela forms a relationship with a sinister entity in her home that looks uncannily like her own mother, drawing her into a terrifying and increasingly dark world.",
+      "tagline": "Your mommy won't save you.",
+      "runtime": 93,
+      "runtime_text": "1h 33m",
+      "genres": "Horror",
       "genres_list": [
-        "Horror",
-        "Science Fiction",
-        "Adventure"
+        "Horror"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/gAgWJhUSQWCgtKR8170nMkYlBda.jpg",
-      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1423191.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/fGRNCssTRrhYZxNzykGGCoMsAVq.jpg",
+      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1400837.jpg",
       "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1423191.png",
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1400837.png",
       "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=mNd1gb19A-c"
+      "trailer": "https://www.youtube.com/watch?v=-mnTITqqiT0"
     }
   ],
   "trending": [
     {
-      "id": 1263337,
-      "title": "Heart of the Beast",
-      "date": "2026-09-19",
-      "rating": 7.8,
-      "overview": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
-      "tagline": "Survival depends on their bond.",
-      "runtime": 102,
-      "runtime_text": "1h 42m",
-      "genres": "Adventure • Thriller",
-      "genres_list": [
-        "Adventure",
-        "Thriller"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/6sYemVUn79UPKz1ZsSG6kPU4RVy.jpg",
-      "backdrop": null,
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1263337.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=UkMuGKqAux4"
-    },
-    {
       "id": 1300968,
       "title": "The Hunger Games: Sunrise on the Reaping",
       "date": "2026-11-18",
-      "rating": 7.4,
+      "rating": 7.3,
       "overview": "Return to the world of Panem 24 years before the events of The Hunger Games, starting on the morning of the reaping of the 50th Hunger Games, also known as the Second Quarter Quell.",
       "tagline": "Welcome to the Second Quarter Quell.",
       "runtime": 159,
@@ -130,28 +109,6 @@
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1300968.png",
       "badge": null,
       "trailer": "https://www.youtube.com/watch?v=Dr060OLTodE"
-    },
-    {
-      "id": 1003596,
-      "title": "Avengers: Doomsday",
-      "date": "2026-12-16",
-      "rating": 0,
-      "overview": "Beloved heroes from three distinct universes are set on a deadly collision course and face an existential threat unlike anything they've ever encountered.",
-      "tagline": "Meet your doom.",
-      "runtime": 165,
-      "runtime_text": "2h 45m",
-      "genres": "Science Fiction • Action • Adventure",
-      "genres_list": [
-        "Science Fiction",
-        "Action",
-        "Adventure"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/1zqWkLwC1zLBBBtIWzmkmWeMWnT.jpg",
-      "backdrop": null,
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1003596.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=X1aFkAkFASk"
     },
     {
       "id": 1381071,
@@ -176,50 +133,71 @@
       "trailer": "https://www.youtube.com/watch?v=Pu0pH5BuCPM"
     },
     {
-      "id": 1551025,
-      "title": "Guarding Stars",
-      "date": "2026-11-18",
-      "rating": 7.5,
-      "overview": "When a no-nonsense bodyguard is assigned to protect a charming action star over the holidays, sparks fly, secrets unravel, and Christmas gets a whole lot more complicated.",
-      "tagline": null,
-      "runtime": 109,
-      "runtime_text": "1h 49m",
-      "genres": "Romance • Comedy",
+      "id": 1003596,
+      "title": "Avengers: Doomsday",
+      "date": "2026-12-16",
+      "rating": 0,
+      "overview": "Beloved heroes from three distinct universes are set on a deadly collision course and face an existential threat unlike anything they've ever encountered.",
+      "tagline": "Meet your doom.",
+      "runtime": 165,
+      "runtime_text": "2h 45m",
+      "genres": "Science Fiction • Action • Adventure",
       "genres_list": [
-        "Romance",
-        "Comedy"
+        "Science Fiction",
+        "Action",
+        "Adventure"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/wWNizZ4IcSld3xXH1WEXziJiNJN.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/1zqWkLwC1zLBBBtIWzmkmWeMWnT.jpg",
       "backdrop": null,
       "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1551025.png",
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1003596.png",
       "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=mFvtVPMa5ak"
+      "trailer": "https://www.youtube.com/watch?v=X1aFkAkFASk"
+    },
+    {
+      "id": 1185344,
+      "title": "The Beast",
+      "date": "2026-10-08",
+      "rating": 5.2,
+      "overview": "When a militia of unidentified hostiles coordinates a coup against the United States, the president must fight back by utilizing the highly classified offensive capabilities of his armored limousine, nicknamed The Beast.",
+      "tagline": "You know Air Force One. Now meet...",
+      "runtime": 99,
+      "runtime_text": "1h 39m",
+      "genres": "Action • Thriller",
+      "genres_list": [
+        "Action",
+        "Thriller"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/ocg5JfJP19fodcv5uQUApkmZMdI.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1185344.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=5ckqV_uf8E0"
+    },
+    {
+      "id": 1263337,
+      "title": "Heart of the Beast",
+      "date": "2026-09-19",
+      "rating": 7.8,
+      "overview": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
+      "tagline": "Survival depends on their bond.",
+      "runtime": 102,
+      "runtime_text": "1h 42m",
+      "genres": "Adventure • Thriller",
+      "genres_list": [
+        "Adventure",
+        "Thriller"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/6sYemVUn79UPKz1ZsSG6kPU4RVy.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1263337.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=UkMuGKqAux4"
     }
   ],
   "anticipated": [
-    {
-      "id": 1568060,
-      "title": "Perfect Liars",
-      "date": "2026-11-20",
-      "rating": 0,
-      "overview": "",
-      "tagline": null,
-      "runtime": 0,
-      "runtime_text": null,
-      "genres": "Drama • Romance • Thriller",
-      "genres_list": [
-        "Drama",
-        "Romance",
-        "Thriller"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/6bQ0YqBV61wlBHArIyksxs0FoT6.jpg",
-      "backdrop": null,
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1568060.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=50v6k3LUcxU"
-    },
     {
       "id": 1538497,
       "title": "Hexed",
@@ -245,6 +223,52 @@
       "trailer": "https://www.youtube.com/watch?v=IuosV-TRxDU"
     },
     {
+      "id": 1595124,
+      "title": "Steps",
+      "date": "2026-11-20",
+      "rating": 0,
+      "overview": "Think you know Cinderella's 'evil' stepsisters? Think again! When misunderstood Lilith is blamed for hijacking the Royal Ball with a stolen magic wand, she accidentally turns her sister Margot into a frog and leaves the kingdom in the hands of a prince-obsessed mean girl. Now Lilith must team up with Cinderella — and a surprisingly dreamy troll — to save the kingdom, repair the fractured fairytale, and prove that even so-called villains deserve a shot at happily-ever-after.",
+      "tagline": "At midnight, we ride.",
+      "runtime": 102,
+      "runtime_text": "1h 42m",
+      "genres": "Animation • Fantasy • Comedy • Family • Adventure",
+      "genres_list": [
+        "Animation",
+        "Fantasy",
+        "Comedy",
+        "Family",
+        "Adventure"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/rZmdm70Li2znSd9N4ZyrMkoKWkw.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1595124.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=tNV4i3BqUGY"
+    },
+    {
+      "id": 1568060,
+      "title": "Perfect Liars",
+      "date": "2026-11-20",
+      "rating": 0,
+      "overview": "Jude Derry arrives at the exclusive Tagus university with a hidden mission: to infiltrate the circle of the Cash brothers and uncover the truth about her brother's death. What begins as revenge turns into a dangerous triangle of seduction, forbidden attraction and lies, drawing her toward a truth she may not be ready to face. Based on the novel by Alex Mirez.",
+      "tagline": null,
+      "runtime": 0,
+      "runtime_text": null,
+      "genres": "Drama • Romance • Thriller",
+      "genres_list": [
+        "Drama",
+        "Romance",
+        "Thriller"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/kej8EipJOvfHUHFg5wtT7gQ6bNb.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1568060.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=50v6k3LUcxU"
+    },
+    {
       "id": 1165369,
       "title": "De Gaulle: Liberté",
       "date": "2026-06-26",
@@ -265,27 +289,6 @@
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1165369.png",
       "badge": null,
       "trailer": "https://www.youtube.com/watch?v=J6MRNchmZkY"
-    },
-    {
-      "id": 1170608,
-      "title": "Dune: Part Three",
-      "date": "2026-12-15",
-      "rating": 0,
-      "overview": "Nearly two decades after he seized control of the Imperium, Paul Atreides is now a ruthless Emperor, and must face the consequences of his reign as old allies return, terrifying new threats emerge, and betrayal lurks in every shadow. Haunted by visions of Imperial collapse and the reappearance of his long-lost love, Paul is drawn into a sweeping conspiracy, with Chani at the heart of its unfolding mystery. As enemies close in, Paul must confront the true cost of power and the fate of those he loves the most.",
-      "tagline": "The epic conclusion.",
-      "runtime": 150,
-      "runtime_text": "2h 30m",
-      "genres": "Science Fiction • Adventure",
-      "genres_list": [
-        "Science Fiction",
-        "Adventure"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/d43fvHQsIMa4kpyhKXw0haEJIvI.jpg",
-      "backdrop": null,
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1170608.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=uJqaGLmZpGo"
     },
     {
       "id": 1400336,

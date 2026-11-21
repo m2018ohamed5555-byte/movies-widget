@@ -45,71 +45,6 @@
       "trailer": "https://www.youtube.com/watch?v=P3uI5sLosKU"
     },
     {
-      "id": 1263337,
-      "title": "Heart of the Beast",
-      "date": "2026-09-19",
-      "rating": 7.8,
-      "overview": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
-      "tagline": "Survival depends on their bond.",
-      "runtime": 102,
-      "runtime_text": "1h 42m",
-      "genres": "Adventure • Thriller",
-      "genres_list": [
-        "Adventure",
-        "Thriller"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/6sYemVUn79UPKz1ZsSG6kPU4RVy.jpg",
-      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1263337.jpg",
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1263337.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=UkMuGKqAux4"
-    },
-    {
-      "id": 1400837,
-      "title": "Other Mommy",
-      "date": "2026-10-07",
-      "rating": 6.4,
-      "overview": "Young Bela forms a relationship with a sinister entity in her home that looks uncannily like her own mother, drawing her into a terrifying and increasingly dark world.",
-      "tagline": "Your mommy won't save you.",
-      "runtime": 93,
-      "runtime_text": "1h 33m",
-      "genres": "Horror",
-      "genres_list": [
-        "Horror"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/fGRNCssTRrhYZxNzykGGCoMsAVq.jpg",
-      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1400837.jpg",
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1400837.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=-mnTITqqiT0"
-    }
-  ],
-  "trending": [
-    {
-      "id": 1300968,
-      "title": "The Hunger Games: Sunrise on the Reaping",
-      "date": "2026-11-18",
-      "rating": 7.5,
-      "overview": "Return to the world of Panem 24 years before Katniss Everdeen volunteers in her sister's place, commencing on the morning of the reaping of the 50th Hunger Games, also known as the Second Quarter Quell.",
-      "tagline": "Welcome to the Second Quarter Quell.",
-      "runtime": 158,
-      "runtime_text": "2h 38m",
-      "genres": "Science Fiction • Action • Adventure",
-      "genres_list": [
-        "Science Fiction",
-        "Action",
-        "Adventure"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/jNcZH8yplxttRlf0wwqfGGMKHxX.jpg",
-      "backdrop": null,
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1300968.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=Dr060OLTodE"
-    },
-    {
       "id": 1423191,
       "title": "Resident Evil",
       "date": "2026-09-16",
@@ -125,12 +60,36 @@
         "Adventure"
       ],
       "poster": "https://image.tmdb.org/t/p/w342/gAgWJhUSQWCgtKR8170nMkYlBda.jpg",
-      "backdrop": null,
+      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1423191.jpg",
       "backdrop_fg": null,
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1423191.png",
       "badge": null,
       "trailer": "https://www.youtube.com/watch?v=mNd1gb19A-c"
     },
+    {
+      "id": 1300968,
+      "title": "The Hunger Games: Sunrise on the Reaping",
+      "date": "2026-11-18",
+      "rating": 7.6,
+      "overview": "Return to the world of Panem 24 years before Katniss Everdeen volunteers in her sister's place, commencing on the morning of the reaping of the 50th Hunger Games, also known as the Second Quarter Quell.",
+      "tagline": "Welcome to the Second Quarter Quell.",
+      "runtime": 158,
+      "runtime_text": "2h 38m",
+      "genres": "Science Fiction • Action • Adventure",
+      "genres_list": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/jNcZH8yplxttRlf0wwqfGGMKHxX.jpg",
+      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1300968.jpg",
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1300968.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=Dr060OLTodE"
+    }
+  ],
+  "trending": [
     {
       "id": 1003596,
       "title": "Avengers: Doomsday",
@@ -157,7 +116,7 @@
       "id": 1551025,
       "title": "Guarding Stars",
       "date": "2026-11-18",
-      "rating": 6.9,
+      "rating": 7,
       "overview": "When a no-nonsense bodyguard is assigned to protect a charming action star over the holidays, sparks fly, secrets unravel, and Christmas gets a whole lot more complicated.",
       "tagline": null,
       "runtime": 109,
@@ -167,7 +126,7 @@
         "Romance",
         "Comedy"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/wWNizZ4IcSld3xXH1WEXziJiNJN.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/5bsXFYXOlbzHBpl9mPaxmOPIQJ9.jpg",
       "backdrop": null,
       "backdrop_fg": null,
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1551025.png",
@@ -178,7 +137,7 @@
       "id": 1185344,
       "title": "The Beast",
       "date": "2026-10-08",
-      "rating": 5.1,
+      "rating": 4.9,
       "overview": "When a militia of unidentified hostiles coordinates a coup against the United States, the president must fight back by utilizing the highly classified offensive capabilities of his armored limousine, nicknamed The Beast.",
       "tagline": "You know Air Force One. Now meet...",
       "runtime": 99,
@@ -194,6 +153,50 @@
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1185344.png",
       "badge": null,
       "trailer": "https://www.youtube.com/watch?v=5ckqV_uf8E0"
+    },
+    {
+      "id": 1381071,
+      "title": "Godzilla Minus Zero",
+      "date": "2026-11-03",
+      "rating": 7.7,
+      "overview": "War reduced Japan to zero, and Godzilla plunged it into minus. Two years have passed since then, and the country has faced agonizing struggles to achieve recovery and finally reclaim its daily life. Just as humanity managed to cling to a hard-won peace, a new threat strikes, crushing hope in an instant. There is no third time. Everything ends here.",
+      "tagline": "There is no third time. Everything ends here.",
+      "runtime": 135,
+      "runtime_text": "2h 15m",
+      "genres": "Science Fiction • Horror • Action",
+      "genres_list": [
+        "Science Fiction",
+        "Horror",
+        "Action"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/hSmIJluOJmTWvJs4d7kHRxjc8s8.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1381071.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=Pu0pH5BuCPM"
+    },
+    {
+      "id": 1131943,
+      "title": "Madden",
+      "date": "2026-11-18",
+      "rating": 7.4,
+      "overview": "Chronicles John Madden's incredible journey alongside best friend and true original Al Davis—from a Super Bowl-winning partnership with the Raiders, to becoming football's most recognizable voice, to building the worldwide Madden NFL video game.",
+      "tagline": null,
+      "runtime": 112,
+      "runtime_text": "1h 52m",
+      "genres": "Drama • History • Comedy",
+      "genres_list": [
+        "Drama",
+        "History",
+        "Comedy"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/bRa83oPFFPqaAF3wrpVWPqqfFel.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1131943.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=xzh7HzLXXpk"
     }
   ],
   "anticipated": [
@@ -288,7 +291,7 @@
     {
       "id": 1476614,
       "title": "All of a Sudden",
-      "date": "2026-02-11",
+      "date": "2026-06-19",
       "rating": 7.8,
       "overview": "Director of a care facility for the elderly, Marie-Lou strives to introduce an innovative care philosophy based on listening and respecting residents’ dignity, despite resistance from part of her staff. Her encounter with Mari, a Japanese theater director battling cancer, will profoundly reshape her path. By forming a deep, supportive friendship, the two women join forces in a shared struggle to make the impossible possible.",
       "tagline": "One night. Two strangers. A lifetime of questions.",

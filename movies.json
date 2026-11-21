@@ -91,6 +91,26 @@
   ],
   "trending": [
     {
+      "id": 1400837,
+      "title": "Other Mommy",
+      "date": "2026-10-07",
+      "rating": 6.4,
+      "overview": "Young Bela forms a relationship with a sinister entity in her home that looks uncannily like her own mother, drawing her into a terrifying and increasingly dark world.",
+      "tagline": "Your mommy won't save you.",
+      "runtime": 93,
+      "runtime_text": "1h 33m",
+      "genres": "Horror",
+      "genres_list": [
+        "Horror"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/fGRNCssTRrhYZxNzykGGCoMsAVq.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1400837.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=-mnTITqqiT0"
+    },
+    {
       "id": 1003596,
       "title": "Avengers: Doomsday",
       "date": "2026-12-16",
@@ -116,7 +136,7 @@
       "id": 1551025,
       "title": "Guarding Stars",
       "date": "2026-11-18",
-      "rating": 7,
+      "rating": 7.1,
       "overview": "When a no-nonsense bodyguard is assigned to protect a charming action star over the holidays, sparks fly, secrets unravel, and Christmas gets a whole lot more complicated.",
       "tagline": null,
       "runtime": 109,
@@ -155,32 +175,10 @@
       "trailer": "https://www.youtube.com/watch?v=5ckqV_uf8E0"
     },
     {
-      "id": 1381071,
-      "title": "Godzilla Minus Zero",
-      "date": "2026-11-03",
-      "rating": 7.7,
-      "overview": "War reduced Japan to zero, and Godzilla plunged it into minus. Two years have passed since then, and the country has faced agonizing struggles to achieve recovery and finally reclaim its daily life. Just as humanity managed to cling to a hard-won peace, a new threat strikes, crushing hope in an instant. There is no third time. Everything ends here.",
-      "tagline": "There is no third time. Everything ends here.",
-      "runtime": 135,
-      "runtime_text": "2h 15m",
-      "genres": "Science Fiction • Horror • Action",
-      "genres_list": [
-        "Science Fiction",
-        "Horror",
-        "Action"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/hSmIJluOJmTWvJs4d7kHRxjc8s8.jpg",
-      "backdrop": null,
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1381071.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=Pu0pH5BuCPM"
-    },
-    {
       "id": 1131943,
       "title": "Madden",
       "date": "2026-11-18",
-      "rating": 7.4,
+      "rating": 7.2,
       "overview": "Chronicles John Madden's incredible journey alongside best friend and true original Al Davis—from a Super Bowl-winning partnership with the Raiders, to becoming football's most recognizable voice, to building the worldwide Madden NFL video game.",
       "tagline": null,
       "runtime": 112,
@@ -260,7 +258,7 @@
         "Science Fiction",
         "Adventure"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/d43fvHQsIMa4kpyhKXw0haEJIvI.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/gknAq4pAuToh1Aq5CJfVkGQkExT.jpg",
       "backdrop": null,
       "backdrop_fg": null,
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1170608.png",

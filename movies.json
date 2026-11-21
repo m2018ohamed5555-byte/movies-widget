@@ -23,24 +23,26 @@
       "trailer": "https://www.youtube.com/watch?v=AyIZ9tiiN8I"
     },
     {
-      "id": 1400837,
-      "title": "Other Mommy",
-      "date": "2026-10-07",
-      "rating": 6.4,
-      "overview": "Young Bela forms a relationship with a sinister entity in her home that looks uncannily like her own mother, drawing her into a terrifying and increasingly dark world.",
-      "tagline": "Your mommy won't save you.",
-      "runtime": 93,
-      "runtime_text": "1h 33m",
-      "genres": "Horror",
+      "id": 969681,
+      "title": "Spider-Man: Brand New Day",
+      "date": "2026-07-29",
+      "rating": 8.5,
+      "overview": "Fighting crime full-time as Spider-Man in a world that doesn't remember him—and the pressure of seeing his old friends move on without him—sparks a change in Peter Parker he may not have the power to control. But that transformation might also be the only thing that can stop a shocking new threat to the city and those he loves - a powerful villain no one can even see.",
+      "tagline": "A brand new day starts now.",
+      "runtime": 145,
+      "runtime_text": "2h 25m",
+      "genres": "Science Fiction • Action • Adventure",
       "genres_list": [
-        "Horror"
+        "Science Fiction",
+        "Action",
+        "Adventure"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/fGRNCssTRrhYZxNzykGGCoMsAVq.jpg",
-      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1400837.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
+      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/969681.jpg",
       "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1400837.png",
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/969681.png",
       "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=-mnTITqqiT0"
+      "trailer": "https://www.youtube.com/watch?v=P3uI5sLosKU"
     },
     {
       "id": 1263337,
@@ -64,6 +66,50 @@
       "trailer": "https://www.youtube.com/watch?v=UkMuGKqAux4"
     },
     {
+      "id": 1400837,
+      "title": "Other Mommy",
+      "date": "2026-10-07",
+      "rating": 6.4,
+      "overview": "Young Bela forms a relationship with a sinister entity in her home that looks uncannily like her own mother, drawing her into a terrifying and increasingly dark world.",
+      "tagline": "Your mommy won't save you.",
+      "runtime": 93,
+      "runtime_text": "1h 33m",
+      "genres": "Horror",
+      "genres_list": [
+        "Horror"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/fGRNCssTRrhYZxNzykGGCoMsAVq.jpg",
+      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1400837.jpg",
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1400837.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=-mnTITqqiT0"
+    }
+  ],
+  "trending": [
+    {
+      "id": 1300968,
+      "title": "The Hunger Games: Sunrise on the Reaping",
+      "date": "2026-11-18",
+      "rating": 7.5,
+      "overview": "Return to the world of Panem 24 years before Katniss Everdeen volunteers in her sister's place, commencing on the morning of the reaping of the 50th Hunger Games, also known as the Second Quarter Quell.",
+      "tagline": "Welcome to the Second Quarter Quell.",
+      "runtime": 158,
+      "runtime_text": "2h 38m",
+      "genres": "Science Fiction • Action • Adventure",
+      "genres_list": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/jNcZH8yplxttRlf0wwqfGGMKHxX.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1300968.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=Dr060OLTodE"
+    },
+    {
       "id": 1423191,
       "title": "Resident Evil",
       "date": "2026-09-16",
@@ -79,57 +125,11 @@
         "Adventure"
       ],
       "poster": "https://image.tmdb.org/t/p/w342/gAgWJhUSQWCgtKR8170nMkYlBda.jpg",
-      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1423191.jpg",
+      "backdrop": null,
       "backdrop_fg": null,
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1423191.png",
       "badge": null,
       "trailer": "https://www.youtube.com/watch?v=mNd1gb19A-c"
-    }
-  ],
-  "trending": [
-    {
-      "id": 1300968,
-      "title": "The Hunger Games: Sunrise on the Reaping",
-      "date": "2026-11-18",
-      "rating": 7.4,
-      "overview": "Return to the world of Panem 24 years before the events of The Hunger Games, starting on the morning of the reaping of the 50th Hunger Games, also known as the Second Quarter Quell.",
-      "tagline": "Welcome to the Second Quarter Quell.",
-      "runtime": 159,
-      "runtime_text": "2h 39m",
-      "genres": "Science Fiction • Action • Adventure",
-      "genres_list": [
-        "Science Fiction",
-        "Action",
-        "Adventure"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/jNcZH8yplxttRlf0wwqfGGMKHxX.jpg",
-      "backdrop": null,
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1300968.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=Dr060OLTodE"
-    },
-    {
-      "id": 969681,
-      "title": "Spider-Man: Brand New Day",
-      "date": "2026-07-29",
-      "rating": 8.5,
-      "overview": "Fighting crime full-time as Spider-Man in a world that doesn't remember him—and the pressure of seeing his old friends move on without him—sparks a change in Peter Parker he may not have the power to control. But that transformation might also be the only thing that can stop a shocking new threat to the city and those he loves - a powerful villain no one can even see.",
-      "tagline": "A brand new day starts now.",
-      "runtime": 145,
-      "runtime_text": "2h 25m",
-      "genres": "Science Fiction • Action • Adventure",
-      "genres_list": [
-        "Science Fiction",
-        "Action",
-        "Adventure"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
-      "backdrop": null,
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/969681.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=P3uI5sLosKU"
     },
     {
       "id": 1003596,
@@ -146,7 +146,7 @@
         "Action",
         "Adventure"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/1zqWkLwC1zLBBBtIWzmkmWeMWnT.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/zHTxblqPcqRpA93ex2Hj0RdpVBs.jpg",
       "backdrop": null,
       "backdrop_fg": null,
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1003596.png",
@@ -154,32 +154,10 @@
       "trailer": "https://www.youtube.com/watch?v=X1aFkAkFASk"
     },
     {
-      "id": 1381071,
-      "title": "Godzilla Minus Zero",
-      "date": "2026-11-03",
-      "rating": 7.7,
-      "overview": "War reduced Japan to zero, and Godzilla plunged it into minus. Two years have passed since then, and the country has faced agonizing struggles to achieve recovery and finally reclaim its daily life. Just as humanity managed to cling to a hard-won peace, a new threat strikes, crushing hope in an instant. There is no third time. Everything ends here.",
-      "tagline": "There is no third time. Everything ends here.",
-      "runtime": 135,
-      "runtime_text": "2h 15m",
-      "genres": "Science Fiction • Horror • Action",
-      "genres_list": [
-        "Science Fiction",
-        "Horror",
-        "Action"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/hSmIJluOJmTWvJs4d7kHRxjc8s8.jpg",
-      "backdrop": null,
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1381071.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=Pu0pH5BuCPM"
-    },
-    {
       "id": 1551025,
       "title": "Guarding Stars",
       "date": "2026-11-18",
-      "rating": 7.1,
+      "rating": 6.9,
       "overview": "When a no-nonsense bodyguard is assigned to protect a charming action star over the holidays, sparks fly, secrets unravel, and Christmas gets a whole lot more complicated.",
       "tagline": null,
       "runtime": 109,
@@ -195,55 +173,30 @@
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1551025.png",
       "badge": null,
       "trailer": "https://www.youtube.com/watch?v=mFvtVPMa5ak"
+    },
+    {
+      "id": 1185344,
+      "title": "The Beast",
+      "date": "2026-10-08",
+      "rating": 5.1,
+      "overview": "When a militia of unidentified hostiles coordinates a coup against the United States, the president must fight back by utilizing the highly classified offensive capabilities of his armored limousine, nicknamed The Beast.",
+      "tagline": "You know Air Force One. Now meet...",
+      "runtime": 99,
+      "runtime_text": "1h 39m",
+      "genres": "Action • Thriller",
+      "genres_list": [
+        "Action",
+        "Thriller"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/ocg5JfJP19fodcv5uQUApkmZMdI.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1185344.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=5ckqV_uf8E0"
     }
   ],
   "anticipated": [
-    {
-      "id": 1595124,
-      "title": "Steps",
-      "date": "2026-11-20",
-      "rating": 0,
-      "overview": "After being blamed for disrupting the Royal Ball with a stolen magic wand, a misunderstood stepsister accidentally turns her sister into a frog and must team up with Cinderella and an unlikely ally to save the kingdom and rewrite their fairytale ending.",
-      "tagline": "At midnight, we ride.",
-      "runtime": 102,
-      "runtime_text": "1h 42m",
-      "genres": "Animation • Fantasy • Comedy • Family • Adventure",
-      "genres_list": [
-        "Animation",
-        "Fantasy",
-        "Comedy",
-        "Family",
-        "Adventure"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/jtfCcWZ3ZyKdgi0u7JVOxEOSSJP.jpg",
-      "backdrop": null,
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1595124.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=tNV4i3BqUGY"
-    },
-    {
-      "id": 1568060,
-      "title": "Perfect Liars",
-      "date": "2026-11-20",
-      "rating": 0,
-      "overview": "Jude Derry arrives at the exclusive Tagus university with a hidden mission: to infiltrate the circle of the Cash brothers and uncover the truth about her brother's death. What begins as revenge turns into a dangerous triangle of seduction, forbidden attraction and lies, drawing her toward a truth she may not be ready to face.",
-      "tagline": null,
-      "runtime": 108,
-      "runtime_text": "1h 48m",
-      "genres": "Drama • Romance • Thriller",
-      "genres_list": [
-        "Drama",
-        "Romance",
-        "Thriller"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/kej8EipJOvfHUHFg5wtT7gQ6bNb.jpg",
-      "backdrop": null,
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1568060.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=50v6k3LUcxU"
-    },
     {
       "id": 1538497,
       "title": "Hexed",
@@ -269,6 +222,49 @@
       "trailer": "https://www.youtube.com/watch?v=IuosV-TRxDU"
     },
     {
+      "id": 1165369,
+      "title": "De Gaulle: Liberté",
+      "date": "2026-06-26",
+      "rating": 7.9,
+      "overview": "While World War II is raging, General De Gaulle seeks to convince the world that the battle for France not lost. Reality seems determined to prove him wrong. Yet, little by little, resistance fighters, rebellious students and determined soldiers rise up. Their faith, audacity and thirst for freedom defy what history seemed to have written in advance.",
+      "tagline": null,
+      "runtime": 159,
+      "runtime_text": "2h 39m",
+      "genres": "Drama • War • History",
+      "genres_list": [
+        "Drama",
+        "War",
+        "History"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/vyI8RnUy0tV7F0rj0WUjlNKIIHx.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1165369.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=J6MRNchmZkY"
+    },
+    {
+      "id": 1170608,
+      "title": "Dune: Part Three",
+      "date": "2026-12-15",
+      "rating": 0,
+      "overview": "Nearly two decades after he seized control of the Imperium, Paul Atreides is now a ruthless Emperor, and must face the consequences of his reign as old allies return, terrifying new threats emerge, and betrayal lurks in every shadow. Haunted by visions of Imperial collapse and the reappearance of his long-lost love, Paul is drawn into a sweeping conspiracy, with Chani at the heart of its unfolding mystery. As enemies close in, Paul must confront the true cost of power and the fate of those he loves the most.",
+      "tagline": "The epic conclusion.",
+      "runtime": 150,
+      "runtime_text": "2h 30m",
+      "genres": "Science Fiction • Adventure",
+      "genres_list": [
+        "Science Fiction",
+        "Adventure"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/d43fvHQsIMa4kpyhKXw0haEJIvI.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1170608.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=uJqaGLmZpGo"
+    },
+    {
       "id": 1400336,
       "title": "Focker In-Law",
       "date": "2026-11-21",
@@ -290,26 +286,24 @@
       "trailer": "https://www.youtube.com/watch?v=9CKu3WoMYCg"
     },
     {
-      "id": 1165369,
-      "title": "De Gaulle: Liberté",
-      "date": "2026-06-26",
-      "rating": 7.9,
-      "overview": "While World War II is raging, General De Gaulle seeks to convince the world that the battle for France not lost. Reality seems determined to prove him wrong. Yet, little by little, resistance fighters, rebellious students and determined soldiers rise up. Their faith, audacity and thirst for freedom defy what history seemed to have written in advance.",
-      "tagline": null,
-      "runtime": 159,
-      "runtime_text": "2h 39m",
-      "genres": "Drama • War • History",
+      "id": 1476614,
+      "title": "All of a Sudden",
+      "date": "2026-02-11",
+      "rating": 7.8,
+      "overview": "Director of a care facility for the elderly, Marie-Lou strives to introduce an innovative care philosophy based on listening and respecting residents’ dignity, despite resistance from part of her staff. Her encounter with Mari, a Japanese theater director battling cancer, will profoundly reshape her path. By forming a deep, supportive friendship, the two women join forces in a shared struggle to make the impossible possible.",
+      "tagline": "One night. Two strangers. A lifetime of questions.",
+      "runtime": 197,
+      "runtime_text": "3h 17m",
+      "genres": "Drama",
       "genres_list": [
-        "Drama",
-        "War",
-        "History"
+        "Drama"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/vyI8RnUy0tV7F0rj0WUjlNKIIHx.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/kFD1vl6FPt8heIIgFiAyIbZqrYh.jpg",
       "backdrop": null,
       "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1165369.png",
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1476614.png",
       "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=J6MRNchmZkY"
+      "trailer": "https://www.youtube.com/watch?v=2AxtdPvDojA"
     }
   ]
 }

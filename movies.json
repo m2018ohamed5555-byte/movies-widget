@@ -26,7 +26,7 @@
       "id": 1300968,
       "title": "The Hunger Games: Sunrise on the Reaping",
       "date": "2026-11-18",
-      "rating": 7.6,
+      "rating": 7.7,
       "overview": "Return to the world of Panem 24 years before Katniss Everdeen volunteers in her sister's place, commencing on the morning of the reaping of the 50th Hunger Games, also known as the Second Quarter Quell.",
       "tagline": "Welcome to the Second Quarter Quell.",
       "runtime": 158,
@@ -81,7 +81,7 @@
         "Action",
         "Adventure"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/1zqWkLwC1zLBBBtIWzmkmWeMWnT.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/cWXtJhrlruF8CeYuaBGE8vdj3Q9.jpg",
       "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1003596.jpg",
       "backdrop_fg": null,
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1003596.png",
@@ -155,10 +155,32 @@
       "trailer": "https://www.youtube.com/watch?v=mFvtVPMa5ak"
     },
     {
+      "id": 1381071,
+      "title": "Godzilla Minus Zero",
+      "date": "2026-11-03",
+      "rating": 7.7,
+      "overview": "War reduced Japan to zero, and Godzilla plunged it into minus. Two years have passed since then, and the country has faced agonizing struggles to achieve recovery and finally reclaim its daily life. Just as humanity managed to cling to a hard-won peace, a new threat strikes, crushing hope in an instant. There is no third time. Everything ends here.",
+      "tagline": "There is no third time. Everything ends here.",
+      "runtime": 135,
+      "runtime_text": "2h 15m",
+      "genres": "Science Fiction • Horror • Action",
+      "genres_list": [
+        "Science Fiction",
+        "Horror",
+        "Action"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/hSmIJluOJmTWvJs4d7kHRxjc8s8.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1381071.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=Pu0pH5BuCPM"
+    },
+    {
       "id": 1185344,
       "title": "The Beast",
       "date": "2026-10-08",
-      "rating": 5,
+      "rating": 4.9,
       "overview": "When a militia of unidentified hostiles coordinates a coup against the United States, the president must fight back by utilizing the highly classified offensive capabilities of his armored limousine, nicknamed The Beast.",
       "tagline": "You know Air Force One. Now meet...",
       "runtime": 99,
@@ -174,30 +196,6 @@
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1185344.png",
       "badge": null,
       "trailer": "https://www.youtube.com/watch?v=5ckqV_uf8E0"
-    },
-    {
-      "id": 1595124,
-      "title": "Steps",
-      "date": "2026-11-20",
-      "rating": 6.4,
-      "overview": "After being blamed for disrupting the Royal Ball with a stolen magic wand, a misunderstood stepsister accidentally turns her sister into a frog and must team up with Cinderella and an unlikely ally to save the kingdom and rewrite their fairytale ending.",
-      "tagline": "At midnight, we ride.",
-      "runtime": 107,
-      "runtime_text": "1h 47m",
-      "genres": "Animation • Family • Comedy • Adventure • Fantasy",
-      "genres_list": [
-        "Animation",
-        "Family",
-        "Comedy",
-        "Adventure",
-        "Fantasy"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/jtfCcWZ3ZyKdgi0u7JVOxEOSSJP.jpg",
-      "backdrop": null,
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1595124.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=tNV4i3BqUGY"
     }
   ],
   "anticipated": [

@@ -26,7 +26,7 @@
       "id": 1300968,
       "title": "The Hunger Games: Sunrise on the Reaping",
       "date": "2026-11-18",
-      "rating": 7.7,
+      "rating": 7.8,
       "overview": "Return to the world of Panem 24 years before Katniss Everdeen volunteers in her sister's place, commencing on the morning of the reaping of the 50th Hunger Games, also known as the Second Quarter Quell.",
       "tagline": "Welcome to the Second Quarter Quell.",
       "runtime": 158,
@@ -37,13 +37,58 @@
         "Action",
         "Adventure"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/jNcZH8yplxttRlf0wwqfGGMKHxX.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/nzIXSQNgYZwFOMrmv0d0I3ulvkM.jpg",
       "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1300968.jpg",
       "backdrop_fg": null,
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1300968.png",
       "badge": null,
       "trailer": "https://www.youtube.com/watch?v=Dr060OLTodE"
     },
+    {
+      "id": 1263337,
+      "title": "Heart of the Beast",
+      "date": "2026-09-19",
+      "rating": 7.8,
+      "overview": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
+      "tagline": "Survival depends on their bond.",
+      "runtime": 102,
+      "runtime_text": "1h 42m",
+      "genres": "Adventure • Thriller",
+      "genres_list": [
+        "Adventure",
+        "Thriller"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/6sYemVUn79UPKz1ZsSG6kPU4RVy.jpg",
+      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1263337.jpg",
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1263337.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=UkMuGKqAux4"
+    },
+    {
+      "id": 969681,
+      "title": "Spider-Man: Brand New Day",
+      "date": "2026-07-29",
+      "rating": 8.5,
+      "overview": "Fighting crime full-time as Spider-Man in a world that doesn't remember him—and the pressure of seeing his old friends move on without him—sparks a change in Peter Parker he may not have the power to control. But that transformation might also be the only thing that can stop a shocking new threat to the city and those he loves - a powerful villain no one can even see.",
+      "tagline": "A brand new day starts now.",
+      "runtime": 145,
+      "runtime_text": "2h 25m",
+      "genres": "Science Fiction • Action • Adventure",
+      "genres_list": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
+      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/969681.jpg",
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/969681.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=P3uI5sLosKU"
+    }
+  ],
+  "trending": [
     {
       "id": 1423191,
       "title": "Resident Evil",
@@ -60,11 +105,52 @@
         "Adventure"
       ],
       "poster": "https://image.tmdb.org/t/p/w342/gAgWJhUSQWCgtKR8170nMkYlBda.jpg",
-      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1423191.jpg",
+      "backdrop": null,
       "backdrop_fg": null,
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1423191.png",
       "badge": null,
       "trailer": "https://www.youtube.com/watch?v=mNd1gb19A-c"
+    },
+    {
+      "id": 1400837,
+      "title": "Other Mommy",
+      "date": "2026-10-07",
+      "rating": 6.5,
+      "overview": "Young Bela forms a relationship with a sinister entity in her home that looks uncannily like her own mother, drawing her into a terrifying and increasingly dark world.",
+      "tagline": "Your mommy won't save you.",
+      "runtime": 93,
+      "runtime_text": "1h 33m",
+      "genres": "Horror",
+      "genres_list": [
+        "Horror"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/fGRNCssTRrhYZxNzykGGCoMsAVq.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1400837.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=-mnTITqqiT0"
+    },
+    {
+      "id": 1551025,
+      "title": "Guarding Stars",
+      "date": "2026-11-18",
+      "rating": 7,
+      "overview": "When a no-nonsense bodyguard is assigned to protect a charming action star over the holidays, sparks fly, secrets unravel, and Christmas gets a whole lot more complicated.",
+      "tagline": null,
+      "runtime": 109,
+      "runtime_text": "1h 49m",
+      "genres": "Romance • Comedy",
+      "genres_list": [
+        "Romance",
+        "Comedy"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/5bsXFYXOlbzHBpl9mPaxmOPIQJ9.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1551025.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=mFvtVPMa5ak"
     },
     {
       "id": 1003596,
@@ -82,77 +168,11 @@
         "Adventure"
       ],
       "poster": "https://image.tmdb.org/t/p/w342/cWXtJhrlruF8CeYuaBGE8vdj3Q9.jpg",
-      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1003596.jpg",
+      "backdrop": null,
       "backdrop_fg": null,
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1003596.png",
       "badge": null,
       "trailer": "https://www.youtube.com/watch?v=X1aFkAkFASk"
-    }
-  ],
-  "trending": [
-    {
-      "id": 969681,
-      "title": "Spider-Man: Brand New Day",
-      "date": "2026-07-29",
-      "rating": 8.5,
-      "overview": "Fighting crime full-time as Spider-Man in a world that doesn't remember him—and the pressure of seeing his old friends move on without him—sparks a change in Peter Parker he may not have the power to control. But that transformation might also be the only thing that can stop a shocking new threat to the city and those he loves - a powerful villain no one can even see.",
-      "tagline": "A brand new day starts now.",
-      "runtime": 145,
-      "runtime_text": "2h 25m",
-      "genres": "Science Fiction • Action • Adventure",
-      "genres_list": [
-        "Science Fiction",
-        "Action",
-        "Adventure"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
-      "backdrop": null,
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/969681.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=P3uI5sLosKU"
-    },
-    {
-      "id": 1263337,
-      "title": "Heart of the Beast",
-      "date": "2026-09-19",
-      "rating": 7.8,
-      "overview": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
-      "tagline": "Survival depends on their bond.",
-      "runtime": 102,
-      "runtime_text": "1h 42m",
-      "genres": "Adventure • Thriller",
-      "genres_list": [
-        "Adventure",
-        "Thriller"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/6sYemVUn79UPKz1ZsSG6kPU4RVy.jpg",
-      "backdrop": null,
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1263337.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=UkMuGKqAux4"
-    },
-    {
-      "id": 1551025,
-      "title": "Guarding Stars",
-      "date": "2026-11-18",
-      "rating": 6.9,
-      "overview": "When a no-nonsense bodyguard is assigned to protect a charming action star over the holidays, sparks fly, secrets unravel, and Christmas gets a whole lot more complicated.",
-      "tagline": null,
-      "runtime": 109,
-      "runtime_text": "1h 49m",
-      "genres": "Romance • Comedy",
-      "genres_list": [
-        "Romance",
-        "Comedy"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/5bsXFYXOlbzHBpl9mPaxmOPIQJ9.jpg",
-      "backdrop": null,
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1551025.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=mFvtVPMa5ak"
     },
     {
       "id": 1381071,
@@ -175,27 +195,6 @@
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1381071.png",
       "badge": null,
       "trailer": "https://www.youtube.com/watch?v=Pu0pH5BuCPM"
-    },
-    {
-      "id": 1185344,
-      "title": "The Beast",
-      "date": "2026-10-08",
-      "rating": 4.9,
-      "overview": "When a militia of unidentified hostiles coordinates a coup against the United States, the president must fight back by utilizing the highly classified offensive capabilities of his armored limousine, nicknamed The Beast.",
-      "tagline": "You know Air Force One. Now meet...",
-      "runtime": 99,
-      "runtime_text": "1h 39m",
-      "genres": "Action • Thriller",
-      "genres_list": [
-        "Action",
-        "Thriller"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/ocg5JfJP19fodcv5uQUApkmZMdI.jpg",
-      "backdrop": null,
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1185344.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=5ckqV_uf8E0"
     }
   ],
   "anticipated": [
@@ -224,6 +223,27 @@
       "trailer": "https://www.youtube.com/watch?v=IuosV-TRxDU"
     },
     {
+      "id": 1170608,
+      "title": "Dune: Part Three",
+      "date": "2026-12-15",
+      "rating": 0,
+      "overview": "Nearly two decades after he seized control of the Imperium, Paul Atreides is now a ruthless Emperor, and must face the consequences of his reign as old allies return, terrifying new threats emerge, and betrayal lurks in every shadow. Haunted by visions of Imperial collapse and the reappearance of his long-lost love, Paul is drawn into a sweeping conspiracy, with Chani at the heart of its unfolding mystery. As enemies close in, Paul must confront the true cost of power and the fate of those he loves the most.",
+      "tagline": "The epic conclusion.",
+      "runtime": 150,
+      "runtime_text": "2h 30m",
+      "genres": "Science Fiction • Adventure",
+      "genres_list": [
+        "Science Fiction",
+        "Adventure"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/gknAq4pAuToh1Aq5CJfVkGQkExT.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1170608.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=uJqaGLmZpGo"
+    },
+    {
       "id": 1165369,
       "title": "De Gaulle: Liberté",
       "date": "2026-06-26",
@@ -246,25 +266,25 @@
       "trailer": "https://www.youtube.com/watch?v=J6MRNchmZkY"
     },
     {
-      "id": 1170608,
-      "title": "Dune: Part Three",
-      "date": "2026-12-15",
+      "id": 1599184,
+      "title": "Battle Through the Heavens: The Battle of Two Emperors",
+      "date": "2026-11-22",
       "rating": 0,
-      "overview": "Nearly two decades after he seized control of the Imperium, Paul Atreides is now a ruthless Emperor, and must face the consequences of his reign as old allies return, terrifying new threats emerge, and betrayal lurks in every shadow. Haunted by visions of Imperial collapse and the reappearance of his long-lost love, Paul is drawn into a sweeping conspiracy, with Chani at the heart of its unfolding mystery. As enemies close in, Paul must confront the true cost of power and the fate of those he loves the most.",
-      "tagline": "The epic conclusion.",
-      "runtime": 150,
-      "runtime_text": "2h 30m",
-      "genres": "Science Fiction • Adventure",
+      "overview": "High above Canaan Academy, the Soul Clan and the Sky Mansion Alliance stand locked in a tense standoff over the legendary Ancient Emperor Tou She. Using the ancient jade, Hun Tiandi unseals the emperor's hidden cave, igniting a fierce battle for the ultimate opportunity to ascend to godhood. With the aid of the Nihility Devouring Flame, Hun Tiandi successfully claims the nascent Emperor Pill, while his rival, Xiao Yan, vanishes into the chaos, his fate unknown. Having absorbed the pill's power, Hun Tiandi ascends to the pinnacle rank of Dou Di and unleashes the Soul Clan's massive army to annihilate the Sky Mansion Alliance. Just as despair threatens to overwhelm the defenders, an ancient resonance awakens within the Xiao Clan's bloodline. Gu Yuan realizes that Xiao Yan is alive and undergoing his own breakthrough to become a Dou Di—becoming humanity's final hope.",
+      "tagline": null,
+      "runtime": 0,
+      "runtime_text": null,
+      "genres": "Animation • Adventure",
       "genres_list": [
-        "Science Fiction",
+        "Animation",
         "Adventure"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/gknAq4pAuToh1Aq5CJfVkGQkExT.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/uEyFP5Z0IyQDLzzoOGRthambK7o.jpg",
       "backdrop": null,
       "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1170608.png",
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1599184.png",
       "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=uJqaGLmZpGo"
+      "trailer": null
     },
     {
       "id": 1476614,
@@ -285,28 +305,6 @@
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1476614.png",
       "badge": null,
       "trailer": "https://www.youtube.com/watch?v=2AxtdPvDojA"
-    },
-    {
-      "id": 1461490,
-      "title": "Hershey",
-      "date": "2026-11-25",
-      "rating": 0,
-      "overview": "Based on the life of Milton Hershey, founder of the iconic Hershey chocolate company. Milton's grit and determination to conquer the world of candy-making propel him from bankruptcy to monumental success, and the love of his life, Kitty, helps him build a legacy sweeter than any candy bar. But when Kitty falls ill, Milton’s wild optimism teeters on the edge of destruction, and she sparks an even bolder dream: to leave their fortune in the hands of America’s children in need.",
-      "tagline": "The true story of an American dreamer.",
-      "runtime": 110,
-      "runtime_text": "1h 50m",
-      "genres": "Drama • History • Romance",
-      "genres_list": [
-        "Drama",
-        "History",
-        "Romance"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/ojd8Gu2bPsOzdMz6Ip5AYDu4Vki.jpg",
-      "backdrop": null,
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1461490.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=NsHJw58wWRg"
     }
   ]
 }

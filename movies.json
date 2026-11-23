@@ -17,7 +17,7 @@
       ],
       "poster": "https://image.tmdb.org/t/p/w342/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg",
       "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1368337.jpg",
-      "backdrop_fg": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/cutouts/1368337.png",
+      "backdrop_fg": null,
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1368337.png",
       "badge": null,
       "trailer": "https://www.youtube.com/watch?v=AyIZ9tiiN8I"
@@ -112,26 +112,6 @@
       "trailer": "https://www.youtube.com/watch?v=mNd1gb19A-c"
     },
     {
-      "id": 1400837,
-      "title": "Other Mommy",
-      "date": "2026-10-07",
-      "rating": 6.5,
-      "overview": "Young Bela forms a relationship with a sinister entity in her home that looks uncannily like her own mother, drawing her into a terrifying and increasingly dark world.",
-      "tagline": "Your mommy won't save you.",
-      "runtime": 93,
-      "runtime_text": "1h 33m",
-      "genres": "Horror",
-      "genres_list": [
-        "Horror"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/fGRNCssTRrhYZxNzykGGCoMsAVq.jpg",
-      "backdrop": null,
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1400837.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=-mnTITqqiT0"
-    },
-    {
       "id": 1551025,
       "title": "Guarding Stars",
       "date": "2026-11-18",
@@ -195,6 +175,26 @@
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1381071.png",
       "badge": null,
       "trailer": "https://www.youtube.com/watch?v=Pu0pH5BuCPM"
+    },
+    {
+      "id": 1400837,
+      "title": "Other Mommy",
+      "date": "2026-10-07",
+      "rating": 6.5,
+      "overview": "Young Bela forms a relationship with a sinister entity in her home that looks uncannily like her own mother, drawing her into a terrifying and increasingly dark world.",
+      "tagline": "Your mommy won't save you.",
+      "runtime": 93,
+      "runtime_text": "1h 33m",
+      "genres": "Horror",
+      "genres_list": [
+        "Horror"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/fGRNCssTRrhYZxNzykGGCoMsAVq.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1400837.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=-mnTITqqiT0"
     }
   ],
   "anticipated": [
@@ -220,7 +220,7 @@
       "backdrop_fg": null,
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1538497.png",
       "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=IuosV-TRxDU"
+      "trailer": "https://www.youtube.com/watch?v=9ke5KSOUl-U"
     },
     {
       "id": 1170608,
@@ -266,27 +266,6 @@
       "trailer": "https://www.youtube.com/watch?v=J6MRNchmZkY"
     },
     {
-      "id": 1599184,
-      "title": "Battle Through the Heavens: The Battle of Two Emperors",
-      "date": "2026-11-22",
-      "rating": 0,
-      "overview": "High above Canaan Academy, the Soul Clan and the Sky Mansion Alliance stand locked in a tense standoff over the legendary Ancient Emperor Tou She. Using the ancient jade, Hun Tiandi unseals the emperor's hidden cave, igniting a fierce battle for the ultimate opportunity to ascend to godhood. With the aid of the Nihility Devouring Flame, Hun Tiandi successfully claims the nascent Emperor Pill, while his rival, Xiao Yan, vanishes into the chaos, his fate unknown. Having absorbed the pill's power, Hun Tiandi ascends to the pinnacle rank of Dou Di and unleashes the Soul Clan's massive army to annihilate the Sky Mansion Alliance. Just as despair threatens to overwhelm the defenders, an ancient resonance awakens within the Xiao Clan's bloodline. Gu Yuan realizes that Xiao Yan is alive and undergoing his own breakthrough to become a Dou Di—becoming humanity's final hope.",
-      "tagline": null,
-      "runtime": 0,
-      "runtime_text": null,
-      "genres": "Animation • Adventure",
-      "genres_list": [
-        "Animation",
-        "Adventure"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/uEyFP5Z0IyQDLzzoOGRthambK7o.jpg",
-      "backdrop": null,
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1599184.png",
-      "badge": null,
-      "trailer": null
-    },
-    {
       "id": 1476614,
       "title": "All of a Sudden",
       "date": "2026-06-19",
@@ -305,6 +284,28 @@
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1476614.png",
       "badge": null,
       "trailer": "https://www.youtube.com/watch?v=2AxtdPvDojA"
+    },
+    {
+      "id": 1461490,
+      "title": "Hershey",
+      "date": "2026-11-25",
+      "rating": 0,
+      "overview": "Based on the life of Milton Hershey, founder of the iconic Hershey chocolate company. Milton's grit and determination to conquer the world of candy-making propel him from bankruptcy to monumental success, and the love of his life, Kitty, helps him build a legacy sweeter than any candy bar. But when Kitty falls ill, Milton’s wild optimism teeters on the edge of destruction, and she sparks an even bolder dream: to leave their fortune in the hands of America’s children in need.",
+      "tagline": "The true story of an American dreamer.",
+      "runtime": 110,
+      "runtime_text": "1h 50m",
+      "genres": "Drama • History • Romance",
+      "genres_list": [
+        "Drama",
+        "History",
+        "Romance"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/ojd8Gu2bPsOzdMz6Ip5AYDu4Vki.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1461490.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=NsHJw58wWRg"
     }
   ]
 }

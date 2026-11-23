@@ -29,15 +29,15 @@
       "rating": 7.8,
       "overview": "Return to the world of Panem 24 years before Katniss Everdeen volunteers in her sister's place, commencing on the morning of the reaping of the 50th Hunger Games, also known as the Second Quarter Quell.",
       "tagline": "Welcome to the Second Quarter Quell.",
-      "runtime": 158,
-      "runtime_text": "2h 38m",
+      "runtime": 159,
+      "runtime_text": "2h 39m",
       "genres": "Science Fiction • Action • Adventure",
       "genres_list": [
         "Science Fiction",
         "Action",
         "Adventure"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/nzIXSQNgYZwFOMrmv0d0I3ulvkM.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/jNcZH8yplxttRlf0wwqfGGMKHxX.jpg",
       "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1300968.jpg",
       "backdrop_fg": null,
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1300968.png",
@@ -66,30 +66,6 @@
       "trailer": "https://www.youtube.com/watch?v=UkMuGKqAux4"
     },
     {
-      "id": 969681,
-      "title": "Spider-Man: Brand New Day",
-      "date": "2026-07-29",
-      "rating": 8.5,
-      "overview": "Fighting crime full-time as Spider-Man in a world that doesn't remember him—and the pressure of seeing his old friends move on without him—sparks a change in Peter Parker he may not have the power to control. But that transformation might also be the only thing that can stop a shocking new threat to the city and those he loves - a powerful villain no one can even see.",
-      "tagline": "A brand new day starts now.",
-      "runtime": 145,
-      "runtime_text": "2h 25m",
-      "genres": "Science Fiction • Action • Adventure",
-      "genres_list": [
-        "Science Fiction",
-        "Action",
-        "Adventure"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
-      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/969681.jpg",
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/969681.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=P3uI5sLosKU"
-    }
-  ],
-  "trending": [
-    {
       "id": 1423191,
       "title": "Resident Evil",
       "date": "2026-09-16",
@@ -105,17 +81,87 @@
         "Adventure"
       ],
       "poster": "https://image.tmdb.org/t/p/w342/gAgWJhUSQWCgtKR8170nMkYlBda.jpg",
-      "backdrop": null,
+      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1423191.jpg",
       "backdrop_fg": null,
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1423191.png",
       "badge": null,
       "trailer": "https://www.youtube.com/watch?v=mNd1gb19A-c"
+    }
+  ],
+  "trending": [
+    {
+      "id": 969681,
+      "title": "Spider-Man: Brand New Day",
+      "date": "2026-07-29",
+      "rating": 8.5,
+      "overview": "Fighting crime full-time as Spider-Man in a world that doesn't remember him—and the pressure of seeing his old friends move on without him—sparks a change in Peter Parker he may not have the power to control. But that transformation might also be the only thing that can stop a shocking new threat to the city and those he loves - a powerful villain no one can even see.",
+      "tagline": "A brand new day starts now.",
+      "runtime": 145,
+      "runtime_text": "2h 25m",
+      "genres": "Science Fiction • Action • Adventure",
+      "genres_list": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/969681.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=P3uI5sLosKU"
+    },
+    {
+      "id": 1003596,
+      "title": "Avengers: Doomsday",
+      "date": "2026-12-16",
+      "rating": 0,
+      "overview": "Beloved heroes from three distinct universes are set on a deadly collision course and face an existential threat unlike anything they've ever encountered.",
+      "tagline": "Meet your doom.",
+      "runtime": 165,
+      "runtime_text": "2h 45m",
+      "genres": "Science Fiction • Action • Adventure",
+      "genres_list": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/tTMmREfhVd51CCg7GN73wL8cIoT.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1003596.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=Wb8Tq_HD4E8"
+    },
+    {
+      "id": 1595124,
+      "title": "Steps",
+      "date": "2026-11-20",
+      "rating": 6.8,
+      "overview": "After being blamed for disrupting the Royal Ball with a stolen magic wand, a misunderstood stepsister accidentally turns her sister into a frog and must team up with Cinderella and an unlikely ally to save the kingdom and rewrite their fairytale ending.",
+      "tagline": "At midnight, we ride.",
+      "runtime": 107,
+      "runtime_text": "1h 47m",
+      "genres": "Animation • Family • Comedy • Adventure • Fantasy",
+      "genres_list": [
+        "Animation",
+        "Family",
+        "Comedy",
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/jtfCcWZ3ZyKdgi0u7JVOxEOSSJP.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1595124.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=tNV4i3BqUGY"
     },
     {
       "id": 1551025,
       "title": "Guarding Stars",
       "date": "2026-11-18",
-      "rating": 7,
+      "rating": 6.9,
       "overview": "When a no-nonsense bodyguard is assigned to protect a charming action star over the holidays, sparks fly, secrets unravel, and Christmas gets a whole lot more complicated.",
       "tagline": null,
       "runtime": 109,
@@ -133,68 +179,25 @@
       "trailer": "https://www.youtube.com/watch?v=mFvtVPMa5ak"
     },
     {
-      "id": 1003596,
-      "title": "Avengers: Doomsday",
-      "date": "2026-12-16",
-      "rating": 0,
-      "overview": "Beloved heroes from three distinct universes are set on a deadly collision course and face an existential threat unlike anything they've ever encountered.",
-      "tagline": "Meet your doom.",
-      "runtime": 165,
-      "runtime_text": "2h 45m",
-      "genres": "Science Fiction • Action • Adventure",
-      "genres_list": [
-        "Science Fiction",
-        "Action",
-        "Adventure"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/cWXtJhrlruF8CeYuaBGE8vdj3Q9.jpg",
-      "backdrop": null,
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1003596.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=X1aFkAkFASk"
-    },
-    {
-      "id": 1381071,
-      "title": "Godzilla Minus Zero",
-      "date": "2026-11-03",
-      "rating": 7.7,
-      "overview": "War reduced Japan to zero, and Godzilla plunged it into minus. Two years have passed since then, and the country has faced agonizing struggles to achieve recovery and finally reclaim its daily life. Just as humanity managed to cling to a hard-won peace, a new threat strikes, crushing hope in an instant. There is no third time. Everything ends here.",
-      "tagline": "There is no third time. Everything ends here.",
-      "runtime": 135,
-      "runtime_text": "2h 15m",
-      "genres": "Science Fiction • Horror • Action",
-      "genres_list": [
-        "Science Fiction",
-        "Horror",
-        "Action"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/hSmIJluOJmTWvJs4d7kHRxjc8s8.jpg",
-      "backdrop": null,
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1381071.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=Pu0pH5BuCPM"
-    },
-    {
-      "id": 1400837,
-      "title": "Other Mommy",
+      "id": 1281331,
+      "title": "The Social Reckoning",
       "date": "2026-10-07",
-      "rating": 6.5,
-      "overview": "Young Bela forms a relationship with a sinister entity in her home that looks uncannily like her own mother, drawing her into a terrifying and increasingly dark world.",
-      "tagline": "Your mommy won't save you.",
-      "runtime": 93,
-      "runtime_text": "1h 33m",
-      "genres": "Horror",
+      "rating": 7,
+      "overview": "Frances Haugen, a young Facebook engineer, enlists the help of Jeff Horwitz, a Wall Street Journal reporter, to go on a dangerous journey that ends up blowing the whistle on the social network's most guarded secrets.",
+      "tagline": "We're way past making friends.",
+      "runtime": 113,
+      "runtime_text": "1h 53m",
+      "genres": "Drama • Thriller",
       "genres_list": [
-        "Horror"
+        "Drama",
+        "Thriller"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/fGRNCssTRrhYZxNzykGGCoMsAVq.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/7jK6NuxVg1XuEV7UdNa6KO03IgZ.jpg",
       "backdrop": null,
       "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1400837.png",
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1281331.png",
       "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=-mnTITqqiT0"
+      "trailer": "https://www.youtube.com/watch?v=R8ANzYpaZaY"
     }
   ],
   "anticipated": [
@@ -207,13 +210,12 @@
       "tagline": "Something is happening to Billie...",
       "runtime": 103,
       "runtime_text": "1h 43m",
-      "genres": "Adventure • Animation • Family • Fantasy • Comedy",
+      "genres": "Adventure • Animation • Family • Fantasy",
       "genres_list": [
         "Adventure",
         "Animation",
         "Family",
-        "Fantasy",
-        "Comedy"
+        "Fantasy"
       ],
       "poster": "https://image.tmdb.org/t/p/w342/yykeYKbDBM9eUMJUucaaDo2mi1p.jpg",
       "backdrop": null,
@@ -221,6 +223,27 @@
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1538497.png",
       "badge": null,
       "trailer": "https://www.youtube.com/watch?v=9ke5KSOUl-U"
+    },
+    {
+      "id": 1611767,
+      "title": "Clashing Through the Snow",
+      "date": "2026-11-23",
+      "rating": 0,
+      "overview": "Rival publishing editors Ryan Mitchell and Hannah Hendricks are stranded by a holiday snowstorm and forced to share a rental car to New York, where a career-saving deal awaits them both. As roadside mishaps and small-town detours pile up, the holiday spirit begins to melt their fierce rivalry into something unexpected.",
+      "tagline": "It's beginning to look a lot like chaos.",
+      "runtime": 110,
+      "runtime_text": "1h 50m",
+      "genres": "Romance • Comedy",
+      "genres_list": [
+        "Romance",
+        "Comedy"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/95K1Y96ELBDL3M8kyTVb5wocCtX.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1611767.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=798vrWRtKBQ"
     },
     {
       "id": 1170608,
@@ -284,28 +307,6 @@
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1476614.png",
       "badge": null,
       "trailer": "https://www.youtube.com/watch?v=2AxtdPvDojA"
-    },
-    {
-      "id": 1461490,
-      "title": "Hershey",
-      "date": "2026-11-25",
-      "rating": 0,
-      "overview": "Based on the life of Milton Hershey, founder of the iconic Hershey chocolate company. Milton's grit and determination to conquer the world of candy-making propel him from bankruptcy to monumental success, and the love of his life, Kitty, helps him build a legacy sweeter than any candy bar. But when Kitty falls ill, Milton’s wild optimism teeters on the edge of destruction, and she sparks an even bolder dream: to leave their fortune in the hands of America’s children in need.",
-      "tagline": "The true story of an American dreamer.",
-      "runtime": 110,
-      "runtime_text": "1h 50m",
-      "genres": "Drama • History • Romance",
-      "genres_list": [
-        "Drama",
-        "History",
-        "Romance"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/ojd8Gu2bPsOzdMz6Ip5AYDu4Vki.jpg",
-      "backdrop": null,
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1461490.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=NsHJw58wWRg"
     }
   ]
 }

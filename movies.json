@@ -48,7 +48,7 @@
       "id": 1263337,
       "title": "Heart of the Beast",
       "date": "2026-09-19",
-      "rating": 7.8,
+      "rating": 7.9,
       "overview": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
       "tagline": "Survival depends on their bond.",
       "runtime": 102,
@@ -126,12 +126,33 @@
         "Action",
         "Adventure"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/tTMmREfhVd51CCg7GN73wL8cIoT.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/1zqWkLwC1zLBBBtIWzmkmWeMWnT.jpg",
       "backdrop": null,
       "backdrop_fg": null,
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1003596.png",
       "badge": null,
       "trailer": "https://www.youtube.com/watch?v=Wb8Tq_HD4E8"
+    },
+    {
+      "id": 1551025,
+      "title": "Guarding Stars",
+      "date": "2026-11-18",
+      "rating": 6.9,
+      "overview": "When a no-nonsense bodyguard is assigned to protect a charming action star over the holidays, sparks fly, secrets unravel, and Christmas gets a whole lot more complicated.",
+      "tagline": null,
+      "runtime": 109,
+      "runtime_text": "1h 49m",
+      "genres": "Romance • Comedy",
+      "genres_list": [
+        "Romance",
+        "Comedy"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/5bsXFYXOlbzHBpl9mPaxmOPIQJ9.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1551025.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=mFvtVPMa5ak"
     },
     {
       "id": 1595124,
@@ -158,27 +179,6 @@
       "trailer": "https://www.youtube.com/watch?v=tNV4i3BqUGY"
     },
     {
-      "id": 1551025,
-      "title": "Guarding Stars",
-      "date": "2026-11-18",
-      "rating": 6.9,
-      "overview": "When a no-nonsense bodyguard is assigned to protect a charming action star over the holidays, sparks fly, secrets unravel, and Christmas gets a whole lot more complicated.",
-      "tagline": null,
-      "runtime": 109,
-      "runtime_text": "1h 49m",
-      "genres": "Romance • Comedy",
-      "genres_list": [
-        "Romance",
-        "Comedy"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/5bsXFYXOlbzHBpl9mPaxmOPIQJ9.jpg",
-      "backdrop": null,
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1551025.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=mFvtVPMa5ak"
-    },
-    {
       "id": 1281331,
       "title": "The Social Reckoning",
       "date": "2026-10-07",
@@ -192,7 +192,7 @@
         "Drama",
         "Thriller"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/7jK6NuxVg1XuEV7UdNa6KO03IgZ.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/vWbEuI3LuFOGYZIxESLAmwFwtvr.jpg",
       "backdrop": null,
       "backdrop_fg": null,
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1281331.png",
@@ -223,27 +223,6 @@
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1538497.png",
       "badge": null,
       "trailer": "https://www.youtube.com/watch?v=9ke5KSOUl-U"
-    },
-    {
-      "id": 1611767,
-      "title": "Clashing Through the Snow",
-      "date": "2026-11-23",
-      "rating": 0,
-      "overview": "Rival publishing editors Ryan Mitchell and Hannah Hendricks are stranded by a holiday snowstorm and forced to share a rental car to New York, where a career-saving deal awaits them both. As roadside mishaps and small-town detours pile up, the holiday spirit begins to melt their fierce rivalry into something unexpected.",
-      "tagline": "It's beginning to look a lot like chaos.",
-      "runtime": 110,
-      "runtime_text": "1h 50m",
-      "genres": "Romance • Comedy",
-      "genres_list": [
-        "Romance",
-        "Comedy"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/95K1Y96ELBDL3M8kyTVb5wocCtX.jpg",
-      "backdrop": null,
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1611767.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=798vrWRtKBQ"
     },
     {
       "id": 1170608,
@@ -307,6 +286,28 @@
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1476614.png",
       "badge": null,
       "trailer": "https://www.youtube.com/watch?v=2AxtdPvDojA"
+    },
+    {
+      "id": 1461490,
+      "title": "Hershey",
+      "date": "2026-11-25",
+      "rating": 0,
+      "overview": "Based on the life of Milton Hershey, founder of the iconic Hershey chocolate company. Milton's grit and determination to conquer the world of candy-making propel him from bankruptcy to monumental success, and the love of his life, Kitty, helps him build a legacy sweeter than any candy bar. But when Kitty falls ill, Milton’s wild optimism teeters on the edge of destruction, and she sparks an even bolder dream: to leave their fortune in the hands of America’s children in need.",
+      "tagline": "The true story of an American dreamer.",
+      "runtime": 110,
+      "runtime_text": "1h 50m",
+      "genres": "Drama • History • Romance",
+      "genres_list": [
+        "Drama",
+        "History",
+        "Romance"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/ojd8Gu2bPsOzdMz6Ip5AYDu4Vki.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1461490.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=NsHJw58wWRg"
     }
   ]
 }

@@ -45,28 +45,6 @@
       "trailer": "https://www.youtube.com/watch?v=Dr060OLTodE"
     },
     {
-      "id": 1423191,
-      "title": "Resident Evil",
-      "date": "2026-09-16",
-      "rating": 7.5,
-      "overview": "Medical courier Bryan unwittingly finds himself fighting for survival as one fateful, horrifying night collapses around him in chaos.",
-      "tagline": "A new era of evil.",
-      "runtime": 94,
-      "runtime_text": "1h 34m",
-      "genres": "Horror • Science Fiction • Adventure",
-      "genres_list": [
-        "Horror",
-        "Science Fiction",
-        "Adventure"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/gAgWJhUSQWCgtKR8170nMkYlBda.jpg",
-      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1423191.jpg",
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1423191.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=mNd1gb19A-c"
-    },
-    {
       "id": 1263337,
       "title": "Heart of the Beast",
       "date": "2026-09-19",
@@ -86,6 +64,28 @@
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1263337.png",
       "badge": null,
       "trailer": "https://www.youtube.com/watch?v=UkMuGKqAux4"
+    },
+    {
+      "id": 1423191,
+      "title": "Resident Evil",
+      "date": "2026-09-16",
+      "rating": 7.5,
+      "overview": "Medical courier Bryan unwittingly finds himself fighting for survival as one fateful, horrifying night collapses around him in chaos.",
+      "tagline": "A new era of evil.",
+      "runtime": 94,
+      "runtime_text": "1h 34m",
+      "genres": "Horror • Science Fiction • Adventure",
+      "genres_list": [
+        "Horror",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/gAgWJhUSQWCgtKR8170nMkYlBda.jpg",
+      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1423191.jpg",
+      "backdrop_fg": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/cutouts/1423191.png",
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1423191.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=mNd1gb19A-c"
     }
   ],
   "trending": [
@@ -134,30 +134,6 @@
       "trailer": "https://www.youtube.com/watch?v=Wb8Tq_HD4E8"
     },
     {
-      "id": 1595124,
-      "title": "Steps",
-      "date": "2026-11-20",
-      "rating": 7.1,
-      "overview": "After being blamed for disrupting the Royal Ball with a stolen magic wand, a misunderstood stepsister accidentally turns her sister into a frog and must team up with Cinderella and an unlikely ally to save the kingdom and rewrite their fairytale ending.",
-      "tagline": "At midnight, we ride.",
-      "runtime": 107,
-      "runtime_text": "1h 47m",
-      "genres": "Animation • Family • Comedy • Adventure • Fantasy",
-      "genres_list": [
-        "Animation",
-        "Family",
-        "Comedy",
-        "Adventure",
-        "Fantasy"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/jtfCcWZ3ZyKdgi0u7JVOxEOSSJP.jpg",
-      "backdrop": null,
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1595124.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=tNV4i3BqUGY"
-    },
-    {
       "id": 1765072,
       "title": "You Can See Everything",
       "date": "2026-10-16",
@@ -178,25 +154,49 @@
       "trailer": "https://www.youtube.com/watch?v=IEx8D1Wb__U"
     },
     {
-      "id": 1281331,
-      "title": "The Social Reckoning",
-      "date": "2026-10-07",
-      "rating": 7,
-      "overview": "Frances Haugen, a young Facebook engineer, enlists the help of Jeff Horwitz, a Wall Street Journal reporter, to go on a dangerous journey that ends up blowing the whistle on the social network's most guarded secrets.",
-      "tagline": "We're way past making friends.",
-      "runtime": 113,
-      "runtime_text": "1h 53m",
-      "genres": "Drama • Thriller",
+      "id": 1595124,
+      "title": "Steps",
+      "date": "2026-11-20",
+      "rating": 7.2,
+      "overview": "After being blamed for disrupting the Royal Ball with a stolen magic wand, a misunderstood stepsister accidentally turns her sister into a frog and must team up with Cinderella and an unlikely ally to save the kingdom and rewrite their fairytale ending.",
+      "tagline": "At midnight, we ride.",
+      "runtime": 107,
+      "runtime_text": "1h 47m",
+      "genres": "Animation • Family • Comedy • Adventure • Fantasy",
       "genres_list": [
-        "Drama",
-        "Thriller"
+        "Animation",
+        "Family",
+        "Comedy",
+        "Adventure",
+        "Fantasy"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/vWbEuI3LuFOGYZIxESLAmwFwtvr.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/jtfCcWZ3ZyKdgi0u7JVOxEOSSJP.jpg",
       "backdrop": null,
       "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1281331.png",
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1595124.png",
       "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=R8ANzYpaZaY"
+      "trailer": "https://www.youtube.com/watch?v=tNV4i3BqUGY"
+    },
+    {
+      "id": 1551025,
+      "title": "Guarding Stars",
+      "date": "2026-11-18",
+      "rating": 6.9,
+      "overview": "When a no-nonsense bodyguard is assigned to protect a charming action star over the holidays, sparks fly, secrets unravel, and Christmas gets a whole lot more complicated.",
+      "tagline": null,
+      "runtime": 109,
+      "runtime_text": "1h 49m",
+      "genres": "Romance • Comedy",
+      "genres_list": [
+        "Romance",
+        "Comedy"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/5bsXFYXOlbzHBpl9mPaxmOPIQJ9.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1551025.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=mFvtVPMa5ak"
     }
   ],
   "anticipated": [
@@ -238,7 +238,7 @@
         "Science Fiction",
         "Adventure"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/gknAq4pAuToh1Aq5CJfVkGQkExT.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/d43fvHQsIMa4kpyhKXw0haEJIvI.jpg",
       "backdrop": null,
       "backdrop_fg": null,
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1170608.png",
@@ -293,7 +293,7 @@
       "date": "2026-11-24",
       "rating": 0,
       "overview": "Eight years after the events of Once Upon a Time in... Hollywood, Cliff Booth returns to a changing Los Angeles. Now working as a fixer in the shadows of the Hollywood studio system, Cliff finds himself entangled in a dangerous web of secrets, crimes and betrayals that will test everything he knows about loyalty and survival.",
-      "tagline": null,
+      "tagline": "Penniless, pitiless... principled.",
       "runtime": 141,
       "runtime_text": "2h 21m",
       "genres": "Comedy • Drama • Thriller",

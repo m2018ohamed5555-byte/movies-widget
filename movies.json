@@ -37,7 +37,7 @@
         "Action",
         "Adventure"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/jNcZH8yplxttRlf0wwqfGGMKHxX.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/5ffVOGY3x3Sn3jovzvycJeizpks.jpg",
       "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1300968.jpg",
       "backdrop_fg": null,
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1300968.png",
@@ -140,8 +140,8 @@
       "rating": 8.7,
       "overview": "Thirty-four days before she's sent to prison, notorious Silicon Valley founder Elizabeth Holmes invites a skeptical film crew to document her every move. What begins as an intimate portrait of an enigmatic felon becomes a mind-bending three-year journey into the abyss.",
       "tagline": "See it to believe it.",
-      "runtime": 174,
-      "runtime_text": "2h 54m",
+      "runtime": 175,
+      "runtime_text": "2h 55m",
       "genres": "Documentary",
       "genres_list": [
         "Documentary"
@@ -152,6 +152,27 @@
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1765072.png",
       "badge": null,
       "trailer": "https://www.youtube.com/watch?v=IEx8D1Wb__U"
+    },
+    {
+      "id": 1281331,
+      "title": "The Social Reckoning",
+      "date": "2026-10-07",
+      "rating": 7.1,
+      "overview": "Frances Haugen, a young Facebook engineer, enlists the help of Jeff Horwitz, a Wall Street Journal reporter, to go on a dangerous journey that ends up blowing the whistle on the social network's most guarded secrets.",
+      "tagline": "We're way past making friends.",
+      "runtime": 113,
+      "runtime_text": "1h 53m",
+      "genres": "Drama • Thriller",
+      "genres_list": [
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/vWbEuI3LuFOGYZIxESLAmwFwtvr.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1281331.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=R8ANzYpaZaY"
     },
     {
       "id": 1595124,
@@ -176,27 +197,6 @@
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1595124.png",
       "badge": null,
       "trailer": "https://www.youtube.com/watch?v=tNV4i3BqUGY"
-    },
-    {
-      "id": 1551025,
-      "title": "Guarding Stars",
-      "date": "2026-11-18",
-      "rating": 6.9,
-      "overview": "When a no-nonsense bodyguard is assigned to protect a charming action star over the holidays, sparks fly, secrets unravel, and Christmas gets a whole lot more complicated.",
-      "tagline": null,
-      "runtime": 109,
-      "runtime_text": "1h 49m",
-      "genres": "Romance • Comedy",
-      "genres_list": [
-        "Romance",
-        "Comedy"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/5bsXFYXOlbzHBpl9mPaxmOPIQJ9.jpg",
-      "backdrop": null,
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1551025.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=mFvtVPMa5ak"
     }
   ],
   "anticipated": [
@@ -209,13 +209,12 @@
       "tagline": "Something is happening to Billie...",
       "runtime": 103,
       "runtime_text": "1h 43m",
-      "genres": "Adventure • Animation • Family • Fantasy • Comedy",
+      "genres": "Adventure • Animation • Family • Fantasy",
       "genres_list": [
         "Adventure",
         "Animation",
         "Family",
-        "Fantasy",
-        "Comedy"
+        "Fantasy"
       ],
       "poster": "https://image.tmdb.org/t/p/w342/yykeYKbDBM9eUMJUucaaDo2mi1p.jpg",
       "backdrop": null,
@@ -268,46 +267,48 @@
       "trailer": "https://www.youtube.com/watch?v=J6MRNchmZkY"
     },
     {
-      "id": 1476614,
-      "title": "All of a Sudden",
-      "date": "2026-06-19",
-      "rating": 7.8,
-      "overview": "Director of a care facility for the elderly, Marie-Lou strives to introduce an innovative care philosophy based on listening and respecting residents’ dignity, despite resistance from part of her staff. Her encounter with Mari, a Japanese theater director battling cancer, will profoundly reshape her path. By forming a deep, supportive friendship, the two women join forces in a shared struggle to make the impossible possible.",
-      "tagline": "One night. Two strangers. A lifetime of questions.",
-      "runtime": 197,
-      "runtime_text": "3h 17m",
-      "genres": "Drama",
+      "id": 1078446,
+      "title": "Violent Night 2",
+      "date": "2026-12-02",
+      "rating": 0,
+      "overview": "When Santa forgets the true meaning of Christmas, he finds himself in the heart of a lively mall community in desperate need of his help. Sapped of his magic, he’ll need another way to take on the goons threatening the mall, and time is running out. Santa has to rediscover his faith in goodness and call in some last-minute reinforcements from the one person no baddie wants to tangle with: Mrs. Claus.",
+      "tagline": "...and to all a good fight.",
+      "runtime": 110,
+      "runtime_text": "1h 50m",
+      "genres": "Action • Comedy • Fantasy",
       "genres_list": [
-        "Drama"
+        "Action",
+        "Comedy",
+        "Fantasy"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/kFD1vl6FPt8heIIgFiAyIbZqrYh.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/7HPvgItDw9NgW3iy4tFRRuGNbuN.jpg",
       "backdrop": null,
       "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1476614.png",
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1078446.png",
       "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=2AxtdPvDojA"
+      "trailer": "https://www.youtube.com/watch?v=FmM2giDwLAE"
     },
     {
-      "id": 1457866,
-      "title": "THE FURTHER MIS-ADVENTURES OF CLIFF BOOTH",
-      "date": "2026-11-24",
+      "id": 1461490,
+      "title": "Hershey",
+      "date": "2026-11-25",
       "rating": 0,
-      "overview": "Eight years after the events of Once Upon a Time in... Hollywood, Cliff Booth returns to a changing Los Angeles. Now working as a fixer in the shadows of the Hollywood studio system, Cliff finds himself entangled in a dangerous web of secrets, crimes and betrayals that will test everything he knows about loyalty and survival.",
-      "tagline": "Penniless, pitiless... principled.",
-      "runtime": 141,
-      "runtime_text": "2h 21m",
-      "genres": "Comedy • Drama • Thriller",
+      "overview": "Based on the life of Milton Hershey, founder of the iconic Hershey chocolate company. Milton's grit and determination to conquer the world of candy-making propel him from bankruptcy to monumental success, and the love of his life, Kitty, helps him build a legacy sweeter than any candy bar. But when Kitty falls ill, Milton’s wild optimism teeters on the edge of destruction, and she sparks an even bolder dream: to leave their fortune in the hands of America’s children in need.",
+      "tagline": "The true story of an American dreamer.",
+      "runtime": 110,
+      "runtime_text": "1h 50m",
+      "genres": "Drama • History • Romance",
       "genres_list": [
-        "Comedy",
         "Drama",
-        "Thriller"
+        "History",
+        "Romance"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/thX8Rs7nfgmPHfCgjoFuRovy49l.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/ojd8Gu2bPsOzdMz6Ip5AYDu4Vki.jpg",
       "backdrop": null,
       "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1457866.png",
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1461490.png",
       "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=fJH-wfSXnWg"
+      "trailer": "https://www.youtube.com/watch?v=NsHJw58wWRg"
     }
   ]
 }

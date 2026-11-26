@@ -45,27 +45,6 @@
       "trailer": "https://www.youtube.com/watch?v=Dr060OLTodE"
     },
     {
-      "id": 1263337,
-      "title": "Heart of the Beast",
-      "date": "2026-09-19",
-      "rating": 7.9,
-      "overview": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
-      "tagline": "Survival depends on their bond.",
-      "runtime": 102,
-      "runtime_text": "1h 42m",
-      "genres": "Adventure • Thriller",
-      "genres_list": [
-        "Adventure",
-        "Thriller"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/6sYemVUn79UPKz1ZsSG6kPU4RVy.jpg",
-      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1263337.jpg",
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1263337.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=UkMuGKqAux4"
-    },
-    {
       "id": 1423191,
       "title": "Resident Evil",
       "date": "2026-09-16",
@@ -86,6 +65,27 @@
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1423191.png",
       "badge": null,
       "trailer": "https://www.youtube.com/watch?v=mNd1gb19A-c"
+    },
+    {
+      "id": 1263337,
+      "title": "Heart of the Beast",
+      "date": "2026-09-23",
+      "rating": 7.9,
+      "overview": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
+      "tagline": "Survival depends on their bond.",
+      "runtime": 102,
+      "runtime_text": "1h 42m",
+      "genres": "Adventure • Thriller",
+      "genres_list": [
+        "Adventure",
+        "Thriller"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/6sYemVUn79UPKz1ZsSG6kPU4RVy.jpg",
+      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1263337.jpg",
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1263337.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=UkMuGKqAux4"
     }
   ],
   "trending": [
@@ -134,47 +134,6 @@
       "trailer": "https://www.youtube.com/watch?v=Wb8Tq_HD4E8"
     },
     {
-      "id": 1765072,
-      "title": "You Can See Everything",
-      "date": "2026-10-16",
-      "rating": 8.7,
-      "overview": "Thirty-four days before she's sent to prison, notorious Silicon Valley founder Elizabeth Holmes invites a skeptical film crew to document her every move. What begins as an intimate portrait of an enigmatic felon becomes a mind-bending three-year journey into the abyss.",
-      "tagline": "See it to believe it.",
-      "runtime": 175,
-      "runtime_text": "2h 55m",
-      "genres": "Documentary",
-      "genres_list": [
-        "Documentary"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/mVh3qkw2NUFxWWyF0G1hg2Wh0K5.jpg",
-      "backdrop": null,
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1765072.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=IEx8D1Wb__U"
-    },
-    {
-      "id": 1281331,
-      "title": "The Social Reckoning",
-      "date": "2026-10-07",
-      "rating": 7.1,
-      "overview": "Frances Haugen, a young Facebook engineer, enlists the help of Jeff Horwitz, a Wall Street Journal reporter, to go on a dangerous journey that ends up blowing the whistle on the social network's most guarded secrets.",
-      "tagline": "We're way past making friends.",
-      "runtime": 113,
-      "runtime_text": "1h 53m",
-      "genres": "Drama • Thriller",
-      "genres_list": [
-        "Drama",
-        "Thriller"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/vWbEuI3LuFOGYZIxESLAmwFwtvr.jpg",
-      "backdrop": null,
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1281331.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=R8ANzYpaZaY"
-    },
-    {
       "id": 1595124,
       "title": "Steps",
       "date": "2026-11-20",
@@ -197,9 +156,27 @@
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1595124.png",
       "badge": null,
       "trailer": "https://www.youtube.com/watch?v=tNV4i3BqUGY"
-    }
-  ],
-  "anticipated": [
+    },
+    {
+      "id": 1765072,
+      "title": "You Can See Everything",
+      "date": "2026-10-16",
+      "rating": 8.6,
+      "overview": "Thirty-four days before she's sent to prison, notorious Silicon Valley founder Elizabeth Holmes invites a skeptical film crew to document her every move. What begins as an intimate portrait of an enigmatic felon becomes a mind-bending three-year journey into the abyss.",
+      "tagline": "See it to believe it.",
+      "runtime": 175,
+      "runtime_text": "2h 55m",
+      "genres": "Documentary",
+      "genres_list": [
+        "Documentary"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/mVh3qkw2NUFxWWyF0G1hg2Wh0K5.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1765072.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=IEx8D1Wb__U"
+    },
     {
       "id": 1538497,
       "title": "Hexed",
@@ -209,12 +186,13 @@
       "tagline": "Something is happening to Billie...",
       "runtime": 103,
       "runtime_text": "1h 43m",
-      "genres": "Adventure • Animation • Family • Fantasy",
+      "genres": "Adventure • Animation • Family • Fantasy • Comedy",
       "genres_list": [
         "Adventure",
         "Animation",
         "Family",
-        "Fantasy"
+        "Fantasy",
+        "Comedy"
       ],
       "poster": "https://image.tmdb.org/t/p/w342/yykeYKbDBM9eUMJUucaaDo2mi1p.jpg",
       "backdrop": null,
@@ -222,7 +200,9 @@
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1538497.png",
       "badge": null,
       "trailer": "https://www.youtube.com/watch?v=9ke5KSOUl-U"
-    },
+    }
+  ],
+  "anticipated": [
     {
       "id": 1170608,
       "title": "Dune: Part Three",
@@ -275,11 +255,10 @@
       "tagline": "...and to all a good fight.",
       "runtime": 110,
       "runtime_text": "1h 50m",
-      "genres": "Action • Comedy • Fantasy",
+      "genres": "Action • Comedy",
       "genres_list": [
         "Action",
-        "Comedy",
-        "Fantasy"
+        "Comedy"
       ],
       "poster": "https://image.tmdb.org/t/p/w342/7HPvgItDw9NgW3iy4tFRRuGNbuN.jpg",
       "backdrop": null,
@@ -289,26 +268,48 @@
       "trailer": "https://www.youtube.com/watch?v=FmM2giDwLAE"
     },
     {
-      "id": 1461490,
-      "title": "Hershey",
-      "date": "2026-11-25",
+      "id": 1137888,
+      "title": "The Man with the Bag",
+      "date": "2026-12-02",
       "rating": 0,
-      "overview": "Based on the life of Milton Hershey, founder of the iconic Hershey chocolate company. Milton's grit and determination to conquer the world of candy-making propel him from bankruptcy to monumental success, and the love of his life, Kitty, helps him build a legacy sweeter than any candy bar. But when Kitty falls ill, Milton’s wild optimism teeters on the edge of destruction, and she sparks an even bolder dream: to leave their fortune in the hands of America’s children in need.",
-      "tagline": "The true story of an American dreamer.",
-      "runtime": 110,
-      "runtime_text": "1h 50m",
-      "genres": "Drama • History • Romance",
+      "overview": "After Santa’s magic bag is stolen, he turns to his naughty list to find Vance, a thief, to help him get it back. Along with his daughter, Santa, and a group of misfits, Vance will have to pull off the greatest heist of his life to save Christmas.",
+      "tagline": "Naughty, meet nice.",
+      "runtime": 0,
+      "runtime_text": null,
+      "genres": "Fantasy • Comedy • Family • Action",
       "genres_list": [
-        "Drama",
-        "History",
-        "Romance"
+        "Fantasy",
+        "Comedy",
+        "Family",
+        "Action"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/ojd8Gu2bPsOzdMz6Ip5AYDu4Vki.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/s5nq2q5tB9N0nUYsZE9LR1BuQw6.jpg",
       "backdrop": null,
       "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1461490.png",
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1137888.png",
       "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=NsHJw58wWRg"
+      "trailer": "https://www.youtube.com/watch?v=PEVkJHLq4rQ"
+    },
+    {
+      "id": 1452168,
+      "title": "Behemoth!",
+      "date": "2026-12-02",
+      "rating": 0,
+      "overview": "Gifted cellist Alex Serian returns home to Los Angeles after 20 years on the road. Music, which has been the constant, all-consuming river of his life, begins to carry Alex on an adventure that will change him forever.",
+      "tagline": "A life. In pieces.",
+      "runtime": 127,
+      "runtime_text": "2h 7m",
+      "genres": "Music • Drama",
+      "genres_list": [
+        "Music",
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/bcyGYWfcXr0GnXewaE5gkvYy1iQ.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": null,
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=I6tMFYT9s7E"
     }
   ]
 }

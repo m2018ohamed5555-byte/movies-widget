@@ -67,24 +67,25 @@
       "trailer": "https://www.youtube.com/watch?v=mNd1gb19A-c"
     },
     {
-      "id": 1765072,
-      "title": "You Can See Everything",
-      "date": "2026-10-16",
-      "rating": 8.6,
-      "overview": "Thirty-four days before she's sent to prison, notorious Silicon Valley founder Elizabeth Holmes invites a skeptical film crew to document her every move. What begins as an intimate portrait of an enigmatic felon becomes a mind-bending three-year journey into the abyss.",
-      "tagline": "See it to believe it.",
-      "runtime": 175,
-      "runtime_text": "2h 55m",
-      "genres": "Documentary",
+      "id": 1263337,
+      "title": "Heart of the Beast",
+      "date": "2026-09-23",
+      "rating": 7.9,
+      "overview": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
+      "tagline": "Survival depends on their bond.",
+      "runtime": 102,
+      "runtime_text": "1h 42m",
+      "genres": "Adventure • Thriller",
       "genres_list": [
-        "Documentary"
+        "Adventure",
+        "Thriller"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/mVh3qkw2NUFxWWyF0G1hg2Wh0K5.jpg",
-      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1765072.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/6sYemVUn79UPKz1ZsSG6kPU4RVy.jpg",
+      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1263337.jpg",
       "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1765072.png",
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1263337.png",
       "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=IEx8D1Wb__U"
+      "trailer": "https://www.youtube.com/watch?v=UkMuGKqAux4"
     }
   ],
   "trending": [
@@ -133,31 +134,31 @@
       "trailer": "https://www.youtube.com/watch?v=Wb8Tq_HD4E8"
     },
     {
-      "id": 1281331,
-      "title": "The Social Reckoning",
-      "date": "2026-10-07",
-      "rating": 7,
-      "overview": "Frances Haugen, a young Facebook engineer, enlists the help of Jeff Horwitz, a Wall Street Journal reporter, to go on a dangerous journey that ends up blowing the whistle on the social network's most guarded secrets.",
-      "tagline": "We're way past making friends.",
-      "runtime": 113,
-      "runtime_text": "1h 53m",
-      "genres": "Drama • Thriller",
+      "id": 1458300,
+      "title": "The Mosquito Bowl",
+      "date": "2026-10-29",
+      "rating": 7.7,
+      "overview": "In the aftermath of Pearl Harbor, four college football stars enlist in the US Marines, discovering the strength of brotherhood and the cost of war.",
+      "tagline": "Trained for glory, called to war.",
+      "runtime": 129,
+      "runtime_text": "2h 9m",
+      "genres": "War • Drama",
       "genres_list": [
-        "Drama",
-        "Thriller"
+        "War",
+        "Drama"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/vWbEuI3LuFOGYZIxESLAmwFwtvr.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/uxYs0bNTF4XzM8LThJk2x3AJ0Iv.jpg",
       "backdrop": null,
       "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1281331.png",
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1458300.png",
       "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=R8ANzYpaZaY"
+      "trailer": "https://www.youtube.com/watch?v=F6YDzPfjH4I"
     },
     {
       "id": 1595124,
       "title": "Steps",
       "date": "2026-11-20",
-      "rating": 7.1,
+      "rating": 7,
       "overview": "After being blamed for disrupting the Royal Ball with a stolen magic wand, a misunderstood stepsister accidentally turns her sister into a frog and must team up with Cinderella and an unlikely ally to save the kingdom and rewrite their fairytale ending.",
       "tagline": "At midnight, we ride.",
       "runtime": 107,
@@ -178,31 +179,48 @@
       "trailer": "https://www.youtube.com/watch?v=tNV4i3BqUGY"
     },
     {
-      "id": 1538497,
-      "title": "Hexed",
-      "date": "2026-11-25",
-      "rating": 5.9,
-      "overview": "An impulsive and unconventional teenage girl named Billie discovers secret magical abilities which, once unleashed, hurtle her into a spectacle-filled journey out of suburbia and into a vast witch realm called Hexe. Forced to team up with her cautious mother, Alice, they uncover family mysteries that could change the world of witches forever.",
-      "tagline": "Something is happening to Billie...",
-      "runtime": 103,
-      "runtime_text": "1h 43m",
-      "genres": "Adventure • Animation • Family • Fantasy • Comedy",
+      "id": 1765072,
+      "title": "You Can See Everything",
+      "date": "2026-10-16",
+      "rating": 8.6,
+      "overview": "Thirty-four days before she's sent to prison, notorious Silicon Valley founder Elizabeth Holmes invites a skeptical film crew to document her every move. What begins as an intimate portrait of an enigmatic felon becomes a mind-bending three-year journey into the abyss.",
+      "tagline": "See it to believe it.",
+      "runtime": 175,
+      "runtime_text": "2h 55m",
+      "genres": "Documentary",
       "genres_list": [
-        "Adventure",
-        "Animation",
-        "Family",
-        "Fantasy",
-        "Comedy"
+        "Documentary"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/yykeYKbDBM9eUMJUucaaDo2mi1p.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/mVh3qkw2NUFxWWyF0G1hg2Wh0K5.jpg",
       "backdrop": null,
       "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1538497.png",
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1765072.png",
       "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=9ke5KSOUl-U"
+      "trailer": "https://www.youtube.com/watch?v=IEx8D1Wb__U"
     }
   ],
   "anticipated": [
+    {
+      "id": 1480665,
+      "title": "The Hunchback, Soul of Paris",
+      "date": "2026-11-27",
+      "rating": 0,
+      "overview": "Paris, 1830. As cholera threatens to ravage the city, a hunchback hunted for medical experiments is caught between political turmoil and impossible love.",
+      "tagline": null,
+      "runtime": 106,
+      "runtime_text": "1h 46m",
+      "genres": "Drama • Romance",
+      "genres_list": [
+        "Drama",
+        "Romance"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/3dHSDFEyUsjwRldplaRGygC5zkJ.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1480665.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=eBfPTW1YaAQ"
+    },
     {
       "id": 1170608,
       "title": "Dune: Part Three",
@@ -288,29 +306,6 @@
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1078446.png",
       "badge": null,
       "trailer": "https://www.youtube.com/watch?v=FmM2giDwLAE"
-    },
-    {
-      "id": 1137888,
-      "title": "The Man with the Bag",
-      "date": "2026-12-02",
-      "rating": 0,
-      "overview": "After Santa’s magic bag is stolen, he turns to his naughty list to find Vance, a thief, to help him get it back. Along with his daughter, Santa, and a group of misfits, Vance will have to pull off the greatest heist of his life to save Christmas.",
-      "tagline": "Naughty, meet nice.",
-      "runtime": 0,
-      "runtime_text": null,
-      "genres": "Fantasy • Comedy • Family • Action",
-      "genres_list": [
-        "Fantasy",
-        "Comedy",
-        "Family",
-        "Action"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/s5nq2q5tB9N0nUYsZE9LR1BuQw6.jpg",
-      "backdrop": null,
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1137888.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=PEVkJHLq4rQ"
     }
   ]
 }

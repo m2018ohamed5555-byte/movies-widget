@@ -45,27 +45,6 @@
       "trailer": "https://www.youtube.com/watch?v=Dr060OLTodE"
     },
     {
-      "id": 1263337,
-      "title": "Heart of the Beast",
-      "date": "2026-09-23",
-      "rating": 7.9,
-      "overview": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
-      "tagline": "Survival depends on their bond.",
-      "runtime": 102,
-      "runtime_text": "1h 42m",
-      "genres": "Adventure • Thriller",
-      "genres_list": [
-        "Adventure",
-        "Thriller"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/6sYemVUn79UPKz1ZsSG6kPU4RVy.jpg",
-      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1263337.jpg",
-      "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1263337.png",
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=UkMuGKqAux4"
-    },
-    {
       "id": 1423191,
       "title": "Resident Evil",
       "date": "2026-09-16",
@@ -86,6 +65,26 @@
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1423191.png",
       "badge": null,
       "trailer": "https://www.youtube.com/watch?v=mNd1gb19A-c"
+    },
+    {
+      "id": 1765072,
+      "title": "You Can See Everything",
+      "date": "2026-10-16",
+      "rating": 8.6,
+      "overview": "Thirty-four days before she's sent to prison, notorious Silicon Valley founder Elizabeth Holmes invites a skeptical film crew to document her every move. What begins as an intimate portrait of an enigmatic felon becomes a mind-bending three-year journey into the abyss.",
+      "tagline": "See it to believe it.",
+      "runtime": 175,
+      "runtime_text": "2h 55m",
+      "genres": "Documentary",
+      "genres_list": [
+        "Documentary"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/mVh3qkw2NUFxWWyF0G1hg2Wh0K5.jpg",
+      "backdrop": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/backdrops/1765072.jpg",
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1765072.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=IEx8D1Wb__U"
     }
   ],
   "trending": [
@@ -134,24 +133,25 @@
       "trailer": "https://www.youtube.com/watch?v=Wb8Tq_HD4E8"
     },
     {
-      "id": 1765072,
-      "title": "You Can See Everything",
-      "date": "2026-10-16",
-      "rating": 8.6,
-      "overview": "Thirty-four days before she's sent to prison, notorious Silicon Valley founder Elizabeth Holmes invites a skeptical film crew to document her every move. What begins as an intimate portrait of an enigmatic felon becomes a mind-bending three-year journey into the abyss.",
-      "tagline": "See it to believe it.",
-      "runtime": 175,
-      "runtime_text": "2h 55m",
-      "genres": "Documentary",
+      "id": 1281331,
+      "title": "The Social Reckoning",
+      "date": "2026-10-07",
+      "rating": 7,
+      "overview": "Frances Haugen, a young Facebook engineer, enlists the help of Jeff Horwitz, a Wall Street Journal reporter, to go on a dangerous journey that ends up blowing the whistle on the social network's most guarded secrets.",
+      "tagline": "We're way past making friends.",
+      "runtime": 113,
+      "runtime_text": "1h 53m",
+      "genres": "Drama • Thriller",
       "genres_list": [
-        "Documentary"
+        "Drama",
+        "Thriller"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/mVh3qkw2NUFxWWyF0G1hg2Wh0K5.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/vWbEuI3LuFOGYZIxESLAmwFwtvr.jpg",
       "backdrop": null,
       "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1765072.png",
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1281331.png",
       "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=IEx8D1Wb__U"
+      "trailer": "https://www.youtube.com/watch?v=R8ANzYpaZaY"
     },
     {
       "id": 1595124,
@@ -178,25 +178,28 @@
       "trailer": "https://www.youtube.com/watch?v=tNV4i3BqUGY"
     },
     {
-      "id": 1281331,
-      "title": "The Social Reckoning",
-      "date": "2026-10-07",
-      "rating": 7,
-      "overview": "Frances Haugen, a young Facebook engineer, enlists the help of Jeff Horwitz, a Wall Street Journal reporter, to go on a dangerous journey that ends up blowing the whistle on the social network's most guarded secrets.",
-      "tagline": "We're way past making friends.",
-      "runtime": 113,
-      "runtime_text": "1h 53m",
-      "genres": "Drama • Thriller",
+      "id": 1538497,
+      "title": "Hexed",
+      "date": "2026-11-25",
+      "rating": 5.9,
+      "overview": "An impulsive and unconventional teenage girl named Billie discovers secret magical abilities which, once unleashed, hurtle her into a spectacle-filled journey out of suburbia and into a vast witch realm called Hexe. Forced to team up with her cautious mother, Alice, they uncover family mysteries that could change the world of witches forever.",
+      "tagline": "Something is happening to Billie...",
+      "runtime": 103,
+      "runtime_text": "1h 43m",
+      "genres": "Adventure • Animation • Family • Fantasy • Comedy",
       "genres_list": [
-        "Drama",
-        "Thriller"
+        "Adventure",
+        "Animation",
+        "Family",
+        "Fantasy",
+        "Comedy"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/vWbEuI3LuFOGYZIxESLAmwFwtvr.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/yykeYKbDBM9eUMJUucaaDo2mi1p.jpg",
       "backdrop": null,
       "backdrop_fg": null,
-      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1281331.png",
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1538497.png",
       "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=R8ANzYpaZaY"
+      "trailer": "https://www.youtube.com/watch?v=9ke5KSOUl-U"
     }
   ],
   "anticipated": [
@@ -244,6 +247,28 @@
       "trailer": "https://www.youtube.com/watch?v=J6MRNchmZkY"
     },
     {
+      "id": 1176962,
+      "title": "Rose",
+      "date": "2026-04-17",
+      "rating": 7.6,
+      "overview": "In the early 17th century, a soldier arrives at an isolated Protestant village in Germany claiming to be the heir to an abandoned farmstead. Even though he proves to be a good man, the villagers’ suspicions about his identity grow and they force a reckoning.",
+      "tagline": null,
+      "runtime": 94,
+      "runtime_text": "1h 34m",
+      "genres": "Drama • History • War",
+      "genres_list": [
+        "Drama",
+        "History",
+        "War"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/4k3ph6BoeZr7IMiQx8ioEV8d9cJ.jpg",
+      "backdrop": null,
+      "backdrop_fg": null,
+      "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1176962.png",
+      "badge": null,
+      "trailer": "https://www.youtube.com/watch?v=KrmkNoxS6t4"
+    },
+    {
       "id": 1078446,
       "title": "Violent Night 2",
       "date": "2026-12-02",
@@ -286,27 +311,6 @@
       "logo": "https://cdn.jsdelivr.net/gh/m2018ohamed5555-byte/movies-widget@main/logos/1137888.png",
       "badge": null,
       "trailer": "https://www.youtube.com/watch?v=PEVkJHLq4rQ"
-    },
-    {
-      "id": 1452168,
-      "title": "Behemoth!",
-      "date": "2026-12-02",
-      "rating": 0,
-      "overview": "Gifted cellist Alex Serian returns home to Los Angeles after 20 years on the road. Music, which has been the constant, all-consuming river of his life, begins to carry Alex on an adventure that will change him forever.",
-      "tagline": "A life. In pieces.",
-      "runtime": 127,
-      "runtime_text": "2h 7m",
-      "genres": "Music • Drama",
-      "genres_list": [
-        "Music",
-        "Drama"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/bcyGYWfcXr0GnXewaE5gkvYy1iQ.jpg",
-      "backdrop": null,
-      "backdrop_fg": null,
-      "logo": null,
-      "badge": null,
-      "trailer": "https://www.youtube.com/watch?v=I6tMFYT9s7E"
     }
   ]
 }
